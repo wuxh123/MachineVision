@@ -1,0 +1,328 @@
+2018-12-13 17:47:17: 出现应用程序未处理的异常：2018/12/13 星期四 17:47:17
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:47:38: 出现应用程序未处理的异常：2018/12/13 星期四 17:47:38
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:47:40: 出现应用程序未处理的异常：2018/12/13 星期四 17:47:40
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:47:52: 出现应用程序未处理的异常：2018/12/13 星期四 17:47:52
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:47:57: 出现应用程序未处理的异常：2018/12/13 星期四 17:47:57
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:47:58: 出现应用程序未处理的异常：2018/12/13 星期四 17:47:58
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:47:58: 出现应用程序未处理的异常：2018/12/13 星期四 17:47:58
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:48:01: 出现应用程序未处理的异常：2018/12/13 星期四 17:48:01
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:48:02: 出现应用程序未处理的异常：2018/12/13 星期四 17:48:02
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:48:02: 出现应用程序未处理的异常：2018/12/13 星期四 17:48:02
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:48:13: 出现应用程序未处理的异常：2018/12/13 星期四 17:48:13
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:48:16: 出现应用程序未处理的异常：2018/12/13 星期四 17:48:16
+异常类型：HOperatorException
+异常消息：HALCON error #1309: Wrong value of control parameter: 9 in operator find_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-13 17:52:59: 出现应用程序未处理的异常：2018/12/13 星期四 17:52:59
+Application UnhandledException:已添加了具有相同键的项。;
+堆栈信息:   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 DataCodeLibrary.DataCodeShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\DataCodeLibrary.cs:行号 614
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 642
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 361
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1128
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 598
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

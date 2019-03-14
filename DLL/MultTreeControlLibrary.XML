@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MultTreeControlLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MultTreeControlLibrary.MultTreeControl">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.MultTreeControl._tool_treeview_struct">
+            <summary>
+            当前选择节点的信息
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.MultTreeControl._Detection_path">
+            <summary>
+            检测逻辑的路径
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.MultTreeControl._ICheckStr">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.MultTreeControl._RunWay">
+            <summary>
+            当前状态
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.#ctor">
+            <summary>
+            取图工具
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.init(HalControl.HalconWinControl_1)">
+            全局变量数据初始值一定要写在初始化函数里面，不然在使用控件时，会报错，主要是在初始化时，系统先编译，编译不成功导致出错*
+            <summary>
+            初始化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.but_add_detection_Click(System.Object,System.EventArgs)">
+            <summary>
+            新建一个检测
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.create_delection">
+            <summary>
+             清空所有节点，新建一个检测，跟取图工具
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.load_detection(System.String,System.Windows.Forms.TreeNode@)">
+            <summary>
+            加载一个detection
+            </summary>
+            <param name="path"></param>
+            <param name="tr_0"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.tool_treeView_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            选择工具
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.get_parent_node_path(System.Windows.Forms.TreeNode@,MultTreeControlLibrary.tool_treeview_struct@)">
+            <summary>
+            获取父节点路径
+            </summary>
+            <param name="current_treenode"></param>
+            <param name="_tool_treeview_struct"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.show_dubug">
+            <summary>
+            显示界面
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.add_tool(System.String)">
+            <summary>
+            添加工具
+            </summary>
+            <param name="add_way">传入添加工具的格式</param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.Add_tool_set_name(System.String,System.String,MultTree.MultTreeNodeStruct.MultTreeNode@,System.Object)">
+            <summary>
+            添加工具需要检测工具是否要设置名称
+            </summary>
+            <param name="toolName">添加那种工具</param>
+            <param name="name">工具的名称</param>
+            <param name="mu"></param>
+            <param name="tag">数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.CheckStream_CallBack(System.Object,CheckStreamLibrary.CheckStreamEventArgs)">
+            <summary>
+            检测流回调
+            </summary>
+            <param name="result">回调的结果</param>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.Refresh_Delection">
+            <summary>
+            刷新检测节点
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.External_Trigger">
+            <summary>
+             支持外部使用控件单步触发当前检测流
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.Refresh_TreeViewAndMultTree">
+            <summary>
+            刷新当前树节点
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.DanBuYunXingPingKongJian">
+            <summary>
+            单步运行屏蔽控件
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.DanBuYunXingKaiFangKongJian">
+            <summary>
+            单步运行开放控件
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.XunHuanYunXingPingBiKongJian">
+            <summary>
+            循环运行屏蔽控件
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.XunHuanYunXingPingKongJian">
+            <summary>
+            循环运行开始控件
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.ChangeCheckTree">
+            <summary>
+            更改检测树
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.Add_Detection">
+            <summary>
+            添加一个检测
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.Delete_Detection">
+            <summary>
+            删除当前检测
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.MultTreeControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:MultTreeControlLibrary.MultTreeControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.MultTreeControl.ICheckStr1">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="T:MultTreeControlLibrary.run_way">
+            <summary>
+            运行方式
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.run_way.link_camer_run">
+            <summary>
+            链接相机运行
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.run_way.check_stream_again_run">
+            <summary>
+            单步运行检测流
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.run_way.check_stream_circulation">
+            <summary>
+            循环运行检测流
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.run_way.stop">
+            <summary>
+            停止运行
+            </summary>
+        </member>
+        <member name="T:MultTreeControlLibrary.tool_treeview_struct">
+            <summary>
+            工具树的节点的结构体，包含当前节点的名字，有多小个父节点
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.tool_treeview_struct.current_nodes_name">
+            <summary>
+            当前节点名称
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.tool_treeview_struct.current_nodes_text">
+            <summary>
+            当前节点的文本名
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.tool_treeview_struct.current_node_lujing">
+            <summary>
+            节点路径
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.tool_treeview_struct.current_multtreenode">
+            <summary>
+            当前节点
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.tool_treeview_struct.parent_node_name">
+            <summary>
+            所有父节点的名称
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.tool_treeview_struct.init">
+            <summary>
+            初始化结构体,默认current_nodes=null
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.tool_treeview_struct.Current_Nodes_Name">
+            <summary>
+            当前节点名称
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.tool_treeview_struct.Current_Nodes_Text">
+            <summary>
+            当前节点的文本名
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.tool_treeview_struct.Current_Node_lujing">
+            <summary>
+            节点路径
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.tool_treeview_struct.Current_MultTreeNode">
+            <summary>
+            当前节点
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.tool_treeview_struct.Parent_Node_Name">
+            <summary>
+            父节点的名称
+            </summary>
+        </member>
+        <member name="T:MultTreeControlLibrary.Select_MultTreeCheckStream">
+            <summary>
+             分割检测树的检测流(静态)
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.Select_MultTreeCheckStream.Select_CheckNodeStream(System.Int32@)">
+            <summary>
+            分割检测树的检测节点
+            </summary>
+            <param name="IMult"></param>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.Select_MultTreeCheckStream.Select_CheckFristNodeStream">
+            <summary>
+            选择第一个检测树的检测节点
+            </summary>
+            <param name="IMult"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.Select_MultTreeCheckStream.Out_CheckMultNode(System.Collections.Generic.List{System.String}@)">
+            <summary>
+            输出根节点的所有检测节点的名称
+            </summary>
+            <param name="CheckMultNode"></param>
+            <returns></returns>
+        </member>
+        <member name="F:MultTreeControlLibrary.AddToolFrm._insert_direction">
+            <summary>
+            向那个方向插入
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.AddToolFrm._insert_tool">
+            <summary>
+            插入那个工具
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.AddToolFrm._tool_text">
+            <summary>
+            工具的文本名称
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.AddToolFrm._tool_Treeview_struct">
+            <summary>
+            当前的节点数据
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.AddToolFrm._tag">
+            <summary>
+            工具的结构体数据
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.#ctor(MultTreeControlLibrary.tool_treeview_struct)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="toolTreeviewStruct">传入当前的节点数据</param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.add_toolfrm_Load(System.Object,System.EventArgs)">
+            <summary>
+            判断显示页面
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.lab_acquire_Click(System.Object,System.EventArgs)">
+            <summary>
+            添加一个取图
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.add_toolfrm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            添加工具窗体关闭
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.lab_detection_Click(System.Object,System.EventArgs)">
+            <summary>
+            添加一个图片检测
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.lab_seekTemplate_Click(System.Object,System.EventArgs)">
+            <summary>
+            寻找模板
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.lab_colorAnalyst_Click(System.Object,System.EventArgs)">
+            <summary>
+            颜色分析
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.lab_rotateImage_Click(System.Object,System.EventArgs)">
+            <summary>
+            添加旋转图片工具
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.ok_returen">
+            <summary>
+            ok返回
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.ng_return">
+            <summary>
+            ng返回
+            </summary>
+        </member>
+        <member name="F:MultTreeControlLibrary.AddToolFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MultTreeControlLibrary.AddToolFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

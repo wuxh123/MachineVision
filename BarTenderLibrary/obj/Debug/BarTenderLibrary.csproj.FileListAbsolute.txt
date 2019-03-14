@@ -1,0 +1,68 @@
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\bin\Debug\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\bin\Debug\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\bin\Debug\Seagull.BarTender.Print.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\bin\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\bin\Debug\IniLibrary.pdb
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\bin\Debug\IniLibrary.xml
+J:\类库\halcon工具\Vision\Vision27\MachineVision\MachineVision\bin\Debug\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\MachineVision\bin\Debug\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.BartenderControl.resources
+J:\类库\halcon工具\Vision\Vision27\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\MachineVision\bin\Debug\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\MachineVision\bin\Debug\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.BartenderControl.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\MachineVision\bin\Debug\BarTenderLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\BarTenderLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\BarTenderLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.BartenderControl.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.UI.BartenderFrm.resources
+D:\Vision架构dll\MachineVision\DLL\BarTenderLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\BarTenderLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\BarTenderLibrary.XML
+D:\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.BartenderControl.resources
+D:\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.UI.BartenderFrm.resources
+D:\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.dll
+D:\Vision架构dll\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.BartenderControl.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.UI.BartenderFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.BartenderControl.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.UI.BartenderFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarTenderLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.BartenderControl.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.UI.BartenderFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarTenderLibrary\obj\Debug\BarTenderLibrary.pdb

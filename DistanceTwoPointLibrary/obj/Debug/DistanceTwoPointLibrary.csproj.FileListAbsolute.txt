@@ -1,0 +1,16 @@
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistanceTwoPointLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistanceTwoPointLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistanceTwoPointLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistanceTwoPointLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistanceTwoPointLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistanceTwoPointLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistanceTwoPointLibrary\obj\Debug\DistanceTwoPointLibrary.pdb

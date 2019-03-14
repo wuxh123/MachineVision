@@ -1,0 +1,43 @@
+2018-12-05 19:00:36: 出现应用程序未处理的异常：2018/12/5 星期三 19:00:36
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 MultTreeControlLibrary.AddToolFrm.add_toolfrm_Load(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\UI\AddToolFrm.cs:行号 121
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-05 19:02:27: 出现应用程序未处理的异常：2018/12/5 星期三 19:02:27
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 MultTreeControlLibrary.MultTreeControl.get_parent_node_path(TreeNode& current_treenode, tool_treeview_struct& _tool_treeview_struct) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 399
+   在 MultTreeControlLibrary.MultTreeControl.tool_treeView_AfterSelect(Object sender, TreeViewEventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 354
+   在 System.Windows.Forms.TreeView.OnAfterSelect(TreeViewEventArgs e)
+   在 System.Windows.Forms.TreeView.TvnSelected(NMTREEVIEW* nmtv)
+   在 System.Windows.Forms.TreeView.WmNotify(Message& m)
+   在 System.Windows.Forms.TreeView.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-12-05 19:03:54: 出现应用程序未处理的异常：2018/12/5 星期三 19:03:54
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 MultTreeControlLibrary.MultTreeControl.get_parent_node_path(TreeNode& current_treenode, tool_treeview_struct& _tool_treeview_struct) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 399
+   在 MultTreeControlLibrary.MultTreeControl.tool_treeView_AfterSelect(Object sender, TreeViewEventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 354
+   在 System.Windows.Forms.TreeView.OnAfterSelect(TreeViewEventArgs e)
+   在 System.Windows.Forms.TreeView.TvnSelected(NMTREEVIEW* nmtv)
+   在 System.Windows.Forms.TreeView.WmNotify(Message& m)
+   在 System.Windows.Forms.TreeView.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+

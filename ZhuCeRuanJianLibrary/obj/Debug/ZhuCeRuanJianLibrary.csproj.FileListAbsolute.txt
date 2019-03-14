@@ -1,0 +1,16 @@
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ZhuCeRuanJianLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ZhuCeRuanJianLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ZhuCeRuanJianLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.UI.ZhuCeRuanJianFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ZhuCeRuanJianLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ZhuCeRuanJianLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ZhuCeRuanJianLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.UI.ZhuCeRuanJianFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ZhuCeRuanJianLibrary\obj\Debug\ZhuCeRuanJianLibrary.pdb

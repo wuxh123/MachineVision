@@ -1,0 +1,46 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\DLL\LineLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\DLL\LineLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\DLL\LineLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\LineLibrary\obj\Debug\LineLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\LineLibrary\obj\Debug\LineLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\LineLibrary\obj\Debug\LineLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\LineLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\LineLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\LineLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.UI.LineFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\LineLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\LineLibrary.pdb
+D:\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.UI.LineFrm.resources
+D:\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.dll
+D:\Vision架构dll\MachineVision\LineLibrary\obj\Debug\LineLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\LineLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.UI.LineFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.UI.LineFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LineLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.UI.LineFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\obj\Debug\LineLibrary.csprojResolveAssemblyReference.cache

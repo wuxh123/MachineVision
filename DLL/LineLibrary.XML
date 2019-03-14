@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LineLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:LineLibrary.LineShuJu">
+            <summary>
+            拟合直线的数据
+            </summary>
+        </member>
+        <member name="T:LineLibrary.ILineShuJu">
+            <summary>
+            拟合直线数据接口
+            </summary>
+        </member>
+        <member name="M:LineLibrary.ILineShuJu.save">
+            <summary>
+            保存
+            </summary>
+        </member>
+        <member name="M:LineLibrary.ILineShuJu.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Elements">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_DetectHeight">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_DetectWidth">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Ho_Regions_Rake">
+            <summary>
+            rake输出的数据,找到的点
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_ResultRow">
+            <summary>
+            检测到的边缘点的y坐标数组    拟合圆的边缘y数组
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_ResultColumn">
+            <summary>
+            检测到的边缘点的x坐标数组   拟合圆的边缘x数组
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Ho_Regions_Draw">
+            <summary>
+            draw_rake输出的区域
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Row1_Draw">
+            <summary>
+            draw_rake输出线的开头点 y
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Column1_Draw">
+            <summary>
+            draw_rake输出线的开头 x
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Row2_Draw">
+            <summary>
+            draw_rake输出线的结束点 y
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Column2_Draw">
+            <summary>
+            draw_rake输出线的结束点 x
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Ho_Line">
+            <summary>
+            拟合的直线
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Ho_Cross">
+            <summary>
+            找到直线点，端点，中点
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Sigma">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Threshold">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Transition">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_Select">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="P:LineLibrary.ILineShuJu.Hv_ActiveNum">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu._irectShuJuPianYiOne">
+            <summary>
+            第一个点
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu._irectShuJuPianYiTwo">
+            <summary>
+            第二点
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Elements">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_DetectHeight">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_DetectWidth">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Sigma">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Threshold">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Transition">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Select">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_ActiveNum">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.ho_Regions_Draw">
+            <summary>
+            draw_rake输出的区域
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Row1_Draw">
+            <summary>
+            draw_rake输出线的开头点 y
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Column1_Draw">
+            <summary>
+            draw_rake输出线的开头 x
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Row2_Draw">
+            <summary>
+            draw_rake输出线的结束点 y
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Column2_Draw">
+            <summary>
+            draw_rake输出线的结束点 x
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.ho_Regions_Rake">
+            <summary>
+            rake输出的数据
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_ResultRow">
+            <summary>
+            检测到的边缘点的y坐标数组    拟合圆的边缘y数组
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_ResultColumn">
+            <summary>
+            检测到的边缘点的x坐标数组   拟合圆的边缘x数组
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.ho_Line">
+            <summary>
+            拟合的直线
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu._ho_Cross">
+            <summary>
+            找到直线点，端点，中点
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu._iOutSide">
+            <summary>
+            外部接口 
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:LineLibrary.LineShuJu.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Elements_1">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_DetectHeight_1">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_DetectWidth_1">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Sigma_1">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Threshold_1">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Transition_1">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_Select_1">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="F:LineLibrary.LineShuJu.hv_ActiveNum_1">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="M:LineLibrary.LineShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="M:LineLibrary.LineShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:LineLibrary.LineShuJu.outResult(System.String[]@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.IrectShuJuPianYiOne">
+            <summary>
+            第一个点
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.IrectShuJuPianYiTwo">
+            <summary>
+            第二点
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Elements">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_DetectHeight">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_DetectWidth">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Ho_Regions_Rake">
+            <summary>
+            rake输出的数据
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_ResultRow">
+            <summary>
+            检测到的边缘点的y坐标数组    拟合圆的边缘y数组
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_ResultColumn">
+            <summary>
+            检测到的边缘点的x坐标数组   拟合圆的边缘x数组
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Ho_Regions_Draw">
+            <summary>
+            draw_rake输出的区域
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Row1_Draw">
+            <summary>
+            draw_rake输出线的开头点 y
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Column1_Draw">
+            <summary>
+            draw_rake输出线的开头 x
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Row2_Draw">
+            <summary>
+            draw_rake输出线的结束点 y
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Column2_Draw">
+            <summary>
+            draw_rake输出线的结束点 x
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Ho_Line">
+            <summary>
+            拟合的直线
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Sigma">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Threshold">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Transition">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_Select">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Hv_ActiveNum">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.IOutSide">
+            <summary>
+            外部接口 
+            </summary>
+        </member>
+        <member name="P:LineLibrary.LineShuJu.Ho_Cross">
+            <summary>
+            找到直线点，端点，中点
+            </summary>
+        </member>
+        <member name="T:LineLibrary.SetLineShuJu">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="M:LineLibrary.SetLineShuJu.Set_Rake(LineLibrary.ILineShuJu,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置测量的数据
+            </summary>
+            <param name="ILine_"></param>
+            <param name="hv_Sigma"></param>
+            <param name="hv_Threshold"></param>
+            <param name="hv_Transition"></param>
+            <param name="hv_Select"></param>
+            <param name="hv_ActiveNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LineLibrary.SetLineShuJu.Set_Draw_Rake(LineLibrary.ILineShuJu,System.String,System.String,System.String)">
+            <summary>
+            设置卡尺数据
+            </summary>
+            <param name="ILine_"></param>
+            <param name="hv_Elements"></param>
+            <param name="hv_DetectHeight"></param>
+            <param name="hv_DetectWidth"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LineLibrary.SetLineShuJu.Set_Show_Parameter_HalconWindows(LineLibrary.ILineShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI,HalControl.HalconWinControl_ROI.repaint)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="ILine_"></param>
+            <param name="control"></param>
+            <param name="halconWinControlRoi_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LineLibrary.SetLineShuJu.Set_Show_Parameter(LineLibrary.ILineShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="ILine_"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LineLibrary.SetLineShuJu.Set_ShowSpoke(LineLibrary.ILineShuJu,HalControl.HalconWinControl_ROI)">
+            <summary>
+            显示卡尺
+            </summary>
+            <param name="ILine_"></param>
+            <param name="hWinRoi_"></param>
+            <returns></returns>
+        </member>
+        <member name="T:LineLibrary.Line_Result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:LineLibrary.Line_Result.Hv_Row11">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LineLibrary.Line_Result.Hv_Column11">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LineLibrary.Line_Result.Hv_Row21">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LineLibrary.Line_Result.Hv_Column21">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:LineLibrary.Line_Result.Hv_CenRow">
+            <summary>
+            中心点x
+            </summary>
+        </member>
+        <member name="F:LineLibrary.Line_Result.HV_CenCol">
+            <summary>
+            中心点y
+            </summary>
+        </member>
+        <member name="F:LineLibrary.Line_Result.HV_Angle">
+            <summary>
+            直线的角度
+            </summary>
+        </member>
+        <member name="M:LineLibrary.Line_Result.showResult(System.String[]@)">
+            <summary>
+            输出数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:LineLibrary.UI.LineFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:LineLibrary.UI.LineFrm._ILineShuJu">
+            <summary>
+            卡尺数据
+            </summary>
+        </member>
+        <member name="F:LineLibrary.UI.LineFrm._SetLineShuJu">
+            <summary>
+            卡尺设置器
+            </summary>
+        </member>
+        <member name="F:LineLibrary.UI.LineFrm._result">
+            <summary>
+            结果数据
+            </summary>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.run">
+            <summary>
+            运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.read_one_image">
+            <summary>
+            读取一张图片事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.trigger_run">
+            <summary>
+            运行触发器
+            </summary>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.ShuaXinJianCe(HalconDotNet.HWindow)">
+            <summary>
+             roi移动是触发的事件
+            </summary>
+        </member>
+        <member name="F:LineLibrary.UI.LineFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LineLibrary.UI.LineFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:LineLibrary.UI.LineFrm._read">
+            <summary>
+            取图事件 
+            </summary>
+        </member>
+        <member name="E:LineLibrary.UI.LineFrm._run">
+            <summary>
+            运行检测
+            </summary>
+        </member>
+        <member name="T:LineLibrary.UI.LineFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

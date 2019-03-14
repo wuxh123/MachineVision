@@ -1,0 +1,10 @@
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\XmlLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\XmlLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\XmlLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\XmlLibrary\obj\Debug\XmlLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\XmlLibrary\obj\Debug\XmlLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\XmlLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\XmlLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\XmlLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\XmlLibrary\obj\Debug\XmlLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\XmlLibrary\obj\Debug\XmlLibrary.pdb

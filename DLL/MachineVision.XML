@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MachineVision</name>
+    </assembly>
+    <members>
+        <member name="F:MultTreeControlLibrary.EditorFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.EditorFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MultTreeControlLibrary.EditorFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:MultTreeControlLibrary.Program.GetRunningInstance">
+            <summary>
+            检测当前进程只开一个
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTreeControlLibrary.Program.Application_ThreadException(System.Object,System.Threading.ThreadExceptionEventArgs)">
+            <summary>
+            处理未捕获的异常
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.Program.CurrentDomain_UnhandledException(System.Object,System.UnhandledExceptionEventArgs)">
+            <summary>
+            处理非UI线程异常
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MultTreeControlLibrary.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:MultTreeControlLibrary.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:MultTreeControlLibrary.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,929 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MultTree</name>
+    </assembly>
+    <members>
+        <member name="T:MultTree.CalculateMultTreeNodeName.CalculateMultTreeNodeName">
+            <summary>
+            计算MultTree的节点名
+            </summary>
+        </member>
+        <member name="M:MultTree.CalculateMultTreeNodeName.CalculateMultTreeNodeName.CalculateNodeName(System.String,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            计算节点的系统名称
+            </summary>
+            <param name="str_1">节点系统名的前缀</param>
+            <param name="trn_Parent">传入父节点</param>
+            <returns>返回节点的系统名</returns>
+        </member>
+        <member name="M:MultTree.CalculateMultTreeNodeName.CalculateMultTreeNodeName.PanDuanFuJieDianShiFoCunZai(System.String)">
+            <summary>
+            判断节点路径是否存在
+            </summary>
+            <param name="jieDianLuJing"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.MultTreeNodeStruct.MultTreeNode">
+            <summary>
+            树节点的数据结构
+            </summary>
+        </member>
+        <member name="T:MultTree.MultTreeNodeStruct.IMultTreeNode">
+            <summary>
+             树节点的数据结构接口
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.isLeaf">
+            <summary>
+            获取是否不存在子节点
+            </summary>
+            <returns>返回真代表没有子节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.isRoot">
+            <summary>
+            判断是否有父节点
+            </summary>
+            <returns>返回真代表没有父节点，没有父节点表示为根节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.ExistChildNode(System.String)">
+            <summary>
+            check exist of child node.检测子节点是否存在
+            </summary>
+            <param name="name">查看的节点名称</param>
+            <returns>返回真代表有</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.InsertChildNode(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前节点插入子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.InsertNodeAfter(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前的节点后面插入节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.InsertNodeBefore(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前节点前面插入子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.getChildNodeCount">
+            <summary>
+            获取子节点个数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.getChildList">
+            <summary>
+            获取子节点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.deleteNode">
+            <summary>
+            删除当前节点和他的晚辈
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.deleteChildNode(System.String)">
+            <summary>
+             删除当前节点的某个子节点,当传入childId=""时删除，所有子节点
+            </summary>
+            <param name="childId"></param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.deleteClearAll">
+            <summary>
+            清空子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.findNodeById(System.String)">
+            <summary>
+            通过id找到节点
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.SelfId">
+             <summary>
+            节点的id
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.NodeName">
+            <summary>
+            当前节点的文本名称
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.ParentNode">
+             <summary>
+            节点的父节点 
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.ChildList">
+            <summary>
+            节点的子节点
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.Obj">
+            <summary>
+            绑定节点的数据属性
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.selfId">
+            <summary>
+            节点自己的id,对应treeview的name
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.nodeName">
+            <summary>
+            节点的文本名称，对应treeview的text
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.obj">
+            <summary>
+            节点绑定的数据
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.parentNode">
+            <summary>
+            节点的父节点
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.childList">
+            <summary>
+            节点的子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.#ctor">
+            <summary>
+            初始化,默认selfid为"0",nodeName为"0",obj为null
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.#ctor(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            初始化
+            </summary>
+            <param name="pNode">传入节点</param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.init(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            初始化
+            </summary>
+            <param name="pNode">传入节点</param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.isLeaf">
+            <summary>
+            获取是否不存在子节点
+            </summary>
+            <returns>返回真代表没有子节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.isRoot">
+            <summary>
+            判断是否有父节点
+            </summary>
+            <returns>返回真代表没有父节点，没有父节点表示为根节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.ExistChildNode(System.String)">
+            <summary>
+            check exist of child node.检测子节点是否存在
+            </summary>
+            <param name="name">查看的节点名称</param>
+            <returns>返回真代表有</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.InsertNodeBefore(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前的节点前面插入节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.InsertNodeAfter(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前的节点后面插入节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.InsertChildNode(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前节点出入子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.getChildNodeCount">
+            <summary>
+            获取子节点个数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.getChildList">
+            <summary>
+            获取子节点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.deleteNode">
+            <summary>
+            删除当前节点和他的晚辈
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.deleteChildNode(System.String)">
+            <summary>
+             删除当前节点的某个子节点,当传入childId=""时删除，所有子节点
+            </summary>
+            <param name="childId"></param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.deleteClearAll">
+            <summary>
+            清空子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.findNodeById(System.String)">
+            <summary>
+            通过id找到节点
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.SelfId">
+             <summary>
+            节点的id
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.NodeName">
+            <summary>
+            当前节点的文本名称
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.ParentNode">
+             <summary>
+            节点的父节点 
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.ChildList">
+            <summary>
+            节点的子节点
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.Obj">
+            <summary>
+            绑定节点的数据属性
+            </summary>
+        </member>
+        <member name="T:MultTree.MultTreeNodeStruct.ArrayUtils">
+            <summary>
+            数组工具
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.ArrayUtils.SplitArray``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            从数组中截取一部分成新的数组
+            </summary>
+            <param name="Source">原数组</param>
+            <param name="StartIndex">原数组的起始位置</param>
+            <param name="EndIndex">原数组的截止位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.ArrayUtils.IsNullOrEmpty``1(``0[])">
+            <summary>
+            check string is null or empty.
+            </summary>
+            <param name="Arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.ArrayUtils.IsValidIndex``1(``0[],System.Int32)">
+            <summary>
+            check if arr index is in arr
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Arr"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.StrUtils.FromArr(System.String[],System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            string array trans to string split with flg.
+            2016-02-18 13:24:47
+            add startindex and endindex.
+            </summary>
+            <param name="arr"></param>
+            <param name="split"></param>
+            <param name="surround1"></param>
+            <param name="surround2"></param>
+            <param name="nStartIndex"></param>
+            <param name="nEndIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.SerializeTree.TreeViewDataAccess">
+            <summary>
+            TreeView串行化类
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.TreeViewDataAccess._IMult">
+            <summary>
+            要处理的节点接口
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.#ctor(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="Mult">传入要处理的节点</param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.LoadTreeViewData(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.LoadTreeViewData(System.String,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="_IMult"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.SaveTreeViewData(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.SaveTreeViewData(System.String,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="_IMult"></param>
+        </member>
+        <member name="T:MultTree.SerializeTree.TreeViewDataAccess.TreeViewData">
+            <summary>
+            TreeViewData 树的数据
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeViewData.#ctor(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            递归初始化TreeView数据
+            </summary>
+            <param name="Mtr"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeViewData.PopulateTree(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            通过TreeViewData弹出TreeView
+            </summary>
+            <param name="IMult"></param>
+        </member>
+        <member name="T:MultTree.SerializeTree.TreeViewDataAccess.TreeNodeData">
+            <summary>
+            TreeNodeData 节点的数据
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeNodeData.#ctor(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            TreeNode构造函数
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeNodeData.ToTreeNode">
+            <summary>
+            TreeNodeData返回TreeNode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.SerializeTree.MultTreeNodeDataAccess">
+             <summary>
+            MultTreeNode 串行化类
+             </summary>
+        </member>
+        <member name="T:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData">
+            <summary>
+            TreeNodeData 节点的数据
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Text">
+            <summary>
+            文本名
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Name">
+            <summary>
+            节点名
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Tag">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Nodes">
+            <summary>
+            子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.#ctor(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            TreeNode构造函数
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.ToTreeNode">
+            <summary>
+            TreeNodeData返回TreeNode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.TreeStatic">
+            <summary>
+            静态的树，存贮工具对应的数据
+            </summary>
+        </member>
+        <member name="F:MultTree.TreeStatic._Root">
+            <summary>
+            根节点
+            </summary>
+        </member>
+        <member name="F:MultTree.TreeStatic.Mult_Tree_Node">
+            <summary>
+            当前工具节点
+            </summary>
+        </member>
+        <member name="F:MultTree.TreeStatic.Mult_Tree_Node_Picture">
+            <summary>
+            图片的节点
+            </summary>
+        </member>
+        <member name="M:MultTree.TreeStatic.load_MultTreeNode_To_TreeNode(System.Windows.Forms.TreeNode,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            把MultTreeNode节点的子节点添加到treeview节点
+            </summary>
+            <param name="tr">传入</param>
+            <param name="mtr">传入</param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.TreeStatic.load_MultTreeNode_To_TreeNode_ContainsSelf(System.Windows.Forms.TreeNode,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            把MultTreeNode节点添加到treeview节点，包含他自己，跟子节点
+            </summary>
+            <param name="tr"></param>
+            <param name="mtr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.TreeStatic.load_MultTreeNode(System.String)">
+            <summary>
+            加载MultTreeNode
+            </summary>
+        </member>
+        <member name="M:MultTree.TreeStatic.save_MultTreeNode(System.String)">
+            <summary>
+            保存MultTreeNode
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:MultTree.TreeStatic.get_root_childern(System.Int32)">
+            <summary>
+             获取当前根节点中的其中一个子节点
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.TreeStatic.clear_childern">
+            <summary>
+            清空根节点所有子节点
+            </summary>
+        </member>
+        <member name="P:MultTree.TreeStatic.Root">
+            <summary>
+            根节点
+            </summary>
+        </member>
+        <member name="T:MultTree.ClassResultFather">
+            <summary>
+            所有工具运行后结果的父类 
+            </summary>
+        </member>
+        <member name="T:MultTree.IClassResultFather">
+            <summary>
+            所有工具运行后结果的父类 接口
+            </summary>
+        </member>
+        <member name="M:MultTree.IClassResultFather.showResult(System.String@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.IClassResultFather.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MultTree.IClassResultFather.TolatResult">
+            <summary>
+            所有工具运行后结果的父类
+            </summary>
+        </member>
+        <member name="P:MultTree.IClassResultFather.TolatName">
+            <summary>
+            当前工具的名称
+            </summary>
+        </member>
+        <member name="F:MultTree.ClassResultFather._tolatResult">
+            <summary>
+            所有工具运行后结果的父类
+            </summary>
+        </member>
+        <member name="F:MultTree.ClassResultFather._tolatName">
+            <summary>
+            当前工具的名称
+            </summary>
+        </member>
+        <member name="M:MultTree.ClassResultFather.showResult(System.String@)">
+            <summary>
+            显示结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.ClassResultFather.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MultTree.ClassResultFather.TolatResult">
+            <summary>
+            所有工具运行后结果的父类
+            </summary>
+        </member>
+        <member name="P:MultTree.ClassResultFather.TolatName">
+            <summary>
+            当前工具的名称
+            </summary>
+        </member>
+        <member name="T:MultTree.IResultFather">
+            <summary>
+            所有工具运行后结果的父类 接口的接口
+            </summary>
+        </member>
+        <member name="P:MultTree.IResultFather._IClass">
+            <summary>
+            所有工具运行后结果的父类 接口
+            </summary>
+        </member>
+        <member name="T:MultTree.ToolDateFather">
+            <summary>
+            工具的父类
+            </summary>
+        </member>
+        <member name="T:MultTree.IToolDateFather">
+            <summary>
+            工具数据的父类  接口
+            </summary>
+        </member>
+        <member name="M:MultTree.IToolDateFather.show(HalconDotNet.HWindow)">
+            <summary>
+            显示
+            </summary>
+            <param name="data"></param>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.IToolDateFather.analyze_show(HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            显示  分析
+            </summary>
+            <param name="data"></param>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.IToolDateFather.save">
+            <summary>
+            保存
+            </summary>
+        </member>
+        <member name="M:MultTree.IToolDateFather.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:MultTree.IToolDateFather.outResult(System.String[]@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MultTree.IToolDateFather.GeuSuiDian_X_Col">
+            <summary>
+            跟随点x
+            </summary>
+        </member>
+        <member name="P:MultTree.IToolDateFather.GenSuiDian_Y_Row">
+            <summary>
+            跟随点y
+            </summary>
+        </member>
+        <member name="P:MultTree.IToolDateFather.GenSuiDian_A">
+            <summary>
+            跟随点角度a
+            </summary>
+        </member>
+        <member name="P:MultTree.IToolDateFather.GenSuiDianWei_Hv_HomMat2D">
+            <summary>
+            跟随点的放射变换矩阵
+            </summary>
+        </member>
+        <member name="P:MultTree.IToolDateFather.IrectShuJuPianYi">
+            <summary>
+            防射变换偏移的数据接口
+            </summary>
+        </member>
+        <member name="P:MultTree.IToolDateFather.GenSuiDianYuDingWeiDianDeBianHuanRegion">
+            <summary>
+            跟随点与定位点的变换region
+            </summary>
+        </member>
+        <member name="P:MultTree.IToolDateFather._ICalibration">
+            <summary>
+            标定数据
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.imageFather">
+            <summary>
+            图片的接口
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.geuSuiDian_X_Col">
+            <summary>
+            跟随点x
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDian_Y_Row">
+            <summary>
+            跟随点y
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDian_A">
+            <summary>
+            跟随点角度a
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDianWei_Hv_HomMat2D">
+            <summary>
+            跟随点的放射变换矩阵
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.irectShuJuPianYi">
+            <summary>
+            防射变换偏移的数据接口
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDianYuDingWeiDianDeBianHuanRegion">
+            <summary>
+            跟随点与定位点的变换region
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather._iCalibration">
+            <summary>
+            标定数据
+            </summary>    
+        </member>
+        <member name="F:MultTree.ToolDateFather.row">
+            <summary>
+            跟随定位点的中心点,y
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.column">
+            <summary>
+            跟随定位点的中心点,x
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.angle">
+            <summary>
+            跟随定位点的角度
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.geuSuiDian_X_Col_1">
+            <summary>
+            跟随点x
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDian_Y_Row_1">
+            <summary>
+            跟随点y
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDian_A_1">
+            <summary>
+            跟随点角度a
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDianWei_Hv_HomMat2D_1">
+            <summary>
+            跟随点的放射变换矩阵
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.genSuiDianYuDingWeiDianDeBianHuanRegion_1">
+            <summary>
+            跟随点与定位点的变换region
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.row_1">
+            <summary>
+            跟随定位点的中心点,y
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.column_1">
+            <summary>
+            跟随定位点的中心点,x
+            </summary>
+        </member>
+        <member name="F:MultTree.ToolDateFather.angle_1">
+            <summary>
+            跟随定位点的角度
+            </summary>
+        </member>
+        <member name="M:MultTree.ToolDateFather.show(HalconDotNet.HWindow)">
+            <summary>
+            显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.ToolDateFather.analyze_show(HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            显示  分析
+            </summary>
+            <param name="data"></param>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.ToolDateFather.outResult(System.String[]@)">
+            <summary>
+            输出工具的结果
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.ToolDateFather.save">
+            <summary>
+            保存
+            </summary>
+        </member>
+        <member name="M:MultTree.ToolDateFather.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:MultTree.ToolDateFather.Cal(HalconDotNet.HTuple,HalconDotNet.HTuple@,HalconDotNet.HTuple@)">
+            <summary>
+            算出标定数据
+            </summary>
+            <param name="homMat2D"></param>
+            <param name="pixel_row_y"></param>
+            <param name="pixel_column_x"></param>
+            <param name="world_row_y"></param>
+            <param name="world_column_x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.ToolDateFather.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.ImageFather">
+            <summary>
+            图片的接口
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.GeuSuiDian_X_Col">
+            <summary>
+            跟随点x
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.GenSuiDian_Y_Row">
+            <summary>
+            跟随点y
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.GenSuiDian_A">
+            <summary>
+            跟随点角度a
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.GenSuiDianWei_Hv_HomMat2D">
+            <summary>
+            跟随点的放射变换矩阵
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.IrectShuJuPianYi">
+            <summary>
+            防射变换偏移的数据接口
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.GenSuiDianYuDingWeiDianDeBianHuanRegion">
+            <summary>
+            跟随点与定位点的变换region
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather._ICalibration">
+            <summary>
+            标定数据
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.Row">
+            <summary>
+            跟随定位点的中心点,y
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.Column">
+            <summary>
+            跟随定位点的中心点,x
+            </summary>
+        </member>
+        <member name="P:MultTree.ToolDateFather.Angle">
+            <summary>
+            跟随定位点的角度
+            </summary>
+        </member>
+        <member name="T:MultTree.ToolFather">
+            <summary>
+            工具的父类
+            </summary>
+        </member>
+        <member name="M:MultTree.ToolFather.Cal(HalconDotNet.HTuple,HalconDotNet.HTuple@,HalconDotNet.HTuple@)">
+            <summary>
+            算出标定数据
+            </summary>
+            <param name="homMat2D"></param>
+            <param name="pixel_row_y"></param>
+            <param name="pixel_column_x"></param>
+            <param name="world_row_y"></param>
+            <param name="world_column_x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.ToolFather.show(System.Object@,HalconDotNet.HWindow)">
+            <summary>
+            显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.ToolFather.analyze_show(System.Object@,HalconDotNet.HObject,HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            显示  分析
+            </summary>
+            <param name="data"></param>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.SetFather">
+            <summary>
+            设置器的父类
+            </summary>
+        </member>
+        <member name="M:MultTree.SetFather.ShuaXinToolJiHe(System.Collections.Generic.List{System.String})">
+            <summary>
+            刷新工具集合
+            </summary>
+        </member>
+        <member name="M:MultTree.SetFather.ShuaXinToolJiHe(System.Collections.Generic.List{System.String},System.Windows.Forms.ListBox)">
+            <summary>
+            刷新工具集合
+            </summary>
+            <param name="toolPath_"></param>
+            <param name="lis_"></param>
+        </member>
+        <member name="M:MultTree.SetFather.ShuaXinDingWeiDian(MultTree.IToolDateFather,System.Object)">
+            <summary>
+            涮新定位点
+            </summary>
+            <param name="itoolDateFather_"></param>
+        </member>
+        <member name="M:MultTree.SetFather.panDuanToolShiFouCunZai(System.String)">
+            <summary>
+            判断工具路径是否存在
+            </summary>
+        </member>
+        <member name="T:MultTree.operationTreeViewTool">
+            <summary>
+            操作树工具
+            </summary>
+        </member>
+        <member name="M:MultTree.operationTreeViewTool.initTreeView(System.Windows.Forms.TreeView,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            初始化树
+            </summary>
+        </member>
+        <member name="M:MultTree.operationTreeViewTool.get_parent_node_path(System.Windows.Forms.TreeNode@,MultTreeControlLibrary.tool_treeview_struct@)">
+            <summary>
+            获取父节点路径
+            </summary>
+            <param name="current_treenode"></param>
+            <param name="_tool_treeview_struct"></param>
+        </member>
+    </members>
+</doc>

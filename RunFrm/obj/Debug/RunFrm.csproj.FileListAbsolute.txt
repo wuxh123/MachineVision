@@ -1,0 +1,12 @@
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RunFrm.exe.config
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RunFrm.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RunFrm.exe
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RunFrm.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.Form1.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.Properties.Resources.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.exe
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.ComFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RunFrm\obj\Debug\RunFrm.TCPIPFrm.resources

@@ -1,0 +1,460 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RectLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:RectLibrary.RectShuJu">
+            <summary>
+            放射变换
+            </summary>
+        </member>
+        <member name="T:RectLibrary.IRectShuJu">
+            <summary>
+            放射变化的数据接口
+            </summary>
+        </member>
+        <member name="T:RectLibrary.IRectShuJuHv_HomMat2D">
+            <summary>
+            防射变换矩阵接口
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJuHv_HomMat2D.Hv_HomMat2D">
+            <summary>
+            放射变换的矩阵
+            </summary>
+        </member>
+        <member name="M:RectLibrary.IRectShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:RectLibrary.IRectShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.Yuan_dian_col_x">
+            <summary>
+            原点x
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.Yuan_dian_row_y">
+             <summary>
+            原点y 
+             </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.Yuan_dian_angle_a">
+            <summary>
+            原点角度
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.IRect_shuju_pianyi">
+            <summary>
+            防射变换偏移的数据接口
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.Hv_HomMat2D">
+            <summary>
+            放射变换的矩阵
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.Tool_Path">
+            <summary>
+            工具的路径
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.BeiGenSuiDingWeiGongJu">
+            <summary>
+            被跟随的定位工具
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJu.IDuiJieGenSuiDingWeiGongJu">
+            <summary>
+            对接跟随定位工具的点的接口
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu.yuan_dian_col_x">
+            <summary>
+            原点x
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu.yuan_dian_row_y">
+             <summary>
+            原点y 
+             </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu.yuan_dian_angle_a">
+            <summary>
+            原点角度
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu._iRect_shuju_pianyi">
+            <summary>
+            防射变换偏移的数据接口
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu._iDuiJieGenSuiDingWeiGongJu">
+            <summary>
+            对接跟随定位工具的点的接口
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu._tool_Path">
+            <summary>
+            工具的路径
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu._beiGenSuiDingWeiGongJu">
+            <summary>
+            被跟随的定位工具
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu.hv_HomMat2D">
+            <summary>
+            放射变换的矩阵
+            </summary>
+        </member>
+        <member name="M:RectLibrary.RectShuJu.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu.yuan_dian_col_x_">
+            <summary>
+            原点x
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu.yuan_dian_row_y_">
+             <summary>
+            原点y 
+             </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJu.yuan_dian_angle_a_">
+            <summary>
+            原点角度
+            </summary>
+        </member>
+        <member name="M:RectLibrary.RectShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:RectLibrary.RectShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="M:RectLibrary.RectShuJu.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.Yuan_dian_col_x">
+            <summary>
+            原点x
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.Yuan_dian_row_y">
+             <summary>
+            原点y 
+             </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.Yuan_dian_angle_a">
+            <summary>
+            原点角度
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.IRect_shuju_pianyi">
+            <summary>
+            防射变换偏移的数据接口
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.Hv_HomMat2D">
+            <summary>
+            放射变换的矩阵
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.Tool_Path">
+            <summary>
+            工具的路径
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.BeiGenSuiDingWeiGongJu">
+            <summary>
+            被跟随的定位工具
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJu.IDuiJieGenSuiDingWeiGongJu">
+            <summary>
+            对接跟随定位工具的点的接口
+            </summary>
+        </member>
+        <member name="T:RectLibrary.SetRectShuJu">
+            <summary>
+            放射变化的数据设置器
+            </summary>
+        </member>
+        <member name="M:RectLibrary.SetRectShuJu.Set_Orgin(RectLibrary.IRectShuJu,RectLibrary.IRectShuJuPianYi)">
+            <summary>
+            设置原点
+            </summary>
+            <param name="IRect_"></param>
+            <param name="IRectShuJuPianYi_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RectLibrary.SetRectShuJu.Set_PianYiDian(RectLibrary.IRectShuJu,System.Double,System.Double,System.Double)">
+            <summary>
+            设置偏移点
+            </summary>
+            <param name="IRect"></param>
+            <param name="Col_x"></param>
+            <param name="Row_y"></param>
+            <param name="Angle_a"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RectLibrary.IRectShuJuPianYi">
+            <summary>
+            防射变换偏移的数据
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJuPianYi.Row">
+            <summary>
+            定位工具的输出偏移点,y
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJuPianYi.Column">
+            <summary>
+            定位工具的输出偏移点,x
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IRectShuJuPianYi.Angle">
+            <summary>
+            定位工具的输出偏移点，angle
+            </summary>
+        </member>
+        <member name="T:RectLibrary.RectShuJuPianYi">
+            <summary>
+            点
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJuPianYi.angle">
+            <summary>
+            角度
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJuPianYi.column">
+            <summary>
+            x
+            </summary>
+        </member>
+        <member name="F:RectLibrary.RectShuJuPianYi.row">
+            <summary>
+            y
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJuPianYi.Angle">
+            <summary>
+            a
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJuPianYi.Column">
+            <summary>
+            x
+            </summary>
+        </member>
+        <member name="P:RectLibrary.RectShuJuPianYi.Row">
+            <summary>
+            y
+            </summary>
+        </member>
+        <member name="T:RectLibrary.ILineStruct">
+            <summary>
+            直线接口
+            </summary>
+        </member>
+        <member name="P:RectLibrary.ILineStruct.IrectShuJuPianYiOne">
+            <summary>
+            直线的第一个点
+            </summary>
+        </member>
+        <member name="P:RectLibrary.ILineStruct.IrectShuJuPianYiTwo">
+            <summary>
+            直线的第二个点
+            </summary>
+        </member>
+        <member name="T:RectLibrary.LineStruct">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="F:RectLibrary.LineStruct._irectShuJuPianYiOne">
+            <summary>
+            直线的第一个点
+            </summary>
+        </member>
+        <member name="F:RectLibrary.LineStruct._irectShuJuPianYiTwo">
+            <summary>
+            直线的第二个点
+            </summary>
+        </member>
+        <member name="P:RectLibrary.LineStruct.IrectShuJuPianYiOne">
+            <summary>
+            直线的第一个点
+            </summary>
+        </member>
+        <member name="P:RectLibrary.LineStruct.IrectShuJuPianYiTwo">
+            <summary>
+            直线的第二个点
+            </summary>
+        </member>
+        <member name="T:RectLibrary.IHv_HomMat2D">
+            <summary>
+            防射变换矩阵接口
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IHv_HomMat2D.Ihv_HomMat2D">
+            <summary>
+            需要防射变化
+            </summary>
+        </member>
+        <member name="T:RectLibrary.IGenSuiDianWeiDeJieKouMuKuai">
+            <summary>
+            跟随定位的接口模块
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IGenSuiDianWeiDeJieKouMuKuai.GeuSuiDian_X_Col">
+            <summary>
+            跟随点x
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IGenSuiDianWeiDeJieKouMuKuai.GenSuiDian_Y_Row">
+            <summary>
+            跟随点y
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IGenSuiDianWeiDeJieKouMuKuai.GenSuiDian_A">
+            <summary>
+            跟随点角度a
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IGenSuiDianWeiDeJieKouMuKuai.GenSuiDianWei_Hv_HomMat2D">
+            <summary>
+            跟随点的放射变换矩阵
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IGenSuiDianWeiDeJieKouMuKuai.IrectShuJuPianYi">
+            <summary>
+            防射变换偏移的数据接口
+            </summary>
+        </member>
+        <member name="P:RectLibrary.IGenSuiDianWeiDeJieKouMuKuai.GenSuiDianYuDingWeiDianDeBianHuanRegion">
+            <summary>
+            跟随点与定位点的变换region
+            </summary>
+        </member>
+        <member name="T:RectLibrary.RectShuJu_Result">
+            <summary>
+            放射变换的结果
+            </summary>
+        </member>
+        <member name="M:RectLibrary.RectShuJu_Result.showResult(System.String[]@)">
+            <summary>
+            显示
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:RectLibrary.UI.RectFrm._tool_treeview_struct">
+            <summary>
+            当前选择定位树节点的信息
+            </summary>
+        </member>
+        <member name="F:RectLibrary.UI.RectFrm._tool_treeview_struct2">
+            <summary>
+             当前选择 工具跟随树节点的信息
+            </summary>
+        </member>
+        <member name="F:RectLibrary.UI.RectFrm._IRect">
+            <summary>
+            当前节点数据
+            </summary>
+        </member>
+        <member name="F:RectLibrary.UI.RectFrm._ICheckStr">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="F:RectLibrary.UI.RectFrm._SerRectShuJu">
+            <summary>
+            防射变化设置器
+            </summary>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.btn_acqurie_lotation_Click(System.Object,System.EventArgs)">
+            <summary>
+            读取一张图片   线程
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.get_lotation">
+            <summary>
+            取出定位点
+            </summary>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.tool_treeView_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            选择工具
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.synchroinization_listBox_DingWeiGongJu">
+            <summary>
+            同步被跟随工具的列表
+            </summary>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.sure_fallow_tool">
+            <summary>
+            确定跟随的定位工具
+            </summary>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.treeView2_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            选择跟随定位的工具
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.synchroinization_GenSuiDingWeiLieBian">
+            <summary>
+            同步跟随工具列表
+            </summary>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.delete_fallow_tool">
+            <summary>
+            移除跟随定位的工具
+            </summary>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.yiChuBeiDingWeiDeGongJu">
+            <summary>
+            移除跟被随定位的工具
+            </summary>
+        </member>
+        <member name="F:RectLibrary.UI.RectFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:RectLibrary.UI.RectFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataCodeLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DataCodeLibrary.DataCodeShuJu">
+            <summary>
+            二维码数据
+            </summary>
+        </member>
+        <member name="T:DataCodeLibrary.IDataCodeShuJu">
+            <summary>
+            二维码数据接口
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.IDataCodeShuJu.save">
+            <summary>
+            数据保存
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.IDataCodeShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Create_hv_SymbolType">
+            <summary>
+            创建时二维码读取的格式
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Create_hv_GenParamNames1">
+            <summary>
+            创建时二维码要设置的参数名称
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Create_hv_GenParamValues1">
+            <summary>
+            创建时二维码要设置的参数名称，对应的参数名
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Find_hv_GenParamNames1">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Find_hv_GenParaValues1">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Hv_DecodedDataStrings">
+            <summary>
+            查找输出的条码
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Ho_SymbolXLDs">
+            <summary>
+            查找输出的条码
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.IDataCodeShuJu.Hv_DataCodeHandle">
+            <summary>
+            二维码查找的句柄
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._iOutSide">
+            <summary>
+            region的接口数据
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._create_hv_SymbolType">
+            <summary>
+            创建时二维码读取的格式
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._create_hv_GenParamNames1">
+            <summary>
+            创建时二维码要设置的参数名称
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._create_hv_GenParamValues1">
+            <summary>
+            创建时二维码要设置的参数名称，对应的参数名
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._find_hv_GenParamNames">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._find_hv_GenParaValues">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._hv_DataCodeHandle">
+            <summary>
+            二维码查找的句柄
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._hv_DecodedDataStrings">
+            <summary>
+            查找输出的条码
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu.ho_SymbolXLDs">
+            <summary>
+            查找输出的条码
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._create_hv_SymbolType_1">
+            <summary>
+            创建时二维码读取的格式
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._create_hv_GenParamNames_1">
+            <summary>
+            创建时二维码要设置的参数名称
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._create_hv_GenParamValues_1">
+            <summary>
+            创建时二维码要设置的参数名称，对应的参数名
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._find_hv_GenParamNames_1">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu._find_hv_GenParaValues_1">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DataCodeShuJu.hv_DataCodeHandle_1">
+            <summary>
+            二维码查找的句柄
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.DataCodeShuJu.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.DataCodeShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.DataCodeShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Create_hv_SymbolType">
+            <summary>
+            创建时二维码读取的格式
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Create_hv_GenParamNames1">
+            <summary>
+            创建时二维码要设置的参数名称
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Create_hv_GenParamValues1">
+            <summary>
+            创建时二维码要设置的参数名称，对应的参数名
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Find_hv_GenParamNames1">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Find_hv_GenParaValues1">
+            <summary>
+            查找时的数据
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Hv_DecodedDataStrings">
+            <summary>
+            查找输出的条码
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Ho_SymbolXLDs">
+            <summary>
+            查找输出的条码
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.Hv_DataCodeHandle">
+            <summary>
+            二维码查找的句柄
+            </summary>
+        </member>
+        <member name="P:DataCodeLibrary.DataCodeShuJu.IOutSide">
+            <summary>
+            region的接口数据
+            </summary>
+        </member>
+        <member name="T:DataCodeLibrary.Set_DataCodeShuJu">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.Set_DataCodeShuJu.Set_createCode2Paramter(DataCodeLibrary.IDataCodeShuJu,System.String,System.String,System.String)">
+            <summary>
+             设置创建code2时的参数
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.Set_DataCodeShuJu.Set_findCode2Parameter(DataCodeLibrary.IDataCodeShuJu,System.String,System.String)">
+            <summary>
+            设置查找时的数据
+            </summary>
+            <param name="iDateCode2_"></param>
+            <param name="_find_hv_GenParamNames"></param>
+            <param name="_find_hv_GenParaValues"></param>
+        </member>
+        <member name="M:DataCodeLibrary.Set_DataCodeShuJu.Set_createCode2(DataCodeLibrary.IDataCodeShuJu)">
+            <summary>
+            创建code2句柄
+            </summary>
+            <param name="iDateCode2_"></param>
+        </member>
+        <member name="M:DataCodeLibrary.Set_DataCodeShuJu.Set_showParameterHalconWinControl(DataCodeLibrary.IDataCodeShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            显示输出参数，初始化halcon窗口region
+            </summary>
+            <param name="iDateCode2_"></param>
+            <param name="control"></param>
+            <param name="halconWinControl_"></param>
+        </member>
+        <member name="M:DataCodeLibrary.Set_DataCodeShuJu.Set_showParameter(DataCodeLibrary.IDataCodeShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            输出参数到窗体
+            </summary>
+            <param name="iDateCode2_"></param>
+            <param name="control"></param>
+        </member>
+        <member name="M:DataCodeLibrary.Set_DataCodeShuJu.Set_ShuaXinDingWeiDian(DataCodeLibrary.IDataCodeShuJu)">
+            <summary>
+            刷新定位点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:DataCodeLibrary.DateCode_Result">
+            <summary>
+            二维码结果的结构体
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DateCode_Result.Hv_DecodedDataStrings">
+            <summary>
+            二维码结果
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.DateCode_Result.AllResult">
+            <summary>
+            条码的整体结果
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.DateCode_Result.showResult(System.String@)">
+             <summary>
+            显示数据
+             </summary>
+             <param name="str"></param>
+             <returns></returns>
+        </member>
+        <member name="M:DataCodeLibrary.DateCode_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:DataCodeLibrary.UI.DataCodeFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.UI.DataCodeFrm._set_DateCode">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.UI.DataCodeFrm._iDataCodeShuJu">
+            <summary>
+            二维码数据
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.UI.DataCodeFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.UI.DataCodeFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.UI.DataCodeFrm.trigger_run">
+            <summary>
+            运行触发器
+            </summary>
+        </member>
+        <member name="F:DataCodeLibrary.UI.DataCodeFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DataCodeLibrary.UI.DataCodeFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DataCodeLibrary.UI.DataCodeFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:DataCodeLibrary.UI.DataCodeFrm._run">
+             <summary>
+            运行的算法
+             </summary>
+        </member>
+        <member name="E:DataCodeLibrary.UI.DataCodeFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="T:DataCodeLibrary.UI.DataCodeFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

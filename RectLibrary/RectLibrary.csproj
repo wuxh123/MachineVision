@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C517D66C-65C5-4603-BD2D-22179C680493}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RectLibrary</RootNamespace>
+    <AssemblyName>RectLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\DLL\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>..\DLL\RectLibrary.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BackGroundCheck, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\BackGroundCheck.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BarCodeHalconLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\BarCodeHalconLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CalibrationLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\CalibrationLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CheckStreamLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\CheckStreamLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DataCodeLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\DataCodeLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="halcondotnet">
+      <HintPath>Dll\halcondotnet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HalControl, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\HalControl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MultTree, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\MultTree.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MultTreeControlLibrary, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\MultTreeControlLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReadImageHalconLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLL\ReadImageHalconLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RectLibrary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\RectFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\RectFrm.designer.cs">
+      <DependentUpon>RectFrm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CircleLibrary\CircleLibrary.csproj">
+      <Project>{68EB92D5-1FC6-46CE-A5AB-FE66A3D8EE46}</Project>
+      <Name>CircleLibrary</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\LineLibrary\LineLibrary.csproj">
+      <Project>{BB40D2CB-8B03-4CCD-83AC-1628D7DF7E19}</Project>
+      <Name>LineLibrary</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\OCRLibrary\OCRLibrary.csproj">
+      <Project>{471B274B-4C14-4891-95F5-AF3024594A4B}</Project>
+      <Name>OCRLibrary</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\OCVLibrary\OCVLibrary.csproj">
+      <Project>{179A5355-610F-474F-9F53-307879DBD061}</Project>
+      <Name>OCVLibrary</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\TemplateHalconLibrary\TemplateHalconLibrary.csproj">
+      <Project>{E5C7CF74-CF6B-4905-AF85-704D961DF45D}</Project>
+      <Name>TemplateHalconLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="UI\RectFrm.resx">
+      <DependentUpon>RectFrm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

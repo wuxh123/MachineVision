@@ -1,0 +1,51 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\bin\Debug\CircleLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\bin\Debug\CircleLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\bin\Debug\CircleLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\bin\Debug\halcondotnet.xml
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CircleLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CircleLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CircleLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\CircleLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\CircleLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\CircleLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.UI.CircleFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\DLL\CircleLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\DLL\CircleLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\DLL\CircleLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.UI.CircleFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll17\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\CircleLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\CircleLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\CircleLibrary.XML
+D:\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.UI.CircleFrm.resources
+D:\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.dll
+D:\Vision架构dll\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CircleLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CircleLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.UI.CircleFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CircleLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CircleLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CircleLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CircleLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.UI.CircleFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\obj\Debug\CircleLibrary.pdb

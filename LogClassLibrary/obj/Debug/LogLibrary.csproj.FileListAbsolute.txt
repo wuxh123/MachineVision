@@ -1,0 +1,30 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\LogClassLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\LogClassLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\LogClassLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\LogClassLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\LogClassLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\LogClassLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\LogClassLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\LogClassLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\LogClassLibrary.XML
+D:\Vision架构dll\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.dll
+D:\Vision架构dll\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\LogClassLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\LogClassLibrary\obj\Debug\LogLibrary.csprojResolveAssemblyReference.cache

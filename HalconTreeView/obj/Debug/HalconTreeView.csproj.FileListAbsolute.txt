@@ -1,0 +1,7 @@
+J:\类库\halcon工具\Vision\Vision19\MachineVision\HalconTreeView\bin\Debug\HalconTreeView.dll
+J:\类库\halcon工具\Vision\Vision19\MachineVision\HalconTreeView\bin\Debug\HalconTreeView.pdb
+J:\类库\halcon工具\Vision\Vision19\MachineVision\HalconTreeView\obj\Debug\HalconTreeView.HalconTreeView.resources
+J:\类库\halcon工具\Vision\Vision19\MachineVision\HalconTreeView\obj\Debug\HalconTreeView.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision19\MachineVision\HalconTreeView\obj\Debug\HalconTreeView.dll
+J:\类库\halcon工具\Vision\Vision19\MachineVision\HalconTreeView\obj\Debug\HalconTreeView.pdb
+J:\类库\halcon工具\Vision\Vision19\MachineVision\HalconTreeView\obj\Debug\HalconTreeView.csprojResolveAssemblyReference.cache

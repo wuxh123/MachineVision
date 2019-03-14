@@ -1,0 +1,5 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LogClassLibrary\bin\Debug\LogClassLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LogClassLibrary\bin\Debug\LogClassLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LogClassLibrary\bin\Debug\LogClassLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\LogClassLibrary\obj\Debug\LogClassLibrary.pdb

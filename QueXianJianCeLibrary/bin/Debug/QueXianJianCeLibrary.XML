@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>QueXianJianCeLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:QueXianJianCeLibrary.QueXianJianCeShuJu">
+            <summary>
+            缺陷检测的数据
+            </summary>
+        </member>
+        <member name="T:QueXianJianCeLibrary.IQueXianJianCeShuJu">
+            <summary>
+            缺陷检测的接口
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu._iOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.numLevels">
+            <summary>
+            创建模板的黄金匹配层数
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.angleStart">
+            <summary>
+            创建模板开始角度
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.angleEnd">
+            <summary>
+            创建模板的结束角度
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.angleStep">
+            <summary>
+            创建模板角度的步长
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.optimization">
+            <summary>
+            创建算法优化
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.metric">
+            <summary>
+            创建模板的极性
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.contrast">
+            <summary>
+            创建模板的对比度
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.mincontrast">
+            <summary>
+            最小对比度
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.with">
+            <summary>
+            创建丝印模板的图片的宽
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.height">
+            <summary>
+             创建丝印模板的图片的高
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu._tybe">
+            <summary>
+            创建丝印模板的格式
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.mode">
+            <summary>
+            创建丝印模板的格式
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.rowRef">
+            <summary>
+            模板点y
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.QueXianJianCeShuJu.columnRef">
+            <summary>
+            模板点x
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.IOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.NumLevels">
+            <summary>
+            创建模板的黄金匹配层数
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.AngleStart">
+            <summary>
+            创建模板开始角度
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.AngleEnd">
+            <summary>
+            创建模板的结束角度
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.AngleStep">
+            <summary>
+            创建模板角度的步长
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.Optimization">
+            <summary>
+            创建算法优化
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.Metric">
+            <summary>
+            创建模板的极性
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.Contrast">
+            <summary>
+            创建模板的对比度
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.Mincontrast">
+            <summary>
+            最小对比度
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.With">
+            <summary>
+            创建丝印模板的图片的宽
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.Height">
+            <summary>
+             创建丝印模板的图片的高
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.Tybe">
+            <summary>
+            创建丝印模板的格式
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.Mode">
+            <summary>
+            创建丝印模板的格式
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.RowRef">
+            <summary>
+            模板点y
+            </summary>
+        </member>
+        <member name="P:QueXianJianCeLibrary.QueXianJianCeShuJu.ColumnRef">
+            <summary>
+            模板点x
+            </summary>
+        </member>
+        <member name="T:QueXianJianCeLibrary.Set_QueXianJianCe">
+            <summary>
+            缺陷检测设置器
+            </summary>
+        </member>
+        <member name="T:QueXianJianCeLibrary.QueXianJianCe_Result">
+            <summary>
+            缺陷检测的结果
+            </summary>
+        </member>
+        <member name="F:QueXianJianCeLibrary.UI.QueXianJianCeFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:QueXianJianCeLibrary.UI.QueXianJianCeFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:QueXianJianCeLibrary.UI.QueXianJianCeFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

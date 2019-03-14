@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BarCodeHalconLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BarCodeHalconLibrary.BarCodeShuJu">
+            <summary>
+            一维码工具的数据
+            </summary>
+        </member>
+        <member name="T:BarCodeHalconLibrary.IBarCodeShuJu">
+            <summary>
+            一维码数据的接口
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.IBarCodeShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.IBarCodeShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Ho_SymbolRegions">
+            <summary>
+            条码读取后的region
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Hv_DecodedDataStrings">
+            <summary>
+            读取到的条码信息
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Hv_BarCodeHandle">
+            <summary>
+            条码指针
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Hv_CodeType">
+            <summary>
+            读取条码的格式
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.TrainClass">
+            <summary>
+            训练的结果类
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.QualityClass">
+            <summary>
+            等级验证的结果类
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Hv_BarCodeResults">
+            <summary>
+            输出的等级验证
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Contrast_min">
+            <summary>
+            最小对比度250
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Element_size_min">
+            <summary>
+            设置最小宽度的尺寸
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Persistence">
+            <summary>
+            保存中间结果
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.IBarCodeShuJu.Num_scanlines">
+            <summary>
+            设置扫描线条数8
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu._tiaoMaDeDuiCuoBiaoZhi">
+            <summary>
+            条码的对错标志
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.contrast_min">
+            <summary>
+            最小对比度250
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.element_size_min">
+            <summary>
+            设置最小宽度的尺寸
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.persistence">
+            <summary>
+            保存中间结果
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.num_scanlines">
+            <summary>
+            设置扫描线条数8
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu._iOutSide">
+            <summary>
+             region的接口数据
+            </summary>      
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_BarCodeHandle">
+            <summary>
+            条码指针
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_CodeType">
+            <summary>
+            读取条码的格式
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_DecodedDataStrings">
+            <summary>
+            读取到的条码信息
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.ho_SymbolRegions">
+            <summary>
+            条码读取后的region
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_BarCodeResults">
+            <summary>
+            输出的等级验证
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu._trainClass">
+            <summary>
+            训练的结果类
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu._qualityClass">
+            <summary>
+            等级验证的结果类
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.BarCodeShuJu.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_Row1">
+            <summary>
+            截取roi的中心坐标， 行 y
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_Column1">
+            <summary>
+            截取roi的中心坐标， 列 x
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_Phi1">
+            <summary>
+            截取roi的角度
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_Length11">
+            <summary>
+            截取roi的width
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_Length21">
+            <summary>
+            截取roi的high
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.contrast_min_1">
+            <summary>
+            最小对比度250
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.element_size_min_1">
+            <summary>
+            设置最小宽度的尺寸
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.persistence_1">
+            <summary>
+            保存中间结果
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.num_scanlines_1">
+            <summary>
+            设置扫描线条数8
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.hv_CodeType1">
+            <summary>
+            读取条码的格式
+            </summary>   
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCodeShuJu.Hv_BarCodeHandle1">
+            <summary>
+             一维码指针
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.BarCodeShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.BarCodeShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Ho_SymbolRegions">
+            <summary>
+            条码读取后的region
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Hv_DecodedDataStrings">
+            <summary>
+            读取到的条码信息
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Hv_BarCodeHandle">
+            <summary>
+            条码指针
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Hv_CodeType">
+            <summary>
+            读取条码的格式
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Contrast_min">
+            <summary>
+            最小对比度250
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Element_size_min">
+            <summary>
+            设置最小宽度的尺寸
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Persistence">
+            <summary>
+            保存中间结果
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Num_scanlines">
+            <summary>
+            设置扫描线条数8
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.TrainClass">
+            <summary>
+            训练的结果类
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.QualityClass">
+            <summary>
+            等级验证的结果类
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.Hv_BarCodeResults">
+            <summary>
+            输出的等级验证
+            </summary>
+        </member>
+        <member name="P:BarCodeHalconLibrary.BarCodeShuJu.IOutSide">
+            <summary>
+             region的接口数据
+            </summary>
+        </member>
+        <member name="T:BarCodeHalconLibrary.Trained_Class">
+            <summary>
+            训练的结果体
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.Trained_Class._trained">
+            <summary>
+            是否启动训练
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.Trained_Class._BarCodeTrained">
+            <summary>
+            训练的一维码数据
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.Trained_Class._result">
+            <summary>
+            条码训练后，对比的结果
+            </summary>
+        </member>
+        <member name="T:BarCodeHalconLibrary.Quality_Class">
+            <summary>
+            等级验证的结果体
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.Quality_Class._quality_isoiec15416">
+            <summary>
+            是否启动等级验证
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.Quality_Class._min_Grade">
+            <summary>
+            条码的最小等级
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.Quality_Class._result">
+            <summary>
+            等级验证的结果
+            </summary>
+        </member>
+        <member name="T:BarCodeHalconLibrary.Set_BarCodeShuJu">
+            <summary>
+            设置数据一维码数据接口
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_Code_ROI(BarCodeHalconLibrary.IBarCodeShuJu,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple)">
+            <summary>
+            设置roi的数据
+            </summary>
+            <param name="ICode"></param>
+            <param name="hv_Row"></param>
+            <param name="hv_Column"></param>
+            <param name="hv_Phi"></param>
+            <param name="hv_Length1"></param>
+            <param name="hv_Length2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Create_Code_Id(BarCodeHalconLibrary.IBarCodeShuJu)">
+            <summary>
+            创建读码ID
+            </summary>
+            <param name="ICode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Create_Code(HalconDotNet.HTuple@)">
+            <summary>
+            创建读码ID
+            </summary>
+            <param name="hv_BarCodeHandle"></param>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.write_bar_code(BarCodeHalconLibrary.IBarCodeShuJu)">
+            <summary>
+            保存一维码模板
+            </summary>
+            <param name="ICode">数据接口</param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.read_bar_code(BarCodeHalconLibrary.IBarCodeShuJu)">
+            <summary>
+            读取一维码模板
+            </summary>
+            <param name="ICode">数据接口</param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_CodeBarParameter(BarCodeHalconLibrary.IBarCodeShuJu,System.String,System.String,System.String,System.String)">
+            <summary>
+             设置一维码参数
+            </summary>
+            <param name="ICode"></param>
+            <param name="contrast_min"></param>
+            <param name="element_size_min"></param>
+            <param name="persistence"></param>
+            <param name="num_scanlines"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_showParameterHalconWinControl(BarCodeHalconLibrary.IBarCodeShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            显示输出参数，初始化halcon窗口region
+            </summary>
+            <param name="ICode_"></param>
+            <param name="control"></param>
+            <param name="halconWinControl_"></param>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Show_CodeBarParamter(BarCodeHalconLibrary.IBarCodeShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示参数数据
+            </summary>
+            <param name="ICode"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_CodeType(BarCodeHalconLibrary.IBarCodeShuJu,System.String)">
+            <summary>
+            设置读码的格式
+            </summary>
+            <param name="ICode"></param>
+            <param name="CodeType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_Quality_isoiec15416(BarCodeHalconLibrary.IBarCodeShuJu,System.Boolean)">
+            <summary>
+            设置是否启动等级验证
+            </summary>
+            <param name="ICode"></param>
+            <param name="start_stop"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_MinGrade(BarCodeHalconLibrary.IBarCodeShuJu,System.String)">
+            <summary>
+            设置条码的最小等级
+            </summary>
+            <param name="ICode"></param>
+            <param name="MinGrade"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_Trained(BarCodeHalconLibrary.IBarCodeShuJu,System.Boolean,System.String@)">
+            <summary>
+            设置是否启动训练
+            </summary>
+            <param name="ICode"></param>
+            <param name="trained_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.Set_BarCodeShuJu.Set_shua_xin_ding_wei_dian(BarCodeHalconLibrary.IBarCodeShuJu)">
+            <summary>
+            刷新定位点
+            </summary>
+            <param name="ICode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BarCodeHalconLibrary.BarCode_Result">
+            <summary>
+            一维码的结果
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCode_Result.Hv_DecodedDataStrings">
+            <summary>
+            条码的结果
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCode_Result.Trained">
+             <summary>
+            是否有训练 
+             </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCode_Result.Quality_Isoiec15416">
+            <summary>
+            是否有启动等级验证
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.BarCode_Result._Result">
+            <summary>
+            整个数据的结果
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.BarCode_Result.showResult(System.String@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.BarCode_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:BarCodeHalconLibrary.UI.CodeBarFrm._ICode">
+            <summary>
+            一维码数据
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.UI.CodeBarFrm._Set_CodeBar">
+            <summary>
+            设置数据
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.UI.CodeBarFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.UI.CodeBarFrm._stop_watch">
+            <summary>
+            计时器
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.run">
+            <summary>
+            运行成功后回调
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.read_one_image">
+            <summary>
+            读取一张图片   线程
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.repaint(HalconDotNet.HWindow)">
+            <summary>
+            刷新窗口事件
+            </summary>
+            <param name="win">要刷新的窗体</param>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.trigger_read">
+            <summary>
+            取图触发器
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.trigger_run">
+            <summary>
+            运行触发器
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.QueDingCanShuJu">
+            <summary>
+            确定参数
+            </summary>
+        </member>
+        <member name="F:BarCodeHalconLibrary.UI.CodeBarFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BarCodeHalconLibrary.UI.CodeBarFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:BarCodeHalconLibrary.UI.CodeBarFrm._run">
+             <summary>
+            运行的算法
+             </summary>
+        </member>
+        <member name="E:BarCodeHalconLibrary.UI.CodeBarFrm._read">
+             <summary>
+            读取图片 
+             </summary>
+        </member>
+        <member name="T:BarCodeHalconLibrary.UI.CodeBarFrm._run_delegate">
+            <summary>
+            记录第几张图片
+            </summary>
+        </member>
+    </members>
+</doc>

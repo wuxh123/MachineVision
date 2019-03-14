@@ -1,0 +1,761 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CircleLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:CircleLibrary.CircleShuJu">
+            <summary>
+            拟合圆的数据
+            </summary>
+        </member>
+        <member name="T:CircleLibrary.ICircleShuJu">
+            <summary>
+            拟合圆的数据接口
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Ho_Regions">
+            <summary>
+            画圆输出的region
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Ho_Regions_0">
+             <summary>
+            输出边缘点检测区域及方向 
+             </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Ho_Circle">
+            <summary>
+            拟合出来的圆
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_Elements">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_DetectHeight">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_DetectWidth">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_ROIRows">
+            <summary>
+            spoke工具ROI的y数组   检测区域起点的y值
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_ROICols">
+            <summary>
+            spoke工具ROI的x数组    检测区域起点的x值
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_Direct">
+            <summary>
+            'inner'表示检测方向由边缘点指向圆心；'outer'表示检测方向由圆心指向边缘点
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_Sigma">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_Threshold">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_Transition">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_Select">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_ResultRow">
+            <summary>
+            检测到的边缘点的y坐标数组    拟合圆的边缘y数组
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_ResultColumn">
+            <summary>
+            检测到的边缘点的x坐标数组   拟合圆的边缘x数组
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_ArcType">
+            <summary>
+            拟合圆弧类型：'arc'圆弧；'circle'圆
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_ActiveNum">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_Radius">
+            <summary>
+            拟合的圆半径
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_StartPhi">
+            <summary>
+            圆弧起点角度(单位：弧度)
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_EndPh">
+            <summary>
+            圆弧终点角度(单位：弧度)
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.ICircleShuJu.Hv_PointOrder">
+            <summary>
+            轮廓点方向
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.ho_Regions">
+            <summary>
+            画圆输出的region
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.ho_Regions_0">
+             <summary>
+            输出边缘点检测区域及方向 
+             </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.ho_Circle">
+            <summary>
+            拟合出来的圆
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu._ihv_HomMat2D">
+            <summary>
+            需要防射变化
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Elements">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_DetectHeight">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_DetectWidth">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ROIRows">
+            <summary>
+            spoke工具ROI的y数组   检测区域起点的y值
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ROICols">
+            <summary>
+            spoke工具ROI的x数组    检测区域起点的x值
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Direct">
+            <summary>
+            'inner'表示检测方向由边缘点指向圆心；'outer'表示检测方向由圆心指向边缘点
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Sigma">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Threshold">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Transition">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Select">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ResultRow">
+            <summary>
+            检测到的边缘点的y坐标数组    拟合圆的边缘y数组
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ResultColumn">
+            <summary>
+            检测到的边缘点的x坐标数组   拟合圆的边缘x数组
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ArcType">
+            <summary>
+            拟合圆弧类型：'arc'圆弧；'circle'圆
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ActiveNum">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_RowCenter">
+            <summary>
+            拟合的圆中心y
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ColCenter">
+            <summary>
+            拟合的圆中心x
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Radius">
+            <summary>
+            拟合的圆半径
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_StartPhi">
+            <summary>
+            圆弧起点角度(单位：弧度)
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_EndPhi">
+            <summary>
+            圆弧终点角度(单位：弧度)
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_PointOrder">
+            <summary>
+            轮廓点方向
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ArcAngle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu._iCalibration">
+            <summary>
+            标定数据
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.ho_Regions_">
+            <summary>
+            画圆输出的region
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Elements_">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_DetectHeight_">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_DetectWidth_">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ROIRows_">
+            <summary>
+            spoke工具ROI的y数组   检测区域起点的y值
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ROICols_">
+            <summary>
+            spoke工具ROI的x数组    检测区域起点的x值
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Direct_">
+            <summary>
+            'inner'表示检测方向由边缘点指向圆心；'outer'表示检测方向由圆心指向边缘点
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Sigma_">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Threshold_">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Transition_">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_Select_">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ArcType_">
+            <summary>
+            拟合圆弧类型：'arc'圆弧；'circle'圆
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.CircleShuJu.hv_ActiveNum_">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="M:CircleLibrary.CircleShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:CircleLibrary.CircleShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Ho_Regions">
+            <summary>
+            画圆输出的region
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Ho_Regions_0">
+             <summary>
+            输出边缘点检测区域及方向 
+             </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Ho_Circle">
+            <summary>
+            拟合出来的圆
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_Elements">
+            <summary>
+            卡尺的个数
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_DetectHeight">
+            <summary>
+            卡尺的高
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_DetectWidth">
+            <summary>
+            卡尺的宽
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_ROIRows">
+            <summary>
+            spoke工具ROI的y数组   检测区域起点的y值
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_ROICols">
+            <summary>
+            spoke工具ROI的x数组    检测区域起点的x值
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_Direct">
+            <summary>
+            'inner'表示检测方向由边缘点指向圆心；'outer'表示检测方向由圆心指向边缘点
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_Sigma">
+            <summary>
+            高斯滤波因子
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_Threshold">
+            <summary>
+            边缘幅度阈值
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_Transition">
+            <summary>
+            极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_Select">
+            <summary>
+            >first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_ResultRow">
+            <summary>
+            检测到的边缘点的y坐标数组    拟合圆的边缘y数组
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_ResultColumn">
+            <summary>
+            检测到的边缘点的x坐标数组   拟合圆的边缘x数组
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_ArcType">
+            <summary>
+            拟合圆弧类型：'arc'圆弧；'circle'圆
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_ActiveNum">
+            <summary>
+            最小有效点数
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Row">
+            <summary>
+            拟合的圆中心y
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Column">
+            <summary>
+            拟合的圆中心x
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_Radius">
+            <summary>
+            拟合的圆半径
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_StartPhi">
+            <summary>
+            圆弧起点角度(单位：弧度)
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_EndPh">
+            <summary>
+            圆弧终点角度(单位：弧度)
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Hv_PointOrder">
+            <summary>
+            轮廓点方向
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Angle">
+            <summary>
+            圆的角度
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu.Ihv_HomMat2D">
+            <summary>
+            需要防射变化
+            </summary>
+        </member>
+        <member name="P:CircleLibrary.CircleShuJu._ICalibration">
+            <summary>
+            标定数据
+            </summary>
+        </member>
+        <member name="T:CircleLibrary.SetCirleShuJu">
+            <summary>
+            设置拟合圆工具的数据
+            </summary>
+        </member>
+        <member name="T:CircleLibrary.DrawSpoke">
+            <summary>
+            画圆
+            </summary>
+        </member>
+        <member name="M:CircleLibrary.DrawSpoke.draw_spoke(HalconDotNet.HObject,HalconDotNet.HObject@,HalconDotNet.HWindow,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@)">
+            <summary>
+            画圆
+            </summary>
+            <param name="ho_Image">输入的图片</param>
+            <param name="ho_Regions">输出的region</param>
+            <param name="hv_WindowHandle">窗口句柄</param>
+            <param name="hv_Elements">卡尺的个数</param>
+            <param name="hv_DetectHeight">卡尺的高</param>
+            <param name="hv_DetectWidth">卡尺的宽</param>
+            <param name="hv_ROIRows">spoke工具ROI的y数组</param>
+            <param name="hv_ROICols">spoke工具ROI的x数组</param>
+            <param name="hv_Direct">'inner'表示检测方向由边缘点指向圆心；'outer'表示检测方向由圆心指向边缘点</param>
+        </member>
+        <member name="M:CircleLibrary.SetCirleShuJu.Set_CalliPers(CircleLibrary.ICircleShuJu,System.String,System.String,System.String)">
+            <summary>
+            设置卡尺的数据
+            </summary>
+            <param name="ICircle">传入数据的接口</param>
+            <param name="number">卡尺的个数，null时不设置</param>
+            <param name="height">卡尺的高，null时不设置</param>
+            <param name="width">卡尺的宽，null时不设置</param>
+            <returns>返回真代表设置成功</returns>
+        </member>
+        <member name="M:CircleLibrary.SetCirleShuJu.Set_Measure(CircleLibrary.ICircleShuJu,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置测量参数，传入的参数为null时不设置
+            </summary>
+            <param name="ICircle">传入数据的接口</param>
+            <param name="Hv_ActiveNum">最小有效点</param>
+            <param name="Hv_Sigma">高斯滤波因子</param>
+            <param name="Hv_Threshold">梯度阈值</param>
+            <param name="Hv_Transition">查找的极性</param>
+            <param name="Hv_Select">选择查找点的位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.SetCirleShuJu.Set_ShowParameter(CircleLibrary.ICircleShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            输出参数
+            </summary>
+            <param name="ICircleShuJu_"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.SetCirleShuJu.Set_DrawSpoke(CircleLibrary.ICircleShuJu,HalconDotNet.HObject,HalconDotNet.HWindow)">
+            <summary>
+            画圆
+            </summary>
+            <param name="ICircleShuJu_"></param>
+            <param name="ho_Image"></param>
+            <param name="hv_WindowHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.SetCirleShuJu.Set_Show_DrawSpoke(CircleLibrary.ICircleShuJu,HalconDotNet.HWindow)">
+            <summary>
+            显示卡尺
+            </summary>
+            <param name="ICircleShuJu_"></param>
+            <param name="hv_WindowHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.SetCirleShuJu.Set_show_Circle(CircleLibrary.ICircleShuJu,HalconDotNet.HWindow)">
+            <summary>
+            显示拟合圆
+            </summary>
+            <param name="ICircleShuJu_"></param>
+            <param name="hv_WindowHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.SetCirleShuJu.Set_show_point(CircleLibrary.ICircleShuJu,HalconDotNet.HWindow)">
+            <summary>
+            显示找到的点
+            </summary>
+            <param name="ICircleShuJu_"></param>
+            <param name="hv_WindowHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CircleLibrary.Circle">
+            <summary>
+            拟合圆工具
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.Circle._Cal">
+            <summary>
+            标定
+            </summary>
+        </member>
+        <member name="M:CircleLibrary.Circle.Spoke(CircleLibrary.ICircleShuJu,HalconDotNet.HObject)">
+            <summary>
+            卡尺圆工具
+            </summary>
+            <param name="ICircle_"></param>
+            <param name="ho_Image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.Circle.spoke(HalconDotNet.HObject,HalconDotNet.HObject@,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@)">
+            <summary>
+            圆的卡尺工具
+            </summary>
+            <param name="ho_Image">输入图像</param>
+            <param name="ho_Regions">输出边缘点检测区域及方向</param>
+            <param name="hv_Elements">检测边缘点数</param>
+            <param name="hv_DetectHeight">卡尺工具的高度</param>
+            <param name="hv_DetectWidth">卡尺工具的宽度</param>
+            <param name="hv_Sigma">高斯滤波因子</param>
+            <param name="hv_Threshold">边缘幅度阈值</param>
+            <param name="hv_Transition">极性：  positive表示由黑到白   negative表示由白到黑   all表示以上两种方向</param>
+            <param name="hv_Select">first表示选择第一点    last表示选择最后一点   max表示选择边缘强度最强点</param>
+            <param name="hv_ROIRows">检测区域起点的y值</param>
+            <param name="hv_ROICols">检测区域起点的x值</param>
+            <param name="hv_Direct">'inner'表示检测方向由边缘点指向圆心;'outer'表示检测方向由圆心指向边缘点</param>
+            <param name="hv_ResultRow">检测到的边缘点的y坐标数组</param>
+            <param name="hv_ResultColumn">检测到的边缘点的x坐标数组</param>
+            <param name="hv_ArcType">拟合圆弧类型：'arc'圆弧；'circle'圆</param>
+        </member>
+        <member name="M:CircleLibrary.Circle.pts_to_best_circle(HalconDotNet.HObject@,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@)">
+            <summary>
+            拟合圆
+            </summary>
+            <param name="ho_Circle">输出拟合圆的xld</param>
+            <param name="hv_Rows">拟合圆的边缘y数组</param>
+            <param name="hv_Cols">拟合圆的边缘x数组</param>
+            <param name="hv_ActiveNum">最小有效点数</param>
+            <param name="hv_ArcType">拟合圆弧类型：'arc'圆弧；'circle'圆</param>
+            <param name="hv_RowCenter">拟合的圆中心y</param>
+            <param name="hv_ColCenter">拟合的圆中心x</param>
+            <param name="hv_Radius">拟合的圆半径</param>
+            <param name="hv_StartPhi">圆弧起点角度(单位：弧度)</param>
+            <param name="hv_EndPhi">圆弧终点角度(单位：弧度)</param>
+            <param name="hv_PointOrder">轮廓点方向</param>
+            <param name="hv_ArcAngle"></param>
+        </member>
+        <member name="M:CircleLibrary.Circle.gen_arrow_contour_xld(HalconDotNet.HObject@,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple)">
+            <summary>
+            得到xld
+            </summary>
+            <param name="ho_Arrow"></param>
+            <param name="hv_Row1"></param>
+            <param name="hv_Column1"></param>
+            <param name="hv_Row2"></param>
+            <param name="hv_Column2"></param>
+            <param name="hv_HeadLength"></param>
+            <param name="hv_HeadWidth"></param>
+        </member>
+        <member name="M:CircleLibrary.Circle.Circle_Show(CircleLibrary.ICircleShuJu,HalconDotNet.HWindow)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="ICircle_"></param>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.Circle.Spoke_Show_Out(HalconDotNet.HObject,CircleLibrary.ICircleShuJu,HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            检测，显示，保存
+            </summary>
+            <param name="ho_Image"></param>
+            <param name="ICircle_"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CircleLibrary.Cricle_Result">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.Cricle_Result.Row">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.Cricle_Result.Column">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.Cricle_Result.Hv_StartPhi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.Cricle_Result.Hv_EndPh">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.Cricle_Result.Hv_PointOrder">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.Cricle_Result.Angle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:CircleLibrary.UI.CircleFrm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm._xun_huan_yun_xing_biao_zhi">
+            <summary>
+            循环运行的标志
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm._IReadShuJu">
+            <summary>
+            读图的数据
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm._IRead">
+            <summary>
+            取图工具
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm._ICircleShuJu">
+            <summary>
+            拟合圆数据
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm._Set_CirleShuJu">
+            <summary>
+            设置拟合圆参数
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm._Circle">
+            <summary>
+            拟合圆工具
+            </summary>
+        </member>
+        <member name="M:CircleLibrary.UI.CircleFrm.run">
+            <summary>
+            运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.UI.CircleFrm.read_one_image">
+            <summary>
+            读取一张图片事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CircleLibrary.UI.CircleFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:CircleLibrary.UI.CircleFrm.trigger_run">
+            <summary>
+            运行触发器
+            </summary>
+        </member>
+        <member name="F:CircleLibrary.UI.CircleFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CircleLibrary.UI.CircleFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CircleLibrary.UI.CircleFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:CircleLibrary.UI.CircleFrm._read">
+            <summary>
+            事件取图 
+            </summary>
+        </member>
+        <member name="E:CircleLibrary.UI.CircleFrm._run">
+            <summary>
+            检测事件
+            </summary>
+        </member>
+        <member name="T:CircleLibrary.UI.CircleFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

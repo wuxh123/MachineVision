@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReadImageHalconLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:ReadImageHalconLibrary.Acquire">
+            <summary>
+            取图方式的枚举
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.Acquire.Registry_Image_One">
+            <summary>
+            注册表取图1
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.Acquire.Registry_Image_Two">
+            <summary>
+            注册表取图2
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.Acquire.Folder_Image">
+            <summary>
+            文件夹
+            </summary>     
+        </member>
+        <member name="T:ReadImageHalconLibrary.IntPtrRegistry">
+            <summary>
+            注册表指针
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.IntPtrRegistry.STRIDE_ONE">
+            <summary>
+            Number of pixel columns in camera
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.IntPtrRegistry.NUMROWS_ONE">
+            <summary>
+            Number of pixel rows in image
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.IntPtrRegistry.Registry_Image_One">
+            <summary>
+            第一个相机注册表,使用注册表指针，只能采用赋值的方式
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.IntPtrRegistry.STRIDE_TWO">
+            <summary>
+            Number of pixel columns in camera
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.IntPtrRegistry.NUMROWS_TWO">
+            <summary>
+            Number of pixel rows in image
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.IntPtrRegistry.Registry_Image_Two">
+            <summary>
+            第二个相机注册表,使用注册表指针，只能采用赋值的方式
+            </summary>
+        </member>
+        <member name="T:ReadImageHalconLibrary.ReadShuJu">
+            <summary>
+            取图工具的数据
+            </summary>
+        </member>
+        <member name="T:ReadImageHalconLibrary.IReadShuJu">
+            <summary>
+            取图工具的数据
+            </summary>
+        </member>
+        <member name="T:ReadImageHalconLibrary.IImageFather">
+            <summary>
+            父类图片接口
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IImageFather.Ho_image">
+            <summary>
+            图片缓存
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.IReadShuJu.init">
+            <summary>
+            初始化数据变量
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.IReadShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IReadShuJu.Ho_image">
+            <summary>
+            图片数据
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IReadShuJu.Number">
+            <summary>
+            记录读取到第几章图片的数据
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IReadShuJu.Path_Picture">
+            <summary>
+            图片的路径
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IReadShuJu.Acquire_Image">
+            <summary>
+            取图方式
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IReadShuJu._Width">
+            <summary>
+            注册表.宽
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IReadShuJu._Height">
+            <summary>
+            注册表，高
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ReadShuJu.ho_image">
+            <summary>
+            图片数据
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ReadShuJu._width">
+            <summary>
+            注册表.宽
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ReadShuJu._height">
+            <summary>
+            注册表，高
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ReadShuJu.number">
+            <summary>
+            记录读取到第几章图片的数据
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ReadShuJu.acquire_Image">
+            <summary>
+            取图方式
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ReadShuJu.path_Picture">
+            <summary>
+            图片的路径
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ReadShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.ReadShuJu.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.ReadShuJu.init">
+            <summary>
+            初始化数据变量
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.ReadShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.ReadShuJu.Ho_image">
+            <summary>
+            图片数据
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.ReadShuJu.Number">
+            <summary>
+            记录读取到第几章图片的数据
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.ReadShuJu.Path_Picture">
+            <summary>
+            图片的路径
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.ReadShuJu.Acquire_Image">
+            <summary>
+            取图方式
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.ReadShuJu._Width">
+            <summary>
+            注册表.宽
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.ReadShuJu._Height">
+            <summary>
+            注册表，高
+            </summary>
+        </member>
+        <member name="T:ReadImageHalconLibrary.SetReadShuJu">
+            <summary>
+            取图工具的数据设置器
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.SetReadShuJu.Set_Ho_Image(ReadImageHalconLibrary.IReadShuJu,HalconDotNet.HObject@)">
+            <summary>
+            把图片image写入ReadShuJu中
+            </summary>
+            <param name="IRead">ReadShuJu接口</param>
+            <param name="Ho_Image">图片的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadImageHalconLibrary.SetReadShuJu.Set_Number(ReadImageHalconLibrary.IReadShuJu,System.Int32@)">
+            <summary>
+            设置去取第几张图片
+            </summary>
+            <param name="IRead">ReadShuJu接口</param>
+            <param name="Num">图片的引索</param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadImageHalconLibrary.SetReadShuJu.Set_Path_Picture(ReadImageHalconLibrary.IReadShuJu,System.Collections.Generic.List{System.String}@)">
+            <summary>
+            设置图片的路径
+            </summary>
+            <param name="IRead">ReadShuJu接口</param>
+            <param name="pu">图片路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadImageHalconLibrary.SetReadShuJu.Set_ReadShuJu_Parameter(ReadImageHalconLibrary.IReadShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="IRead"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadImageHalconLibrary.SetReadShuJu.Set_Acquire(ReadImageHalconLibrary.IReadShuJu,System.String)">
+            <summary>
+            设置相机取图方式
+            </summary>
+            <param name="IRead"></param>
+            <param name="acquire_way"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadImageHalconLibrary.SetReadShuJu.Set_Registry(ReadImageHalconLibrary.IReadShuJu,System.String,System.String)">
+            <summary>
+            设置注册表大小
+            </summary>
+            <param name="width_"></param>
+            <param name="height_"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ReadImageHalconLibrary.ReadImage_Result">
+            <summary>
+            取图的结果
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.ReadImage_Result.showResult(System.String@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadImageHalconLibrary.ReadImage_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ReadImageHalconLibrary.ImageFather">
+            <summary>
+            图片父类
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.ImageFather.ho_Image">
+            <summary>
+            图片缓存
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.ImageFather.Ho_image">
+            <summary>
+            图片缓存
+            </summary>
+        </member>
+        <member name="T:ReadImageHalconLibrary.IImageFatherOutSide">
+            <summary>
+            父类图片接口  ,对外
+            </summary>
+        </member>
+        <member name="P:ReadImageHalconLibrary.IImageFatherOutSide.ImageFather">
+            <summary>
+            父类图片接口
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.UI.AcqurieFrm._xun_huan_yun_xing_biao_zhi">
+            <summary>
+            循环运行的标志
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.UI.AcqurieFrm._IRead">
+            <summary>
+            读图的数据
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.UI.AcqurieFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.UI.AcqurieFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.UI.AcqurieFrm.read_one_image">
+            <summary>
+            运行成功后回调
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.UI.AcqurieFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="F:ReadImageHalconLibrary.UI.AcqurieFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ReadImageHalconLibrary.UI.AcqurieFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ReadImageHalconLibrary.UI.AcqurieFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:ReadImageHalconLibrary.UI.AcqurieFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="T:ReadImageHalconLibrary.UI.AcqurieFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

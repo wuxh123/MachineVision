@@ -1,0 +1,45 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\bin\Debug\OCRLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\bin\Debug\OCRLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\bin\Debug\OCRLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\bin\Debug\halcondotnet.xml
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\OCRLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\OCRLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\OCRLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.UI.OCRFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\OCRLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\OCRLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\OCRLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.UI.OCRFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\OCRLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\OCRLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\OCRLibrary.XML
+D:\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.UI.OCRFrm.resources
+D:\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.dll
+D:\Vision架构dll\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.UI.OCRFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.UI.OCRFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRLibrary\obj\Debug\OCRLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRLibrary.pdb

@@ -1,0 +1,14 @@
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRTextLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRTextLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRTextLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.UI.OCRTextFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRTextLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRTextLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\OCRTextLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\OCRTextLibrary\obj\Debug\OCRTextLibrary.csprojResolveAssemblyReference.cache

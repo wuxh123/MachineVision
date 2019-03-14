@@ -1,0 +1,94 @@
+2018-12-04 17:31:20: 出现应用程序未处理的异常：2018/12/4 星期二 17:31:20
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 MultTreeControlLibrary.MultTreeControl.CheckStream_CallBack(Object sender, CheckStreamEventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 1118
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 388
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 590
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-12-04 17:32:03: 出现应用程序未处理的异常：2018/12/4 星期二 17:32:03
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 MultTreeControlLibrary.MultTreeControl.CheckStream_CallBack(Object sender, CheckStreamEventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 1118
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 388
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 590
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-12-04 17:33:08: 出现应用程序未处理的异常：2018/12/4 星期二 17:33:08
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 MultTreeControlLibrary.MultTreeControl.CheckStream_CallBack(Object sender, CheckStreamEventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 1118
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 388
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 590
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-12-04 17:47:04: 出现应用程序未处理的异常：2018/12/4 星期二 17:47:04
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 MultTreeControlLibrary.MultTreeControl.CheckStream_CallBack(Object sender, CheckStreamEventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 1118
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 388
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 590
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-12-04 17:49:07: 出现应用程序未处理的异常：2018/12/4 星期二 17:49:07
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.Invoke(Delegate method)
+   在 MultTreeControlLibrary.MultTreeControl.CheckStream_CallBack(Object sender, CheckStreamEventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 1118
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 388
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 590
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-12-04 18:12:25: 出现应用程序未处理的异常：2018/12/4 星期二 18:12:25
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 447
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 590
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-12-04 18:13:21: 出现应用程序未处理的异常：2018/12/4 星期二 18:13:21
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 717
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 590
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

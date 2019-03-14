@@ -1,0 +1,8 @@
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\QueXianJianCeLibrary\obj\Debug\QueXianJianCeLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\QueXianJianCeLibrary\obj\Debug\QueXianJianCeLibrary.UI.QueXianJianCeFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\QueXianJianCeLibrary\obj\Debug\QueXianJianCeLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\QueXianJianCeLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\QueXianJianCeLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\QueXianJianCeLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\QueXianJianCeLibrary\obj\Debug\QueXianJianCeLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\QueXianJianCeLibrary\obj\Debug\QueXianJianCeLibrary.pdb

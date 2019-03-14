@@ -1,0 +1,974 @@
+2018-11-29 17:01:25: 出现应用程序未处理的异常：2018/11/29 星期四 17:01:25
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 CircleLibrary.CircleShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CircleLibrary\CircleLibrary.cs:行号 1051
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree, HObject Image) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree, HObject Image) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 455
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 19:18:17: 出现应用程序未处理的异常：2018/11/29 星期四 19:18:17
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 446
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1133
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 19:29:09: 出现应用程序未处理的异常：2018/11/29 星期四 19:29:09
+Application UnhandledException:HALCON error #4056: Image data management: object-ID is NULL (0) in operator disp_obj;
+堆栈信息:   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HWindow.DispObj(HObject objectVal)
+   在 HalControl.HalconWinControl_1.set_Ho_Image(HObject value) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\HalconWinControl_1.cs:行号 116
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 446
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1133
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 19:35:15: 出现应用程序未处理的异常：2018/11/29 星期四 19:35:15
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 447
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1135
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 19:36:04: 出现应用程序未处理的异常：2018/11/29 星期四 19:36:04
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator reduce_domain
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.ReduceDomain(HObject image, HObject region, HObject& imageReduced)
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 718
+   在 TemplateHalconLibrary.UI.TemplateFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 240
+   在 TemplateHalconLibrary.UI.TemplateFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 392
+   在 TemplateHalconLibrary.UI.TemplateFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\UI\TemplateFrm.cs:行号 222
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 19:55:21: 出现应用程序未处理的异常：2018/11/29 星期四 19:55:21
+Application UnhandledException:HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region;
+堆栈信息:   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:09:13: 出现应用程序未处理的异常：2018/11/29 星期四 20:09:13
+Application UnhandledException:HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region;
+堆栈信息:   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:09:49: 出现应用程序未处理的异常：2018/11/29 星期四 20:09:49
+Application UnhandledException:HALCON error #4056: Image data management: object-ID is NULL (0) in operator difference;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:09:54: 出现应用程序未处理的异常：2018/11/29 星期四 20:09:54
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 739
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:10:18: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:18
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:22: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:22
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:27: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:27
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:30: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:30
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:31: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:31
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:32: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:32
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:32: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:32
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:32: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:32
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:33: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:33
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:33: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:33
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:33: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:33
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:10:34: 出现应用程序未处理的异常：2018/11/29 星期四 20:10:34
+异常类型：HOperatorException
+异常消息：HALCON error #4056: Image data management: object-ID is NULL (0) in operator affine_trans_region
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HalconAPI.HCkP(IntPtr proc, Int32 err)
+   在 HalconDotNet.HObjectBase.Store(IntPtr proc, Int32 parIndex)
+   在 HalconDotNet.HalconAPI.Store(IntPtr proc, Int32 parIndex, HObjectBase objectValue)
+   在 HalconDotNet.HOperatorSet.AffineTransRegion(HObject region, HObject& regionAffineTrans, HTuple homMat2D, HTuple interpolate)
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 712
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:26:29: 出现应用程序未处理的异常：2018/11/29 星期四 20:26:29
+Application UnhandledException:HALCON error #3117: Images with different image size in operator dyn_threshold;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:26:35: 出现应用程序未处理的异常：2018/11/29 星期四 20:26:35
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 739
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:26:55: 出现应用程序未处理的异常：2018/11/29 星期四 20:26:55
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:26:56: 出现应用程序未处理的异常：2018/11/29 星期四 20:26:56
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:26:56: 出现应用程序未处理的异常：2018/11/29 星期四 20:26:56
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:26:57: 出现应用程序未处理的异常：2018/11/29 星期四 20:26:57
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:26:58: 出现应用程序未处理的异常：2018/11/29 星期四 20:26:58
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:27:01: 出现应用程序未处理的异常：2018/11/29 星期四 20:27:01
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:27:30: 出现应用程序未处理的异常：2018/11/29 星期四 20:27:30
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:28:28: 出现应用程序未处理的异常：2018/11/29 星期四 20:28:28
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 739
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:28:39: 出现应用程序未处理的异常：2018/11/29 星期四 20:28:39
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:42:41: 出现应用程序未处理的异常：2018/11/29 星期四 20:42:41
+Application UnhandledException:HALCON error #3117: Images with different image size in operator dyn_threshold;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:43:05: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:05
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 739
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:43:21: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:21
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:23: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:23
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:24: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:24
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:24: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:24
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:24: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:24
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:24: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:24
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:24: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:24
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:25: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:25
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:43:25: 出现应用程序未处理的异常：2018/11/29 星期四 20:43:25
+异常类型：HOperatorException
+异常消息：HALCON error #3117: Images with different image size in operator dyn_threshold
+异常信息：   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 228
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 371
+   在 BackGroundCheckHalconLibrary.UI.BackGroundFrm.tSB_run_one_Click(Object sender, EventArgs e) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\UI\BackGroundFrm.cs:行号 196
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2018-11-29 20:44:44: 出现应用程序未处理的异常：2018/11/29 星期四 20:44:44
+Application UnhandledException:HALCON error #3117: Images with different image size in operator dyn_threshold;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.Arithmetic(HObject ho_Rectangle, HObject ho_RegionUnion, HObject ho_modelImage, HObject ho_checkImage, HObject& ho_SelectedRegions, HTuple hv_Offset, HTuple hv_LightDark, HTuple hv_Features, HTuple hv_Operation, HTuple hv_Min, HTuple hv_Max, HTuple& hv_EulerNumber) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 876
+   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 723
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2018-11-29 20:44:50: 出现应用程序未处理的异常：2018/11/29 星期四 20:44:50
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\BackGroundCheck.cs:行号 739
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 648
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 454
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 367
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1134
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 \\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 591
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IniLibrary</name>
+    </assembly>
+    <members>
+        <member name="F:IniLibrary.IniTool.FileName_Path">
+            <summary>
+            INI文件名
+            </summary>
+        </member>
+        <member name="M:IniLibrary.IniTool.WritePrivateProfileString(System.String,System.String,System.String,System.String)">
+            <summary>
+            写ini文件
+            </summary>
+            <param name="section">章节</param>
+            <param name="key">键</param>
+            <param name="val">值</param>
+            <param name="filePath">文件路劲</param>
+            <returns>返回真为成功</returns>
+        </member>
+        <member name="M:IniLibrary.IniTool.GetPrivateProfileString(System.String,System.String,System.String,System.Byte[],System.Int32,System.String)">
+             <summary>
+            读取ini文件 
+             </summary>
+             <param name="section">章节</param>
+             <param name="key">键</param>
+             <param name="def">设置没有读取到时返回的值</param>
+             <param name="retVal">指定一个字串缓冲区，长度至少为Size</param>
+             <param name="size">指定装载到缓冲区的最大字符数量</param>
+             <param name="filePath">路径</param>
+             <returns></returns>
+        </member>
+        <member name="M:IniLibrary.IniTool.#ctor(System.String@,System.String,System.String)">
+            <summary>
+            初始化函数
+            </summary>
+            <param name="FileName">要创建ini的文件名,输入时不加.ini后缀</param>
+            <param name="FolderName">要在PathName目录下建立的文件夹，null表示不创建</param>
+            <param name="PathName">建立ini文件的路劲，null表示采用默认路径</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.WriteString(System.String,System.String,System.String)">
+            <summary>
+            写INI文件  
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+            <param name="Value">值</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.WriteBool(System.String,System.String,System.Boolean)">
+            <summary>
+            写Bool 
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+            <param name="Value">要写入的bool</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.WriteInteger(System.String,System.String,System.Int32)">
+            <summary>
+            写整数  
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+            <param name="Value">值</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.ReadString(System.String,System.String,System.String)">
+            <summary>
+            读取INI文件指定  
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+            <param name="Default">设置读取不成功是返回的值</param>
+            <returns>成功返回读取到的值</returns>
+        </member>
+        <member name="M:IniLibrary.IniTool.ReadInteger(System.String,System.String,System.Int32)">
+            <summary>
+            读取整数
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+            <param name="Default">设置读取不成功时返回的值</param>
+            <returns>成功返回读取到的值</returns>
+        </member>
+        <member name="M:IniLibrary.IniTool.ReadBool(System.String,System.String,System.Boolean)">
+            <summary>
+            读布尔
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+            <param name="Default">设置没有读取成功是的返回值</param>
+            <returns>返回读取成功的值</returns>
+        </member>
+        <member name="M:IniLibrary.IniTool.ReadSection(System.String,System.Collections.Specialized.StringCollection)">
+            <summary>
+            从Ini文件中，将指定的Section名称中的所有Ident添加到列表中 
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Idents">键的集合</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.ReadSections(System.Collections.Specialized.StringCollection)">
+            <summary>
+            从Ini文件中，读取所有的Sections的名称 
+            </summary>
+            <param name="SectionList">要读取的章节列表</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.ReadSectionValues(System.String,System.Collections.Specialized.NameValueCollection)">
+            <summary>
+            读取指定的Section的所有Value到列表中  
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Values">值得集合</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.EraseSection(System.String)">
+            <summary>
+            清除某个Section  
+            </summary>
+            <param name="Section">章节</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.DeleteKey(System.String,System.String)">
+            <summary>
+            删除某个Section下的键 
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+        </member>
+        <member name="M:IniLibrary.IniTool.ValueExists(System.String,System.String)">
+            <summary>
+            检查某个Section下的某个键值是否存在  
+            </summary>
+            <param name="Section">章节</param>
+            <param name="Ident">键</param>
+            <returns>返回真为存在</returns>
+        </member>
+        <member name="M:IniLibrary.IniTool.Finalize">
+            <summary>
+            确保资源的释放  
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DistancePointToLineLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DistancePointToLineLibrary.DistancePointToLineShuJu">
+            <summary>
+            点到线的距离数据
+            </summary>
+        </member>
+        <member name="T:DistancePointToLineLibrary.IDistancePointToLineShuJu">
+            <summary>
+            点到线的距离数据接口
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.IDistancePointToLineShuJu.Ho_cross">
+            <summary>
+            点到直线的投影线
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.IDistancePointToLineShuJu.Distance">
+            <summary>
+            点到直线的距离
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.IDistancePointToLineShuJu.ILine">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.IDistancePointToLineShuJu.PathLine">
+            <summary>
+            直线的地址
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.IDistancePointToLineShuJu.PathPoint">
+            <summary>
+            点的地址
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._irectShuJuPianYiTwo">
+            <summary>
+            投影到直线的点  投影线的第二个点
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._irectShuJuPianYiOne">
+            <summary>
+              投影线的第一个点
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu.ho_cross">
+            <summary>
+            点到直线的投影线
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._distance">
+            <summary>
+            点到直线的距离
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._pathLine">
+            <summary>
+            直线的地址
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._pathPoint">
+            <summary>
+            点的地址
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._iLine">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._zhiXianDeDuanDianGenZhongDian">
+            <summary>
+            直线的端电脑  跟  中点
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLineShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.DistancePointToLineShuJu.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.DistancePointToLineShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.DistancePointToLineShuJu.analyze_show(HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            处理函数
+            </summary>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistancePointToLineLibrary.DistancePointToLineShuJu.show(HalconDotNet.HWindow)">
+            <summary>
+            显示函数
+            </summary>
+            <param name="data"></param>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistancePointToLineLibrary.DistancePointToLineShuJu.outResult(System.String[]@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:DistancePointToLineLibrary.DistancePointToLineShuJu.Ho_cross">
+            <summary>
+            点到直线的投影线
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.DistancePointToLineShuJu.IrectShuJuPianYiTwo">
+            <summary>
+            投影到直线的点
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.DistancePointToLineShuJu.IrectShuJuPianYiOne">
+            <summary>
+              投影线的第一个点
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.DistancePointToLineShuJu.Distance">
+            <summary>
+            点到直线的距离
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.DistancePointToLineShuJu.PathLine">
+            <summary>
+            直线的地址
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.DistancePointToLineShuJu.PathPoint">
+            <summary>
+            点的地址
+            </summary>
+        </member>
+        <member name="P:DistancePointToLineLibrary.DistancePointToLineShuJu.ILine">
+            <summary>
+            直线
+            </summary>
+        </member>
+        <member name="T:DistancePointToLineLibrary.Set_DistancePointToLine">
+            <summary>
+            设置数据
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.Set_DistancePointToLine.Set_QueDingDiYiTiaoZhiXian(DistancePointToLineLibrary.IDistancePointToLineShuJu,System.Object)">
+            <summary>
+            确定一条直线
+            </summary>
+            <param name="IDis_"></param>
+            <param name="ob_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistancePointToLineLibrary.Set_DistancePointToLine.Set_QueDingDian(DistancePointToLineLibrary.IDistancePointToLineShuJu,System.Object)">
+            <summary>
+            确定点
+            </summary>
+            <param name="IDis_"></param>
+            <param name="iRect_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistancePointToLineLibrary.Set_DistancePointToLine.Set_showParamter(DistancePointToLineLibrary.IDistancePointToLineShuJu,System.Windows.Forms.ListBox,System.Windows.Forms.ListBox)">
+            <summary>
+            显示数据
+            </summary>
+        </member>
+        <member name="T:DistancePointToLineLibrary.DistancePointToLine_Result">
+             <summary>
+            数据结果 
+             </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLine_Result._row">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLine_Result._col">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLine_Result._angle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.DistancePointToLine_Result._distance">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.DistancePointToLine_Result.showResult(System.String[]@)">
+            <summary>
+            
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm._tool_treeview_struct">
+            <summary>
+            当前选择定位树节点的信息
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm._tool_treeview_struct2">
+            <summary>
+             当前选择 工具跟随树节点的信息
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm._ICheckStr">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm._iDistancePoint">
+            <summary>
+            工具的数据
+            </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm._result">
+             <summary>
+            结果存放的字典 
+             </summary>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm._setDistancePoint">
+            <summary>
+            工具设置器
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.run">
+            <summary>
+            运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.trigger_run">
+            <summary>
+            触发运行
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.tool_treeView_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            选择工具
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.synchroinization_listBox_DingWeiGongJu">
+            <summary>
+            同步第一个定位点的列表
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.treeView2_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            同步第二个定位点列表
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.synchroinization_GenSuiDingWeiLieBian">
+            <summary>
+            同步第二个定位点列表
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.queDingDiYiGeDingWeiDian">
+            <summary>
+            确定第一个点
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.ROIMoveEvent(HalconDotNet.HWindow)">
+            <summary>
+            图片移动是刷新
+            </summary>
+            <param name="_halconWindow1"></param>
+        </member>
+        <member name="F:DistancePointToLineLibrary.UI.DistancePointToLineFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DistancePointToLineLibrary.UI.DistancePointToLineFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:DistancePointToLineLibrary.UI.DistancePointToLineFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="E:DistancePointToLineLibrary.UI.DistancePointToLineFrm._run">
+            <summary>
+            运行事件
+            </summary>
+        </member>
+        <member name="T:DistancePointToLineLibrary.UI.DistancePointToLineFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

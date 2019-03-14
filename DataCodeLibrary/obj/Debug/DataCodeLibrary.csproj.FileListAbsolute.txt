@@ -1,0 +1,29 @@
+D:\Vision架构dll\MachineVision\DLL\DataCodeLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\DataCodeLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\DataCodeLibrary.XML
+D:\Vision架构dll\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.dll
+D:\Vision架构dll\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.pdb
+D:\Vision架构dll\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.UI.DataCodeFrm.resources
+D:\Vision架构dll\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DataCodeLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DataCodeLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.UI.DataCodeFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DataCodeLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.UI.DataCodeFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.UI.DataCodeFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DataCodeLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DataCodeLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DataCodeLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DataCodeLibrary\obj\Debug\DataCodeLibrary.csprojResolveAssemblyReference.cache

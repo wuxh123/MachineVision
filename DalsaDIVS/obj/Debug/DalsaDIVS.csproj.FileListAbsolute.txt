@@ -1,0 +1,5 @@
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DalsaDIVS\bin\Debug\DalsaDIVS.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DalsaDIVS\bin\Debug\DalsaDIVS.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DalsaDIVS\obj\Debug\DalsaDIVS.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DalsaDIVS\obj\Debug\DalsaDIVS.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DalsaDIVS\obj\Debug\DalsaDIVS.pdb

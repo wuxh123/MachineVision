@@ -1,0 +1,77 @@
+2019-02-25 12:00:29: 出现应用程序未处理的异常：2019/2/25 星期一 12:00:29
+异常类型：HOperatorException
+异常消息：HALCON error #5200: File not found in operator read_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.ReadShapeModel(HTuple fileName, HTuple& modelID)
+   在 TemplateHalconLibrary.TemplateShuJu.init() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 632
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1865
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1678
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1657
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1644
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1624
+   在 CheckStreamLibrary.MultTreeStaticSave.LoadTreeStatic(String& path1) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1614
+   在 MultTreeControlLibrary.MultTreeControl.load_detection(String path, TreeNode& tr_0) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 285
+   在 MultTreeControlLibrary.MultTreeControl.but_load_detection_Click(Object sender, EventArgs e) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 258
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2019-02-25 12:00:36: 出现应用程序未处理的异常：2019/2/25 星期一 12:00:36
+异常类型：HOperatorException
+异常消息：HALCON error #5200: File not found in operator read_shape_model
+异常信息：   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.ReadShapeModel(HTuple fileName, HTuple& modelID)
+   在 TemplateHalconLibrary.TemplateShuJu.init() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 632
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1865
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1678
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1657
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init(IMultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1644
+   在 CheckStreamLibrary.MultTreeStaticSave.di_gui_init() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1624
+   在 CheckStreamLibrary.MultTreeStaticSave.LoadTreeStatic(String& path1) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1614
+   在 MultTreeControlLibrary.MultTreeControl.load_detection(String path, TreeNode& tr_0) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 285
+   在 MultTreeControlLibrary.MultTreeControl.but_load_detection_Click(Object sender, EventArgs e) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 258
+   在 System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   在 System.Windows.Forms.ToolStripButton.OnClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   在 System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   在 System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2019-02-25 12:00:49: 出现应用程序未处理的异常：2019/2/25 星期一 12:00:49
+Application UnhandledException:HALCON error #1401: Wrong number of values of control parameter: 1 in operator find_shape_model;
+堆栈信息:   在 HalconDotNet.HOperatorException.throwOperator(Int32 err, Int32 procIndex)
+   在 HalconDotNet.HalconAPI.PostCall(IntPtr proc, Int32 procResult)
+   在 HalconDotNet.HOperatorSet.FindShapeModel(HObject image, HTuple modelID, HTuple angleStart, HTuple angleExtent, HTuple minScore, HTuple numMatches, HTuple maxOverlap, HTuple subPixel, HTuple numLevels, HTuple greediness, HTuple& row, HTuple& column, HTuple& angle, HTuple& score)
+   在 TemplateHalconLibrary.TemplateShuJu.find_model(HObject ho_Image, HObject ho_ModelContours1, HObject& ho_ContoursAffinTrans, HTuple hv_ModelID1, HTuple hv_AngleStar, HTuple hv_AngleExtent, HTuple hv_MinScore, HTuple hv_NumMatches, HTuple hv_MaxOverlap, HTuple hv_SubPixel, HTuple hv_Numlevels, HTuple hv_Greendiness, HTuple& hv_Row1, HTuple& hv_Column1, HTuple& hv_Angle1, HTuple& hv_Score1) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 842
+   在 TemplateHalconLibrary.TemplateShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\Template.cs:行号 719
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 643
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 449
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1129
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 613
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

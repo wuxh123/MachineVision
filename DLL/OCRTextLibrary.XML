@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OCRTextLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:OCRTextLibrary.OCRTextShuJu">
+            <summary>
+            ocr文本数据
+            </summary>
+        </member>
+        <member name="T:OCRTextLibrary.IOCRTextShuJu">
+            <summary>
+            ocr文本数据接口
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.IOCRTextShuJu.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.IOCRTextShuJu.save">
+            <summary>
+            保存
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.IOCRTextShuJu.IOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.IOCRTextShuJu.Mode">
+            <summary>
+            文本的读取模式
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.IOCRTextShuJu.TextMode">
+            <summary>
+            文本的指针
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.IOCRTextShuJu.ResultName">
+            <summary>
+            获取结果的格式
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.IOCRTextShuJu.Hv_FileName">
+            <summary>
+            ocr字库的名称
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu._iOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu._mode">
+            <summary>
+            文本的读取模式
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu._textMode">
+            <summary>
+            文本的指针
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu.hv_FileName">
+            <summary>
+            ocr字库的名称
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu._resultName">
+            <summary>
+            获取结果的格式
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu.mid_row_y_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu.mid_col_x_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu.len1_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu.len2_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu.angle_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu._mode_1">
+            <summary>
+            文本的读取模式
+            </summary>        
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu._resultName_1">
+            <summary>
+            获取结果的格式
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.OCRTextShuJu.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.OCRTextShuJu.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.OCRTextShuJu.save">
+            <summary>
+            保存
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.OCRTextShuJu.outResult(System.String[]@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:OCRTextLibrary.OCRTextShuJu.IOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.OCRTextShuJu.Mode">
+            <summary>
+            文本的读取模式
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.OCRTextShuJu.TextMode">
+            <summary>
+            文本的指针
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.OCRTextShuJu.ResultName">
+            <summary>
+            获取结果的格式
+            </summary>
+        </member>
+        <member name="P:OCRTextLibrary.OCRTextShuJu.Hv_FileName">
+            <summary>
+            ocr字库的名称
+            </summary>
+        </member>
+        <member name="T:OCRTextLibrary.OCRTextShuJu_Result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu_Result.SingleCharacters">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu_Result.TextResult">
+            <summary>
+            文本读取到ocr的结果
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.OCRTextShuJu_Result.TextLines">
+            <summary>
+            读取到字符的region
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.OCRTextShuJu_Result.showResult(System.String[]@)">
+            <summary>
+            显示结果数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OCRTextLibrary.Set_OCRTextLibrary">
+            <summary>
+            设置器
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.Set_OCRTextLibrary.Set_GengHuanZiKu(OCRTextLibrary.IOCRTextShuJu,System.String)">
+            <summary>
+            更换字库
+            </summary>
+            <param name="iOCRText"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRTextLibrary.Set_OCRTextLibrary.Set_showParameterHalconWinControl(OCRTextLibrary.IOCRTextShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            初始化参数
+            </summary>
+            <param name="iOCRText"></param>
+            <param name="control"></param>
+            <param name="halconWinControl_"></param>
+        </member>
+        <member name="M:OCRTextLibrary.Set_OCRTextLibrary.Set_ShowOCVParameter(OCRTextLibrary.IOCRTextShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="iOCRText"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRTextLibrary.Set_OCRTextLibrary.find_all_omc(System.Collections.Generic.List{System.String}@)">
+            <summary>
+            查找默认路径下的字库文件
+            </summary>
+            <param name="str_name">集合</param>
+        </member>
+        <member name="M:OCRTextLibrary.Set_OCRTextLibrary.Set_ShuaXinDingWeiDian(OCRTextLibrary.IOCRTextShuJu)">
+            <summary>
+            刷新定位点
+            </summary>
+            <param name="IOCR"></param>
+            <returns></returns>
+        </member>
+        <member name="F:OCRTextLibrary.UI.OCRTextFrm._iOCRText">
+            <summary>
+            ocr文本
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.UI.OCRTextFrm._Set_OCRText">
+            <summary>
+            ocr文本设置器
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.UI.OCRTextFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:OCRTextLibrary.UI.OCRTextFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.UI.OCRTextFrm.repaint(HalconDotNet.HWindow)">
+            <summary>
+            刷新窗口事件
+            </summary>
+            <param name="win">要刷新的窗体</param>
+        </member>
+        <member name="M:OCRTextLibrary.UI.OCRTextFrm.trigger_run">
+            <summary>
+            运行触发器
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.UI.OCRTextFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.UI.OCRTextFrm.chice_ocr_omc(System.Object,System.EventArgs)">
+            <summary>
+            选择字库
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:OCRTextLibrary.UI.OCRTextFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:OCRTextLibrary.UI.OCRTextFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:OCRTextLibrary.UI.OCRTextFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:OCRTextLibrary.UI.OCRTextFrm._run">
+             <summary>
+            运行的算法
+             </summary>
+        </member>
+        <member name="E:OCRTextLibrary.UI.OCRTextFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="T:OCRTextLibrary.UI.OCRTextFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

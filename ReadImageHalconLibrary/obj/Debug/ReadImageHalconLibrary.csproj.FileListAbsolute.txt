@@ -1,0 +1,50 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\bin\Debug\ReadImageHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\bin\Debug\ReadImageHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\bin\Debug\ReadImageHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\bin\Debug\halcondotnet.xml
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\ReadImageHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\ReadImageHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\ReadImageHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.UI.AcqurieFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.UI.AcqurieFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\ReadImageHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\ReadImageHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\ReadImageHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\ReadImageHalconLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\ReadImageHalconLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\ReadImageHalconLibrary.XML
+D:\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.UI.AcqurieFrm.resources
+D:\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.dll
+D:\Vision架构dll\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ReadImageHalconLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ReadImageHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.UI.AcqurieFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ReadImageHalconLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.UI.AcqurieFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.UI.AcqurieFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ReadImageHalconLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ReadImageHalconLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\ReadImageHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ReadImageHalconLibrary\obj\Debug\ReadImageHalconLibrary.csprojResolveAssemblyReference.cache

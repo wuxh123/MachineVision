@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalibrationLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:CalibrationLibrary.CalibrationShuJu">
+            <summary>
+            标定数据
+            </summary>
+        </member>
+        <member name="T:CalibrationLibrary.ICalibrationShuJu">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="T:CalibrationLibrary.IHomMat2D">
+            <summary>
+            防射变化接口
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.IHomMat2D.HomMat2D">
+            <summary>
+            防射变换
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.ICalibrationShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.ICalibrationShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.ICalibrationShuJu.Calrow_pixel_y">
+            <summary>
+            像素坐标  y
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.ICalibrationShuJu.Calcol_pixel_x">
+            <summary>
+            像素坐标  x
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.ICalibrationShuJu.Calcol_world_x">
+            <summary>
+            世界坐标  x
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.ICalibrationShuJu.Calrow_world_y">
+            <summary>
+             世界坐标  y
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.ICalibrationShuJu._Cal_tool_path">
+            <summary>
+            标定工具
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calrow_pixel_y">
+            <summary>
+            像素坐标  y
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calcol_pixel_x">
+            <summary>
+            像素坐标  x
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calcol_world_x">
+            <summary>
+            世界坐标  x
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calrow_world_y">
+            <summary>
+             世界坐标  y
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu._cal_tool_path">
+            <summary>
+            标定工具
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.homMat2D">
+            <summary>
+            防射变换
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calrow_pixel_y_1">
+            <summary>
+            像素坐标 y
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calcol_pixel_x_1">
+            <summary>
+            像素坐标 x
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calcol_world_x_1">
+            <summary>
+            世界坐标 x
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.calrow_world_y_1">
+            <summary>
+            世界坐标 y
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.CalibrationShuJu.homMat2D_1">
+            <summary>
+            仿射变换
+            </summary>       
+        </member>
+        <member name="M:CalibrationLibrary.CalibrationShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.CalibrationShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.CalibrationShuJu.Calrow_pixel_y">
+            <summary>
+            像素坐标  y
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.CalibrationShuJu.Calcol_pixel_x">
+            <summary>
+            像素坐标  x
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.CalibrationShuJu.Calcol_world_x">
+            <summary>
+            世界坐标  x
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.CalibrationShuJu.Calrow_world_y">
+            <summary>
+             世界坐标  y
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.CalibrationShuJu.HomMat2D">
+            <summary>
+            防射变换
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.CalibrationShuJu._Cal_tool_path">
+            <summary>
+            标定工具
+            </summary>
+        </member>
+        <member name="T:CalibrationLibrary.ICalibrationHomMat2D">
+            <summary>
+            防射变化接口
+            </summary>
+        </member>
+        <member name="P:CalibrationLibrary.ICalibrationHomMat2D._ICalibration">
+            <summary>
+            标定
+            </summary>
+        </member>
+        <member name="T:CalibrationLibrary.SetCalibrationShuJu">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.Set_Cal_pixel_world_9Calibration(CalibrationLibrary.ICalibrationShuJu,System.Double[]@,System.Double[]@,System.Double[]@,System.Double[]@)">
+            <summary>
+            9点标定
+            </summary>
+            <param name="ICal_"></param>
+            <param name="calcol_pixel_x"></param>
+            <param name="calrow_pixel_y"></param>
+            <param name="calcol_world_x"></param>
+            <param name="calrow_world_y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.Set_Cal_pixel(CalibrationLibrary.ICalibrationShuJu,System.Collections.Generic.List{System.Double}@,System.Collections.Generic.List{System.Double}@)">
+            <summary>
+            设置标定像素坐标数据
+            </summary>
+            <param name="ICal"></param>
+            <param name="calrow_pixel_y"></param>
+            <param name="calcol_pixel_x"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.Set_Cal_world(CalibrationLibrary.ICalibrationShuJu,System.Collections.Generic.List{System.Double}@,System.Collections.Generic.List{System.Double}@)">
+            <summary>
+            设置世界坐标数据
+            </summary>
+            <param name="ICal_"></param>
+            <param name="calcol_world_x"></param>
+            <param name="calrow_world_y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.Set_Calibration(CalibrationLibrary.ICalibrationShuJu)">
+            <summary>
+             标定
+            </summary>
+            <param name="ICal_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.Set_show_row_col(CalibrationLibrary.ICalibrationShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            输出参数
+            </summary>
+            <param name="Ical_"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.ceShiBiaoDing(CalibrationLibrary.ICalibrationShuJu,System.String@,System.String@)">
+            <summary>
+            测试标定
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.Set_YanZhengJingDu(CalibrationLibrary.ICalibrationShuJu,System.String@)">
+            <summary>
+            验证9点标定的精度
+            </summary>
+            <param name="Ical_"></param>
+            <param name="cal_wu_cha"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.SetCalibrationShuJu.Set_showTool(CalibrationLibrary.ICalibrationShuJu,System.Windows.Forms.ListBox)">
+            <summary>
+            显示标定工具
+            </summary>
+        </member>
+        <member name="T:CalibrationLibrary.Calibration_Result">
+            <summary>
+            标定的结果类
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.Calibration_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:CalibrationLibrary.UI.CalibrationFrm._ICal">
+            <summary>
+            标定数据
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.UI.CalibrationFrm._tool_treeview_struct">
+            <summary>
+            当前选择定位树节点的信息
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.UI.CalibrationFrm._Set_Cal">
+            <summary>
+            设置标定数据
+            </summary>
+        </member>
+        <member name="F:CalibrationLibrary.UI.CalibrationFrm._ICheckStr">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.UI.CalibrationFrm.synchroinization_GenSuiDingWeiLieBian">
+            <summary>
+            同步跟随工具列表
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.UI.CalibrationFrm.tian_jia_biao_ding_de_gong_ju">
+            <summary>
+            确定标定的工具
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CalibrationLibrary.UI.CalibrationFrm.yi_chu_biao_ding_de_gong_ju">
+            <summary>
+            移除标定的工具
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:CalibrationLibrary.UI.CalibrationFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CalibrationLibrary.UI.CalibrationFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CalibrationLibrary.UI.CalibrationFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

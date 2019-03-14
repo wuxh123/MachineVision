@@ -1,0 +1,38 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\RectLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\RectLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\RectLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\RectLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\RectLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\RectLibrary\obj\Debug\RectLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\RectLibrary\obj\Debug\RectLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\RectLibrary\obj\Debug\RectLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.UI.RectFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\RectLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\RectLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\RectLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\RectLibrary.XML
+D:\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.UI.RectFrm.resources
+D:\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.dll
+D:\Vision架构dll\MachineVision\RectLibrary\obj\Debug\RectLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RectLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RectLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RectLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.UI.RectFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RectLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RectLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\RectLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.UI.RectFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\RectLibrary\obj\Debug\RectLibrary.pdb

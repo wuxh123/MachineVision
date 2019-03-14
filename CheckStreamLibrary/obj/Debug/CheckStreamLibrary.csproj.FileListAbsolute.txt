@@ -1,0 +1,36 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CheckStreamLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CheckStreamLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\CheckStreamLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\CheckStreamLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\CheckStreamLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CheckStreamLibrary.XML
+D:\Vision架构dll\MachineVision\DLL\CheckStreamLibrary.XML
+D:\Vision架构dll\MachineVision\DLL\CheckStreamLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\CheckStreamLibrary.pdb
+D:\Vision架构dll\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.dll
+D:\Vision架构dll\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CheckStreamLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\obj\Debug\CheckStreamLibrary.pdb

@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OCVLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:OCVLibrary.OCVShuJu">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="T:OCVLibrary.IOCVShuJu">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Ho_Rectangle">
+            <summary>
+             提取ocv检测的region
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_PatternNames">
+            <summary>
+            丝印的名称
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_path">
+            <summary>
+            ocv指针路径
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_OCVHandle">
+            <summary>
+            ocv指针
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_AdaptPos">
+            <summary>
+            适合位置
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_AdaptSize">
+            <summary>
+            适合大小
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_AdaptAngle">
+            <summary>
+            适合角度
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_AdaptGray">
+            <summary>
+            适合灰度
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_Threshold">
+            <summary>
+            灰度误差
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.Hv_Quality">
+            <summary>
+            ocv检测的质量
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.IOCVShuJu.OcvTrainedClass">
+            <summary>
+            ocv质量对比类
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.ho_Rectangle">
+            <summary>
+             提取ocv检测的region
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu._iOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_PatternNames">
+            <summary>
+            丝印的名称
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_path">
+            <summary>
+            ocv指针路径
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_OCVHandle">
+            <summary>
+            ocv指针
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptPos">
+            <summary>
+            适合位置
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptSize">
+            <summary>
+            适合大小
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptAngle">
+            <summary>
+            适合角度
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptGray">
+            <summary>
+            适合灰度
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_Threshold">
+            <summary>
+            灰度误差
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_Quality">
+            <summary>
+            ocv检测的质量
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.ihv_HomMat2D">
+            <summary>
+            放射变换的矩阵
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu._ocvTrainedClass">
+            <summary>
+            ocv质量对比类
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.mid_row_y_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.mid_col_x_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.len1_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.len2_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.angle_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_PatternNames_1">
+            <summary>
+            丝印的名称
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptPos_1">
+            <summary>
+            适合位置
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptSize_1">
+            <summary>
+            适合大小
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptAngle_1">
+            <summary>
+            适合角度
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_AdaptGray_1">
+            <summary>
+            适合灰度
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCVShuJu.hv_Threshold_1">
+            <summary>
+            灰度误差
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.OCVShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.OCVShuJu.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Ho_Rectangle">
+            <summary>
+             提取ocv检测的region
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.IOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_PatternNames">
+            <summary>
+            丝印的名称
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_path">
+            <summary>
+            ocv指针路径
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_OCVHandle">
+            <summary>
+            ocv指针
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_AdaptPos">
+            <summary>
+            适合位置
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_AdaptSize">
+            <summary>
+            适合大小
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_AdaptAngle">
+            <summary>
+            适合角度
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_AdaptGray">
+            <summary>
+            适合灰度
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_Threshold">
+            <summary>
+            灰度误差
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Hv_Quality">
+            <summary>
+            ocv检测的质量
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.Ihv_HomMat2D">
+            <summary>
+            放射变换的矩阵
+            </summary>
+        </member>
+        <member name="P:OCVLibrary.OCVShuJu.OcvTrainedClass">
+            <summary>
+            ocv质量对比类
+            </summary>
+        </member>
+        <member name="T:OCVLibrary.OcvTrained_Class">
+            <summary>
+            ocv质量对比类
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OcvTrained_Class._trained">
+            <summary>
+            是否启动训练
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OcvTrained_Class._ocvTrainingQuality">
+            <summary>
+            ocv训练的质量
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OcvTrained_Class._result">
+            <summary>
+            质量对比的结果
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OcvTrained_Class._allResult">
+            <summary>
+            ocv整体的结果
+            </summary>
+        </member>
+        <member name="T:OCVLibrary.Set_OCVShuJu">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.Set_OCVShuJu.Set_OCVPatternNames(OCVLibrary.IOCVShuJu,System.String)">
+            <summary>
+            设置丝印的名称
+            </summary>
+            <param name="IOCV"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCVLibrary.Set_OCVShuJu.Set_OCVParameter(OCVLibrary.IOCVShuJu,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置ocv参数
+            </summary>
+            <param name="IOCV">ocv数据接口</param>
+            <param name="hv_AdaptPos">是否判断丝印的位置。赋值是字符串"true"或"false"</param>
+            <param name="hv_AdaptSize">是否判断丝印的大小，赋值是字符串"true"或"false"</param>
+            <param name="hv_AdaptAngle">是否判断丝印的角度大小，赋值是字符串"true"或"false"</param>
+            <param name="hv_AdaptGray">是否判断丝印的灰度值，赋值是字符串"true"或"false"</param>
+            <param name="hv_Threshold">丝印灰度值误差</param>
+            <returns></returns>
+        </member>
+        <member name="M:OCVLibrary.Set_OCVShuJu.Set_showParameterHalconWinControl(OCVLibrary.IOCVShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="IOCV_"></param>
+            <param name="control"></param>
+            <param name="halconWinControl_"></param>
+        </member>
+        <member name="M:OCVLibrary.Set_OCVShuJu.Set_ShowOCVParameter(OCVLibrary.IOCVShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="IOCV"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCVLibrary.Set_OCVShuJu.Set_ChangeOCV(HalconDotNet.HObject,HalconDotNet.HWindow,OCVLibrary.IOCVShuJu,System.String@)">
+            <summary>
+            修改ocv
+            </summary>
+            <param name="Ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="IOCV"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCVLibrary.Set_OCVShuJu.Set_OcvTrained_Class(OCVLibrary.IOCVShuJu,System.Boolean,System.String)">
+            <summary>
+            设置训练值
+            </summary>
+            <param name="IOCV"></param>
+            <param name="trained_"></param>
+            <param name="ocvTrainingQuality_"></param>
+        </member>
+        <member name="M:OCVLibrary.Set_OCVShuJu.Set_ShuaXinDingWeiDian(OCVLibrary.IOCVShuJu)">
+            <summary>
+            重新刷新定位点
+            </summary>
+            <param name="IOCV"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OCVLibrary.OCV_Result">
+            <summary>
+             ocv结果
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCV_Result.Hv_Quality">
+            <summary>
+            当前的质量
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.OCV_Result._Result">
+            <summary>
+            ocv总体结果
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.OCV_Result.showResult(System.String@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCVLibrary.OCV_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:OCVLibrary.UI.OCVFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.UI.OCVFrm._IOCV">
+            <summary>
+            OCV数据接口
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.UI.OCVFrm._Set_OCV">
+            <summary>
+            设置ocv数据
+            </summary>
+        </member>
+        <member name="F:OCVLibrary.UI.OCVFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.UI.OCVFrm.run">
+            <summary>
+            运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OCVLibrary.UI.OCVFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.UI.OCVFrm.trigger_run">
+            <summary>
+            出发运行
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.UI.OCVFrm.repaint(HalconDotNet.HWindow)">
+            <summary>
+            刷新窗口事件
+            </summary>
+            <param name="win">要刷新的窗体</param>
+        </member>
+        <member name="F:OCVLibrary.UI.OCVFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:OCVLibrary.UI.OCVFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:OCVLibrary.UI.OCVFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:OCVLibrary.UI.OCVFrm._read">
+            <summary>
+            读取图片事件 
+            </summary>
+        </member>
+        <member name="E:OCVLibrary.UI.OCVFrm._run">
+            <summary>
+            运行事件
+            </summary>
+        </member>
+        <member name="T:OCVLibrary.UI.OCVFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

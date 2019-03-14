@@ -1,0 +1,56 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\DaHuaLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\DaHuaLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\CLIDelegate.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\ThridLibray.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\IniLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\IniLibrary.xml
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\bin\Debug\DaHuaLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\DaHuaLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\DaHuaLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\DaHuaLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\DaHuaLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\DaHuaLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\DaHuaLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.DaHuaControl.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.UI.DaHuaCamerFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\DLL\DaHuaLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\DaHuaLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\DaHuaLibrary.XML
+D:\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.UI.DaHuaCamerFrm.resources
+D:\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.dll
+D:\Vision架构dll\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.UI.DaHuaCamerFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.UI.DaHuaCamerFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DaHuaLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.UI.DaHuaCamerFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DaHuaLibrary\obj\Debug\DaHuaLibrary.pdb

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LogClassLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:LogClassLibrary.LogManager.WriteLog(System.String,System.String)">
+            <summary>
+            写日志
+            </summary>
+        </member>
+        <member name="M:LogClassLibrary.LogManager.WriteLog(LogClassLibrary.LogFile,System.String)">
+            <summary>
+            写日志
+            </summary>
+        </member>
+        <member name="P:LogClassLibrary.LogManager.LogPath">
+            <summary>
+            保存日志的文件夹
+            </summary>
+        </member>
+        <member name="P:LogClassLibrary.LogManager.LogFielPrefix">
+            <summary>
+            日志文件前缀
+            </summary>
+        </member>
+        <member name="T:LogClassLibrary.LogFile">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+    </members>
+</doc>

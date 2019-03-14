@@ -1,0 +1,685 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VersionConfigLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:VersionConfigLibrary.VersionConfig">
+             <summary>
+            软件版本配置文件类 
+             </summary>
+        </member>
+        <member name="T:VersionConfigLibrary.IVersionConfig">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Use_VersionConfig">
+            <summary>
+            软件的使用版本
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Client_VersionConfig">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Project_VersionConfig">
+            <summary>
+            项目
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.ExitTryOut_VersionConfig">
+            <summary>
+            是否启动试用期
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.TryOutDateStart_VersionConfig">
+            <summary>
+            开始试用的日期
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.TryOutDateCurrendt_VersionConfig">
+            <summary>
+            试用期当前时间
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.TryOutDateStop_VersionConfig">
+            <summary>
+            试用的时间长短
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.ExitForceStop">
+            <summary>
+            是否存在强制停止
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.ForceStopDate_VersionConfig">
+            <summary>
+            强制停止的日期
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Exit_Tool">
+            <summary>
+            是否存在工具许可标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Detection_bool">
+            <summary>
+            系统检测标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Acquire_bool">
+            <summary>
+            取图标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Template_bool1">
+            <summary>
+            模板匹配标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Rect_bool1">
+            <summary>
+            放射 定位标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Calibration_bool1">
+            <summary>
+            标定标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.DataCode_bool1">
+            <summary>
+            二维码标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Circle_bool1">
+            <summary>
+            拟合圆标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.Line_bool1">
+            <summary>
+            拟合边标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.OCR_bool1">
+            <summary>
+            ocr标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.IVersionConfig.OCV_bool1">
+            <summary>
+            ocv标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._use_VersionConfig">
+            <summary>
+            软件的使用版本
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._client_VersionConfig">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._project_VersionConfig">
+            <summary>
+            项目
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._exitTryOut_VersionConfig">
+            <summary>
+            是否启动试用期
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._tryOutDateStart_VersionConfig">
+            <summary>
+            开始试用的日期
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._tryOutDateCurrendt_VersionConfig">
+            <summary>
+            试用期当前时间
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._tryOutDateStop_VersionConfig">
+            <summary>
+            截止日期
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._exitForceStop">
+            <summary>
+            是否存在强制停止
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._forceStopDate_VersionConfig">
+            <summary>
+            强制停止的日期
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig._exit_Tool">
+            <summary>
+            是否存在工具许可标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.detection_bool">
+            <summary>
+            系统检测标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.acquire_bool">
+            <summary>
+            取图标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.Template_bool">
+            <summary>
+            模板匹配标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.Rect_bool">
+            <summary>
+            放射 定位标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.Calibration_bool">
+            <summary>
+            标定标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.DataCode_bool">
+            <summary>
+            二维码标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.Circle_bool">
+            <summary>
+            拟合圆标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.Line_bool">
+            <summary>
+            拟合边标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.OCR_bool">
+            <summary>
+            ocr标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.VersionConfig.OCV_bool">
+            <summary>
+            ocv标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Use_VersionConfig">
+            <summary>
+            软件的使用版本
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Client_VersionConfig">
+            <summary>
+            客户
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Project_VersionConfig">
+            <summary>
+            项目
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.ExitTryOut_VersionConfig">
+            <summary>
+            是否启动试用期
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.TryOutDateStart_VersionConfig">
+            <summary>
+            开始试用的日期
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.TryOutDateCurrendt_VersionConfig">
+            <summary>
+            试用期当前时间
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.TryOutDateStop_VersionConfig">
+            <summary>
+            试用的时间长短
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.ExitForceStop">
+            <summary>
+            是否存在强制停止
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.ForceStopDate_VersionConfig">
+            <summary>
+            强制停止的日期
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Exit_Tool">
+            <summary>
+            是否存在工具许可标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Detection_bool">
+            <summary>
+            系统检测标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Acquire_bool">
+            <summary>
+            取图标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Template_bool1">
+            <summary>
+            模板匹配标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Rect_bool1">
+            <summary>
+            放射 定位标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Calibration_bool1">
+            <summary>
+            标定标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.DataCode_bool1">
+            <summary>
+            二维码标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Circle_bool1">
+            <summary>
+            拟合圆标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.Line_bool1">
+            <summary>
+            拟合边标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.OCR_bool1">
+            <summary>
+            ocr标志
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.VersionConfig.OCV_bool1">
+            <summary>
+            ocv标志
+            </summary>
+        </member>
+        <member name="T:VersionConfigLibrary.tool_enum">
+            <summary>
+            枚举工具
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Exit_Tool">
+            <summary>
+            是否存在工具许可标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Detection_bool">
+            <summary>
+            系统检测标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Acquire_bool">
+            <summary>
+            取图标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Template_bool">
+            <summary>
+            模板匹配标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Rect_bool">
+            <summary>
+            放射 定位标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Calibration_bool">
+            <summary>
+            标定标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.DataCode_bool">
+            <summary>
+            二维码标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Circle_bool">
+            <summary>
+            拟合圆标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.Line_bool">
+            <summary>
+            拟合边标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.OCR_bool">
+            <summary>
+             ocr标志
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tool_enum.OCV_bool">
+            <summary>
+            ocv标志
+            </summary>
+        </member>
+        <member name="T:VersionConfigLibrary.tryOut_enum">
+            <summary>
+            枚举试用期
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tryOut_enum.noTryOut">
+            <summary>
+            没有试用期
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tryOut_enum.tryOutDuring">
+            <summary>
+            试用期
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.tryOut_enum.outOfDate">
+            <summary>
+            过期
+            </summary>
+        </member>
+        <member name="T:VersionConfigLibrary.force_enum">
+            <summary>
+            强制停止枚举
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.force_enum.startForce">
+            <summary>
+            强制停止启动
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.force_enum.stopForce">
+            <summary>
+            强制停止没有启动
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.force_enum.expireForce">
+            <summary>
+            强制停止到期
+            </summary>
+        </member>
+        <member name="T:VersionConfigLibrary.Set_Get_VersionConfig">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Set_use_VersionConfig(VersionConfigLibrary.IVersionConfig,System.String)">
+            <summary>
+            设置软件的使用版本
+            </summary>
+            <param name="IVer_"></param>
+            <param name="_use_VersionConfig"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Get_use_VersionConfig(VersionConfigLibrary.IVersionConfig)">
+            <summary>
+            获取软件的使用版本
+            </summary>
+            <param name="IVer_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Set_client_project(VersionConfigLibrary.IVersionConfig,System.String,System.String)">
+            <summary>
+            项目  客户
+            </summary>
+            <param name="IVer_"></param>
+            <param name="_client_VersionConfig"></param>
+            <param name="_project_VersionConfig"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Get_client_project(VersionConfigLibrary.IVersionConfig,System.String@,System.String@)">
+            <summary>
+            项目  客户
+            </summary>
+            <param name="IVer_"></param>
+            <param name="_client_VersionConfig"></param>
+            <param name="_project_VersionConfig"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Set_tryOut(VersionConfigLibrary.IVersionConfig,System.Boolean,System.String,System.String)">
+            <summary>
+            试用期
+            </summary>
+            <param name="IVer_"></param>
+            <param name="_exitTryOut_VersionConfig"></param>
+            <param name="tryOutDateStart_VersionConfig_"></param>
+            <param name="tryOutDateStop_VersionConfig_"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Get_tryOut(VersionConfigLibrary.IVersionConfig,System.Boolean@,System.String@,System.String@,System.String@)">
+            <summary>
+            试用期
+            </summary>
+            <param name="IVer_"></param>
+            <param name="_exitTryOut_VersionConfig"></param>
+            <param name="tryOutDateStart_VersionConfig_"></param>
+            <param name="tryOutDateStop_VersionConfig_"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Set_Force(VersionConfigLibrary.IVersionConfig,System.Boolean,System.String)">
+            <summary>
+            强制停止
+            </summary>
+            <param name="IVer_"></param>
+            <param name="_exitForceStop"></param>
+            <param name="_forceStopDate_VersionConfig"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Get_Force(VersionConfigLibrary.IVersionConfig,System.Boolean@,System.String@)">
+            <summary>
+            强制停止
+            </summary>
+            <param name="IVer_"></param>
+            <param name="_exitForceStop"></param>
+            <param name="_forceStopDate_VersionConfig"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Set_tool_bool(VersionConfigLibrary.IVersionConfig,VersionConfigLibrary.tool_enum,System.Boolean@)">
+            <summary>
+            使用工具标志
+            </summary>
+            <param name="IVer_"></param>
+            <param name="tool_name_"></param>
+            <param name="use_bool"></param>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Get_tool_bool(VersionConfigLibrary.IVersionConfig,VersionConfigLibrary.tool_enum)">
+            <summary>
+            使用工具标志
+            </summary>
+            <param name="IVer_"></param>
+            <param name="tool_name_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.XuLeiHua``1(``0,System.String,System.String)">
+            <summary>
+            序列话一个类
+            </summary>
+            <typeparam name="T">要序列话的类</typeparam>
+            <param name="lei">传入的类</param>
+            <param name="lvjing">保存那个文件夹的路径</param>
+            <param name="name">文件名,带后缀，不带\\</param>
+            <returns>返回真，ok</returns>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.XuLeiHua``1(``0,System.String)">
+            <summary>
+            序列话一个类
+            </summary>
+            <typeparam name="T">要序列话的类</typeparam>
+            <param name="lei">传入的类</param>
+            <param name="lvjing">文件的路径,包含文件名</param>
+            <returns></returns>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.fanXuLeiHua``1(``0@,System.String)">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="T">传入的类型</typeparam>
+            <param name="lei">反序列后输出的类</param>
+            <param name="lvjing">要反序列的文件路径</param>
+            <returns>返回真，反序列成功</returns>
+        </member>
+        <member name="M:VersionConfigLibrary.Set_Get_VersionConfig.Set_ShowParameter(VersionConfigLibrary.IVersionConfig,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示接口参数
+            </summary>
+            <param name="IVer_"></param>
+            <param name="control"></param>
+        </member>
+        <member name="T:VersionConfigLibrary.Check_VersionConfig">
+            <summary>
+            数据检测器
+            </summary>
+        </member>
+        <member name="M:VersionConfigLibrary.Check_VersionConfig.CheckConfigFolderExit">
+             <summary>
+            检测匹配文件是否存在 
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:VersionConfigLibrary.Check_VersionConfig.CheckTryOut(VersionConfigLibrary.IVersionConfig)">
+            <summary>
+            检测试用期是否到期
+            </summary>
+            <param name="IVer_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VersionConfigLibrary.Check_VersionConfig.CheckForce(VersionConfigLibrary.IVersionConfig)">
+            <summary>
+            检测是否需要强制停止
+            </summary>
+            <param name="IVer_"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VersionConfigLibrary.xuLieHua">
+            <summary>
+            序列化
+            </summary>
+        </member>
+        <member name="M:VersionConfigLibrary.xuLieHua.file_exist(System.String)">
+            <summary>
+            判断配置文件名是否在应用程序目录下存在
+            </summary>
+            <param name="name">传入的文件名，带后缀名，不带\\</param>
+            <returns> 返回null文件不存在，返回文件名文件存在</returns>
+        </member>
+        <member name="M:VersionConfigLibrary.xuLieHua.XuLeiHua``1(``0,System.String,System.String)">
+            <summary>
+            序列话一个类
+            </summary>
+            <typeparam name="T">要序列话的类</typeparam>
+            <param name="lei">传入的类</param>
+            <param name="lvjing">保存那个文件夹的路径</param>
+            <param name="name">文件名,带后缀，不带\\</param>
+            <returns>返回真，ok</returns>
+        </member>
+        <member name="M:VersionConfigLibrary.xuLieHua.fanXuLeiHua``1(``0@,System.String)">
+            <summary>
+            反序列化
+            </summary>
+            <typeparam name="T">传入的类型</typeparam>
+            <param name="lei">反序列后输出的类</param>
+            <param name="lvjing">要反序列的文件路径</param>
+            <returns>返回真，反序列成功</returns>
+        </member>
+        <member name="F:VersionConfigLibrary.UI.SetVersionConfigFolderFrm._setGetVersionConfig">
+            <summary>
+            配置文件设置器
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.UI.SetVersionConfigFolderFrm._IVer">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.UI.SetVersionConfigFolderFrm._paht_VersionConfig">
+            <summary>
+            配置文件路径
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.UI.SetVersionConfigFolderFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:VersionConfigLibrary.UI.SetVersionConfigFolderFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:VersionConfigLibrary.UI.SetVersionConfigFolderFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.UI.SetVersionConfigFolderFrm.Paht_VersionConfig">
+            <summary>
+            配置文件路径
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.StaticVersionConfig._iVer">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.StaticVersionConfig.checkTimer">
+            <summary>
+            一定时间间隔内触发事件处理
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.StaticVersionConfig.timerCallBack">
+            <summary>
+            时间间隔到了后，回调的方法
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.StaticVersionConfig.autoEvent">
+            <summary>
+            触发
+            </summary>
+        </member>
+        <member name="F:VersionConfigLibrary.StaticVersionConfig._checkVersionConfig">
+            <summary>
+            数据检测器
+            </summary>
+        </member>
+        <member name="M:VersionConfigLibrary.StaticVersionConfig.initCheckVersionConfig(System.Int32)">
+            <summary>
+            初始化
+            </summary>
+            <param name="period">检测的时间间隔</param>
+            <returns></returns>
+        </member>
+        <member name="M:VersionConfigLibrary.StaticVersionConfig.stopCheckVersionConfig">
+            <summary>
+            停止检测配置文件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VersionConfigLibrary.StaticVersionConfig.CallbackTask(System.Object)">
+            <summary>
+            回调方法，检测配置文件
+            </summary>
+            <param name="stateInfo"></param>
+        </member>
+        <member name="P:VersionConfigLibrary.StaticVersionConfig.IVer">
+            <summary>
+            匹配文件数据
+            </summary>
+        </member>
+        <member name="P:VersionConfigLibrary.StaticVersionConfig.CheckVersionConfig">
+            <summary>
+            数据检测器
+            </summary>
+        </member>
+    </members>
+</doc>

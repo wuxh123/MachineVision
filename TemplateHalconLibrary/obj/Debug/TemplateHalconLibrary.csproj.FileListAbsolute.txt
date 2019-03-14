@@ -1,0 +1,53 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\bin\Debug\TemplateHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\bin\Debug\TemplateHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\bin\Debug\TemplateHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\bin\Debug\halcondotnet.xml
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\TemplateHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\TemplateHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\TemplateHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\TemplateHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\TemplateHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\TemplateHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.UI.TemplateFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.UI.TemplateFrm.resources
+D:\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\TemplateHalconLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\TemplateHalconLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\TemplateHalconLibrary.XML
+D:\Vision架构dll\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.UI.TemplateFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.UI.TemplateFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TemplateHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.UI.TemplateFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TemplateHalconLibrary\obj\Debug\TemplateHalconLibrary.csprojResolveAssemblyReference.cache

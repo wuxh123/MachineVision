@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CheckStreamLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:CheckStreamLibrary.CheckStream">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="T:CheckStreamLibrary.ICheckStream">
+            <summary>
+            检测接口
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.ICheckStream.CheckStream_Init(HalControl.HalconWinControl_1)">
+            <summary>
+            初始化
+            </summary>
+            <param name="Hwin"></param>
+        </member>
+        <member name="M:CheckStreamLibrary.ICheckStream.trigger_check">
+            <summary>
+            触发检测
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.ICheckStream.Check_Root">
+            <summary>
+            检测的几点入口
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.ICheckStream.HalconWinControl_11">
+            <summary>
+            实时更新的窗体
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.ICheckStream.Ho_Image">
+            <summary>
+            设置流处理的图片
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.ICheckStream.Milliseconds">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="E:CheckStreamLibrary.ICheckStream._Resulte1">
+            <summary>
+            处理完后回调事件
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream._Check_Root">
+            <summary>
+            检测的几点入口
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream._ho_Image">
+            <summary>
+            当前检测的图片
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream.halconWinControl_11">
+            <summary>
+            写入的窗口
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream._dictionary_resulte1">
+            <summary>
+            存放结果数据
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream._dang_qian_jian_ce_jie_guo">
+            <summary>
+            当前检测的结果
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream._stopWatch">
+            <summary>
+            检测控制流的时间
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream.milliseconds">
+            <summary>
+            检测的时间
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStream._check_number">
+            <summary>
+            记录递归的次数，用于保存数据的key
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.CheckStream_Init(HalControl.HalconWinControl_1)">
+            <summary>
+            初始化
+            </summary>
+            <param name="Hwin">传入</param>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.create_Stream">
+            <summary>
+            创建检测流
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.check_Stream(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            检测流程1
+            </summary>
+            <param name="tree"></param>
+            <param name="Image"></param>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.create_show_Stream">
+            <summary>
+            创建显示数据流
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.show_Stream(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            显示数据流
+            </summary>
+            <param name="tree"></param>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.trigger_check">
+            <summary>
+            触发检测
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.re_halconWin(HalconDotNet.HWindow)">
+            <summary>
+            刷新窗口
+            </summary>
+            <param name="win"></param>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.delete_repaint">
+            <summary>
+            去掉刷新窗口事件,及有关窗体控件事件
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.load_repaint">
+            <summary>
+            添加刷新窗体事件,及有关窗体控件事件
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStream.Dispose">
+            <summary>
+            释放内存
+            </summary>
+        </member>
+        <member name="E:CheckStreamLibrary.CheckStream._Resulte1">
+            <summary>
+            检测完后触发这个事件
+            </summary>
+        </member>
+        <member name="E:CheckStreamLibrary.CheckStream.Trigger">
+            <summary>
+            触发处理
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.CheckStream.Check_Root">
+            <summary>
+            检测的几点入口
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.CheckStream.HalconWinControl_11">
+            <summary>
+            实时更新的窗体
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.CheckStream.Ho_Image">
+            <summary>
+            设置流处理的图片
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.CheckStream.Milliseconds">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.CheckStream.Dictionary_resulte1">
+            <summary>
+            存放结果数据
+            </summary>
+        </member>
+        <member name="P:CheckStreamLibrary.CheckStream.Dang_qian_jian_ce_jie_guo">
+            <summary>
+            当前检测的结果
+            </summary>
+        </member>
+        <member name="T:CheckStreamLibrary.CheckStream.trigger">
+            <summary>
+            触发处理委托
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CheckStreamLibrary.CheckStreamEventArgs">
+            <summary>
+            检测流回调的参数
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStreamEventArgs._dictionary_resulte">
+            <summary>
+            存放的结果
+            </summary>
+        </member>
+        <member name="F:CheckStreamLibrary.CheckStreamEventArgs.AllResult">
+            <summary>
+            整个检测的结果
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckStreamEventArgs.#ctor">
+            <summary>
+            存放的结果
+            </summary>
+        </member>
+        <member name="T:CheckStreamLibrary.MultTreeStaticSave">
+            <summary>
+            检测流的静态工具
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.MultTreeStaticSave.SaveTreeStatic(System.String@)">
+            <summary>
+            保存TreeStatic数据
+            </summary>
+            <param name="path1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CheckStreamLibrary.MultTreeStaticSave.di_gui_save">
+            <summary>
+            递归保存数据
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.MultTreeStaticSave.di_gui_save(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            递归保存数据
+            </summary>
+            <param name="tree">传入的树节点</param>
+        </member>
+        <member name="M:CheckStreamLibrary.MultTreeStaticSave.LoadTreeStatic(System.String@)">
+            <summary>
+            加载TreeStatic数据
+            </summary>
+            <param name="path1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CheckStreamLibrary.MultTreeStaticSave.di_gui_init">
+            <summary>
+            递归初始化数据
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.MultTreeStaticSave.di_gui_init(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            递归初始化数据
+            </summary>
+            <param name="tree">传入的树</param>
+        </member>
+        <member name="T:CheckStreamLibrary.CheckShuJuResultTool">
+            <summary>
+            检测数据显示工具
+            </summary>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckShuJuResultTool.ShowOnListBox(System.Windows.Forms.ListBox,CheckStreamLibrary.CheckStreamEventArgs)">
+            <summary>
+            在listbox中显示数据
+            </summary>
+            <param name="li"></param>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CheckStreamLibrary.CheckShuJuResultTool.ShowOnListBox1(System.Windows.Forms.ListBox,CheckStreamLibrary.CheckStreamEventArgs)">
+            <summary>
+            在listbox中显示数据
+            </summary>
+            <param name="li"></param>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

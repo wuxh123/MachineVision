@@ -1,0 +1,7 @@
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ComLibrary\bin\Debug\ComLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ComLibrary\bin\Debug\ComLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ComLibrary\obj\Debug\ComLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ComLibrary\obj\Debug\ComLibrary.ComFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ComLibrary\obj\Debug\ComLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ComLibrary\obj\Debug\ComLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\ComLibrary\obj\Debug\ComLibrary.pdb

@@ -1,0 +1,1122 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OCRLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:OCRLibrary.OCRShuJu">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="T:OCRLibrary.IOCRShuJu">
+            <summary>
+            接口
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.MaskWidth1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.MaskHeight1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Factor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Mult1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Add1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.MinGray1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.MaxGray1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Features1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Operation1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Min1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Max1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Path1">
+            <summary>
+            ocr指针路径 
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_FileName">
+            <summary>
+             要训练的字库名称
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Number">
+            <summary>
+            分割到的region数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Ho_SelectedRegions">
+            <summary>
+            分割到的region
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Confidence">
+            <summary>
+            读取ocr的到的分数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_OCRHandle">
+            <summary>
+            ocr指针
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Class1">
+            <summary>
+            读取 到的类
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Class">
+            <summary>
+            要训练的字符类
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_TrainingFile">
+            <summary>
+            要训练的文件路径
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_MaxIteration">
+             <summary>
+            要训练的迭代次数
+             </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_WeightTolerance">
+            <summary>
+            要训练的权重
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_ErrorTolerance">
+            <summary>
+            要训练的误差
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Error">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_ErrorLog">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Class2">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Confidence1">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.OcrTrainedClass">
+            <summary>
+            建立字符的对比模板类
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.YaoDuQuOcrDeGeShu">
+            <summary>
+            要读取ocr的个数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.List_IOutSide">
+            <summary>
+            要读取ocr的region数据点的集合
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_WidthCharacter">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_HeightCharacter">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Interpolation">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Features">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Characters">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_NumHidden">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_Preprocessing">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_NumComponents">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.IOCRShuJu.Hv_RandSeed">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_WidthCharacter">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_HeightCharacter">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Interpolation">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Features">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Characters">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_NumHidden">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Preprocessing">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_NumComponents">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_RandSeed">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Error">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_ErrorLog">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Class2">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Confidence1">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_TrainingFile">
+            <summary>
+            要训练的文件路径
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_FileName">
+            <summary>
+            字库名称
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MaskWidth">
+            <summary>
+            emphasize参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MaskHeight">
+            <summary>
+            emphasize参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Factor">
+            <summary>
+            emphasize参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Mult">
+            <summary>
+            scale_image参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Add">
+            <summary>
+            scale_image参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MinGray">
+            <summary>
+            threshold参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MaxGray">
+            <summary>
+            threshold参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Features">
+            <summary>
+            select_shape参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Operation">
+            <summary>
+            select_shape参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Min">
+            <summary>
+            select_shape参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Max">
+            <summary>
+            select_shape参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.path1">
+            <summary>
+            ocr指针路径 
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Class">
+            <summary>
+            添加训练ocr
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_MaxIteration">
+            <summary>
+            添加训练ocr
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_WeightTolerance">
+            <summary>
+            添加训练ocr
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_ErrorTolerance">
+            <summary>
+            添加训练ocr
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Number">
+            <summary>
+            分割到的region数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.ho_SelectedRegions">
+            <summary>
+            分割到的region
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Confidence">
+            <summary>
+            读取ocr的到的分数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_OCRHandle">
+            <summary>
+            ocr指针
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Class1">
+            <summary>
+            读取 到的类
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu._ocrTrainedClass">
+            <summary>
+            建立字符的对比模板类
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu._yaoDuQuOcrDeGeShu">
+            <summary>
+            要读取ocr的个数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu._list_IOutSide">
+            <summary>
+            要读取ocr的region数据点的集合
+            </summary>       
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu._iXuanZhongDeRoi">
+            <summary>
+            当前roi的引索
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_WidthCharacter1">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>     
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_HeightCharacter1">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Interpolation1">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Features1">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Characters1">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_NumHidden1">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_Preprocessing1">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_NumComponents1">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_RandSeed1">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MaskWidth_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MaskHeight_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Factor_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Mult_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Add_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MinGray_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.MaxGray_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Features_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Operation_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Min_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.Max_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu.hv_TrainingFile_1">
+            <summary>
+            要训练的文件路径
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCRShuJu._waiBuJieKouBaoCunShuJu">
+            <summary>
+            外部接口数据
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.OCRShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.OCRShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.OCRShuJu.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_WidthCharacter">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_HeightCharacter">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Interpolation">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Features">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Characters">
+            <summary>
+             创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_NumHidden">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Preprocessing">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_NumComponents">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_RandSeed">
+            <summary>
+            创建一个OCR分类器参数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_FileName">
+            <summary>
+            字库名称
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.MaskWidth1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.MaskHeight1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Factor1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Mult1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Add1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.MinGray1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.MaxGray1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Features1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Operation1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Min1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Max1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Path1">
+            <summary>
+            ocr指针路径 
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Class">
+            <summary>
+            要训练的字符类
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_TrainingFile">
+            <summary>
+            要训练的文件路径
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_MaxIteration">
+            <summary>
+            训练时迭代的次数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_WeightTolerance">
+            <summary>
+            要训练时初始化的权重
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_ErrorTolerance">
+            <summary>
+            要训练的最小误差
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Error">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_ErrorLog">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Class2">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Confidence1">
+            <summary>
+            训练的输出数据
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Number">
+            <summary>
+            分割到的region数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Ho_SelectedRegions">
+            <summary>
+            分割到的region
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Confidence">
+            <summary>
+            读取ocr的到的分数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_OCRHandle">
+            <summary>
+            ocr指针
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.Hv_Class1">
+            <summary>
+            读取 到的类
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.OcrTrainedClass">
+            <summary>
+            建立字符的对比模板类
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.YaoDuQuOcrDeGeShu">
+            <summary>
+            要读取ocr的个数
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.List_IOutSide">
+            <summary>
+            要读取ocr的region数据点的集合
+            </summary>
+        </member>
+        <member name="P:OCRLibrary.OCRShuJu.IXuanZhongDeRoi">
+            <summary>
+            当前roi的引索
+            </summary>
+        </member>
+        <member name="T:OCRLibrary.OcrTrained_Class">
+            <summary>
+            建立字符的对比模板类
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OcrTrained_Class._trained">
+            <summary>
+            是否启动训练
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OcrTrained_Class._ocrTrainingCharacteer">
+            <summary>
+            字符的对比模板
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OcrTrained_Class._result">
+            <summary>
+            条码训练后，对比的结果
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OcrTrained_Class._allResult">
+            <summary>
+            ocr整体结果
+            </summary>
+        </member>
+        <member name="T:OCRLibrary.Set_OCRShuJu">
+            <summary>
+            设置数据ocr数据接口
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCREmphasize(OCRLibrary.IOCRShuJu,System.String,System.String,System.String)">
+            <summary>
+             设置Emphasize参数
+            </summary>
+            <param name="IOCR"></param>
+            <param name="MaskWidth"></param>
+            <param name="MaskHeight"></param>
+            <param name="Factor"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCRScaleImage(OCRLibrary.IOCRShuJu,System.String,System.String)">
+             <summary>
+            设置 scale_image参数
+             </summary>
+             <param name="IOCR"></param>
+             <param name="Mult"></param>
+             <param name="Add"></param>
+             <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCRThreshold(OCRLibrary.IOCRShuJu,System.String,System.String)">
+            <summary>
+             threshold
+            </summary>
+            <param name="IOCR"></param>
+            <param name="MinGray"></param>
+            <param name="MaxGray"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCRSelectShape(OCRLibrary.IOCRShuJu,System.String,System.String,System.String,System.String)">
+            <summary>
+             *select_shape参数
+            </summary>
+            <param name="IOCR"></param>
+            <param name="Features"></param>
+            <param name="Operation"></param>
+            <param name="Min"></param>
+            <param name="Max"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCRZhiZhenLuJing(OCRLibrary.IOCRShuJu,System.String)">
+            <summary>
+             设置OCR指针的路径
+            </summary>
+            <param name="IOCR"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_ReplaceOCRWork(OCRLibrary.IOCRShuJu,System.String,System.String)">
+            <summary>
+            更换字库,及更换指针handleOCR
+            </summary>
+            <param name="IOCR">更换字库</param>
+            <param name="path">传入特殊字符路径</param>
+            <param name="filename">传入默认字符库的名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCRClear(OCRLibrary.IOCRShuJu)">
+            <summary>
+            清空ocr指针
+            </summary>
+            <param name="IOCR"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCRZhiZhenDuQu(OCRLibrary.IOCRShuJu,System.String)">
+            <summary>
+            读取ocr指针
+            </summary>
+            <param name="IOCR"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_showParameterHalconWinControl(OCRLibrary.IOCRShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            显示输出参数，初始化halcon窗口region
+            </summary>
+            <param name="IOCR_"></param>
+            <param name="control"></param>
+            <param name="halconWinControl_"></param>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_ShowParameter(OCRLibrary.IOCRShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="IOCR"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.find_all_omc(System.Collections.Generic.List{System.String}@)">
+            <summary>
+            查找默认路径下的字库文件
+            </summary>
+            <param name="str_name">集合</param>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_OCRCutOffRegion(OCRLibrary.IOCRShuJu,HalconDotNet.HObject,HalconDotNet.HWindow)">
+            <summary>
+            显示OCR分割效果
+            </summary>
+            <param name="IOCR"></param>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.TrainOCR(OCRLibrary.IOCRShuJu,HalconDotNet.HObject,HalconDotNet.HObject,HalconDotNet.HWindow)">
+            <summary>
+             训练OCR
+            </summary>
+            <param name="IOCR"></param>
+            <param name="ho_ObjectSelected"></param>
+            <param name="ho_Image"></param>
+            <param name="hv_WindowHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.extract_current_train_ocr_region(OCRLibrary.IOCRShuJu,HalconDotNet.HObject,HalconDotNet.HWindow)">
+            <summary>
+            提取ocr读取的region
+            </summary>
+            <param name="IOCR"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.extract(HalconDotNet.HObject,HalconDotNet.HObject@,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple@)">
+            <summary>
+            提取ocr的region
+            </summary>
+            <param name="ho_ImageReduced"></param>
+            <param name="ho_SelectedRegions"></param>
+            <param name="hv_MaskWidth"></param>
+            <param name="hv_MaskHeight"></param>
+            <param name="hv_Factor"></param>
+            <param name="hv_Mult"></param>
+            <param name="hv_Add"></param>
+            <param name="hv_MinGray"></param>
+            <param name="hv_MaxGray"></param>
+            <param name="hv_Features"></param>
+            <param name="hv_Operation"></param>
+            <param name="hv_Min"></param>
+            <param name="hv_Max"></param>
+            <param name="hv_Number"></param>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_Trained_Class(OCRLibrary.IOCRShuJu,System.Boolean,System.String@)">
+            <summary>
+            建立字符对比模板
+            </summary>
+            <param name="IOCR"></param>
+            <param name="trained_"></param>
+            <param name="character_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_AddOcrRoi(OCRLibrary.IOCRShuJu,HalControl.HalconWinControl_ROI,System.Int32)">
+            <summary>
+            添加ocr的region
+            </summary>
+            <param name="halconWinControl_"></param>
+            <param name="number"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_AddOneOCRRegion(OCRLibrary.IOCRShuJu,HalControl.HalconWinControl_ROI)">
+            <summary>
+            当前添加一个ocr的region
+            </summary>
+            <param name="IOCR"></param>
+            <param name="halconWinControl_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_DeleteOcrRegion(OCRLibrary.IOCRShuJu,HalControl.HalconWinControl_ROI)">
+            <summary>
+            删除ocr的region
+            </summary>
+            <param name="IOCR"></param>
+            <param name="halconWinControl_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.CreateOCRClassMlp(OCRLibrary.IOCRShuJu,System.String,System.String)">
+            <summary>
+            创建训练
+            </summary>
+            <param name="IOCR"></param>
+            <param name="hv_FileName"></param>
+            <param name="Characters_Text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.CreateOCRClassMlp(HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple@)">
+            <summary>
+            
+            </summary>
+            <param name="hv_WidthCharacter"></param>
+            <param name="hv_HeightCharacter"></param>
+            <param name="hv_Interpolation"></param>
+            <param name="hv_Features"></param>
+            <param name="hv_Characters"></param>
+            <param name="hv_NumHidden"></param>
+            <param name="hv_Preprocessing"></param>
+            <param name="hv_NumComponents"></param>
+            <param name="hv_RandSeed"></param>
+            <param name="hv_OCRHandle"></param>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_ShuaXinDingWeiDian(OCRLibrary.IOCRShuJu)">
+            <summary>
+            刷新定位点
+            </summary>
+            <param name="IOCR"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.Set_OCRShuJu.Set_SaveOCRHandle(OCRLibrary.IOCRShuJu)">
+            <summary>
+            保存当前训练的ocr
+            </summary>
+            <param name="IOCR"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OCRLibrary.OCR_Result">
+            <summary>
+            OCR结果的结构体
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCR_Result.Number">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCR_Result.Hv_Class1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCR_Result.Hv_Confidence">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.OCR_Result._Result">
+            <summary>
+            训练对比的结果
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.OCR_Result.showResult(System.String@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OCRLibrary.OCR_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OCRLibrary.waiBuJieKouBaoCunShuJu">
+            <summary>
+            外部接口保存
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.waiBuJieKouBaoCunShuJu._mid_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.waiBuJieKouBaoCunShuJu._mid_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.waiBuJieKouBaoCunShuJu._len1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.waiBuJieKouBaoCunShuJu._len2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.waiBuJieKouBaoCunShuJu._angle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.UI.OCRFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.UI.OCRFrm._IOCR">
+            <summary>
+            ocr数据
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.UI.OCRFrm._Set_OCR">
+            <summary>
+            OCR设置
+            </summary>
+        </member>
+        <member name="F:OCRLibrary.UI.OCRFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.UI.OCRFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.UI.OCRFrm.trigger_run">
+            <summary>
+            运行触发器
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.UI.OCRFrm.repaint(HalconDotNet.HWindow)">
+            <summary>
+            刷新窗口事件
+            </summary>
+            <param name="win">要刷新的窗体</param>
+        </member>
+        <member name="M:OCRLibrary.UI.OCRFrm.chice_ocr_omc(System.Object,System.EventArgs)">
+            <summary>
+            选择字库
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:OCRLibrary.UI.OCRFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:OCRLibrary.UI.OCRFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:OCRLibrary.UI.OCRFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:OCRLibrary.UI.OCRFrm._run">
+             <summary>
+            运行的算法
+             </summary>
+        </member>
+        <member name="E:OCRLibrary.UI.OCRFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="T:OCRLibrary.UI.OCRFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

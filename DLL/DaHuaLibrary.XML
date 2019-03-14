@@ -1,0 +1,324 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DaHuaLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DaHuaLibrary.Camer.delegate_OnConnectLoss">
+            <summary>
+            相机丢失委托
+            </summary>
+        </member>
+        <member name="T:DaHuaLibrary.Camer.DaHua_Date">
+            <summary>
+            驱动数据
+            </summary>
+        </member>
+        <member name="T:DaHuaLibrary.Camer.IDaHua">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.IDaHua.ExecuteSoftwareTrigger">
+            <summary>
+            软触发相机
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.IDaHua.OnConnectLoss(System.Object,System.EventArgs)">
+            <summary>
+            相机丢失回调
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.IDaHua.ResetCamerStream">
+            <summary>
+            重启流数据，清空流缓存、
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.IDaHua.Dev">
+            <summary>
+            大华相机驱动
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.IDaHua.Exposuretime">
+            <summary>
+            相机曝光
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.IDaHua.Gainraw">
+            <summary>
+            相机增益
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.IDaHua.TriggerSourceenum">
+            <summary>
+            触发模式
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.IDaHua.CamerIndx1">
+            <summary>
+            第几个相机
+            </summary>
+        </member>
+        <member name="E:DaHuaLibrary.Camer.IDaHua.event_OnConnectLoss">
+            <summary>
+            相机丢失事件
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.Camer.DaHua_Date.m_dev">
+            <summary>
+            大华相机驱动
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.Camer.DaHua_Date.exposuretime">
+            <summary>
+            相机曝光
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.Camer.DaHua_Date.gainraw">
+            <summary>
+            相机增益
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.Camer.DaHua_Date.triggerSourceenum">
+            <summary>
+            相机触发模式
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.Camer.DaHua_Date.STRIDE">
+            <summary>
+            Number of pixel columns in camera
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.Camer.DaHua_Date.NUMROWS">
+            <summary>
+            Number of pixel rows in image
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.Camer.DaHua_Date.ImageHeight">
+            <summary>
+            Number of pixel rows in image
+            </summary>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.DaHua_Date.ExecuteSoftwareTrigger">
+            <summary>
+            软触发相机
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.DaHua_Date.OnConnectLoss(System.Object,System.EventArgs)">
+            <summary>
+            相机丢失回调
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.DaHua_Date.ResetCamerStream">
+            <summary>
+            重启流数据，清空流缓存、
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.DaHua_Date.Dev">
+            <summary>
+            大华相机驱动
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.DaHua_Date.Exposuretime">
+            <summary>
+            相机曝光
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.DaHua_Date.Gainraw">
+            <summary>
+            相机增益
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.DaHua_Date.TriggerSourceenum">
+            <summary>
+            触发模式
+            </summary>
+        </member>
+        <member name="P:DaHuaLibrary.Camer.DaHua_Date.CamerIndx1">
+            <summary>
+            第几个相机
+            </summary>
+        </member>
+        <member name="E:DaHuaLibrary.Camer.DaHua_Date.event_OnConnectLoss">
+            <summary>
+            相机丢失事件
+            </summary>
+        </member>
+        <member name="T:DaHuaLibrary.Camer.Set_DaHua_Date">
+            <summary>
+            设置相机参数
+            </summary>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.open_camer(DaHuaLibrary.Camer.IDaHua,System.Int32,System.EventHandler{System.EventArgs},System.EventHandler{System.EventArgs},DaHuaLibrary.Camer.delegate_OnConnectLoss,System.String@)">
+            <summary>
+            打开一个相机驱动,
+            </summary>
+            <param name="IDa"></param>
+            <param name="camer_number"></param>
+            <param name="CameraOpened"></param>
+            <param name="CameraClosed"></param>
+            <param name="event_OnConnectLoss"></param>
+            <param name="event_OnImageGrabbed"></param>
+            <param name="result"></param>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.set_exposuretime_gainraw(DaHuaLibrary.Camer.IDaHua,System.Double,System.Double)">
+            <summary>
+            设置相机曝光
+            </summary>
+            <param name="IDa"></param>
+            <param name="exposuretime"></param>
+            <param name="gainraw"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.get_camer_number(System.Int32@)">
+            <summary>
+            获取驱动个数
+            </summary>
+            <param name="number"></param>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.close_camer(DaHuaLibrary.Camer.IDaHua)">
+            <summary>
+            关闭相机
+            </summary>
+            <param name="IDa"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.set_trigger(DaHuaLibrary.Camer.IDaHua,System.String)">
+            <summary>
+            设置相机触发模式
+            </summary>
+            <param name="IDa"></param>
+            <param name="trigger"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.show_DaHua_ShuJu(DaHuaLibrary.Camer.IDaHua,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="IDaHua">数据接口</param>
+            <param name="control">控件</param>
+            <returns></returns>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.load_DaHua_ShuJu(DaHuaLibrary.Camer.IDaHua,System.Int32)">
+            <summary>
+            加载相机配置
+            </summary>
+            <param name="IDa">相机参数</param>
+            <param name="camer_number">加载第几个相机配置</param>
+        </member>
+        <member name="M:DaHuaLibrary.Camer.Set_DaHua_Date.Save_DaHua_ShuJu(DaHuaLibrary.Camer.IDaHua)">
+            <summary>
+            保存驱动数据
+            </summary>
+            <param name="IDaHua">数据</param>
+            <returns></returns>
+        </member>
+        <member name="F:DaHuaLibrary.UI.DaHuaCamerFrm._xun_huan_yun_xing_biao_zhi">
+            <summary>
+            循环运行的标志
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.UI.DaHuaCamerFrm._re">
+            <summary>
+            读图的数据
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.UI.DaHuaCamerFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.UI.DaHuaCamerFrm._IDaHua">
+            <summary>
+            相机驱动
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.UI.DaHuaCamerFrm._Set_DaHua">
+            <summary>
+            设置相机驱动参数
+            </summary>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.#ctor(DaHuaLibrary.Camer.IDaHua)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="IDaHua_"></param>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.read_one_image">
+            <summary>
+            运行成功后回调
+            </summary>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.OnImageGrabbed(System.Object,ThridLibray.GrabbedEventArgs)">
+            <summary>
+            相机取图写入注册表后回调事件
+            </summary>
+            <param name="ptr"></param>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.OnCameraOpen(System.Object,System.EventArgs)">
+            <summary>
+            相机打开回调
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.OnCameraClose(System.Object,System.EventArgs)">
+            <summary>
+            相机关闭回调
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.OnConnectLoss">
+            <summary>
+             相机丢失回调
+            </summary>
+        </member>
+        <member name="F:DaHuaLibrary.UI.DaHuaCamerFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DaHuaLibrary.UI.DaHuaCamerFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:DaHuaLibrary.UI.DaHuaCamerFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="E:DaHuaLibrary.UI.DaHuaCamerFrm._clear_camer_stream">
+            <summary>
+            重置相机流数据
+            </summary>
+        </member>
+        <member name="T:DaHuaLibrary.UI.DaHuaCamerFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,1361 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TemplateHalconLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TemplateHalconLibrary.TemplateShuJu">
+            <summary>
+            模板的数据
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.ITemplateShuJu">
+            <summary>
+            模板数据接口
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.ITemplateShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ITemplateShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.ITemplateCreate">
+            <summary>
+            创建模板时的数据
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.IExtractModel">
+            <summary>
+            模板提取器数据
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindAngleStart">
+            <summary>
+            查找模板的开始角度  弧度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindAngleExtent">
+            <summary>
+            查找模板的结束角度   弧度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindMinScore">
+            <summary>
+            查找模板的最小分数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindNumMatches">
+            <summary>
+            查找模板的匹配个数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindMaxOverlap">
+            <summary>
+            FindMaxOverlap
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindSubPixel">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindNumLevels">
+            <summary>
+            查找模板的层数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindGreediness">
+            <summary>
+            findGreediness
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.FindModelID">
+            <summary>
+            查找模板的指针
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.Score">
+            <summary>
+            查找到的分数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.ContoursAffinTrans">
+            <summary>
+            模板查找后输出的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.ModelFilePaht">
+            <summary>
+            模板路径
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.ModelName">
+            <summary>
+            模板的名称
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.ModelContours">
+            <summary>
+            模板的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateShuJu.CenterPointXLD">
+            <summary>
+            模板点的xld
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu._iTemplateCreate">
+            <summary>
+            创建模板时的数据
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu._iExtractModel">
+            <summary>
+            模板提取器数据
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu._iOutSide">
+            <summary>
+            外部接口
+            </summary>       
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findAngleStart">
+            <summary>
+            查找模板的开始角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findAngleExtent">
+            <summary>
+            查找模板的结束角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findMinScore">
+            <summary>
+            查找模板的最小分数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findNumMatches">
+            <summary>
+            查找模板的匹配个数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findMaxOverlap">
+            <summary>
+            FindMaxOverlap
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findSubPixel">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findNumLevels">
+            <summary>
+            查找模板的层数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findGreediness">
+            <summary>
+            findGreediness
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.modelContours">
+            <summary>
+            模板的轮廓
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.modelFilePaht">
+            <summary>
+            模板路径
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findModelID">
+            <summary>
+             查找模板的指针
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.score">
+            <summary>
+            查找到的分数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.contoursAffinTrans">
+            <summary>
+            模板查找后输出的轮廓
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.modelName">
+            <summary>
+            模板的名称
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu._centerPointXLD">
+            <summary>
+            模板点的xld
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findAngleStart_1">
+            <summary>
+            查找模板的开始角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findAngleExtent_1">
+            <summary>
+            查找模板的结束角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findMinScore_1">
+            <summary>
+            查找模板的最小分数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findNumMatches_1">
+            <summary>
+            查找模板的匹配个数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findMaxOverlap_1">
+            <summary>
+            FindMaxOverlap
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findSubPixel_1">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findNumLevels_1">
+            <summary>
+            查找模板的层数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateShuJu.findGreediness_1">
+            <summary>
+            findGreediness
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateShuJu.#ctor">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateShuJu.find_model(HalconDotNet.HObject,HalconDotNet.HObject,HalconDotNet.HObject@,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@,HalconDotNet.HTuple@)">
+            <summary>
+            查找模板
+            </summary>
+            <param name="ho_Image">查找的图片</param>
+            <param name="ho_ModelContours1">模板轮廓</param>
+            <param name="ho_ContoursAffinTrans">装换的轮廓</param>
+            <param name="hv_ModelID1">模板句柄</param>
+            <param name="hv_AngleStar"></param>
+            <param name="hv_AngleExtent"></param>
+            <param name="hv_MinScore"></param>
+            <param name="hv_NumMatches"></param>
+            <param name="hv_MaxOverlap"></param>
+            <param name="hv_SubPixel"></param>
+            <param name="hv_Numlevels"></param>
+            <param name="hv_Greendiness"></param>
+            <param name="hv_Row1"></param>
+            <param name="hv_Column1"></param>
+            <param name="hv_Angle1"></param>
+            <param name="hv_Score1"></param>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateShuJu.outResult(System.String[]@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.ITemplateCreate">
+            <summary>
+            创建模板时的数据
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.IExtractModel">
+            <summary>
+            模板提取器数据
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.IOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindAngleStart">
+            <summary>
+            查找模板的开始角度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindAngleExtent">
+            <summary>
+            查找模板的结束角度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindMinScore">
+            <summary>
+            查找模板的最小分数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindNumMatches">
+            <summary>
+            查找模板的匹配个数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindMaxOverlap">
+            <summary>
+            FindMaxOverlap
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindSubPixel">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindNumLevels">
+            <summary>
+            查找模板的层数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindGreediness">
+            <summary>
+            findGreediness
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.FindModelID">
+            <summary>
+            查找模板的指针
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.Score">
+            <summary>
+            查找到的分数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.ContoursAffinTrans">
+            <summary>
+            模板查找后输出的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.ModelFilePaht">
+            <summary>
+            模板路径
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.ModelName">
+            <summary>
+            模板的名称
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.ModelContours">
+            <summary>
+            模板的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateShuJu.CenterPointXLD">
+            <summary>
+            模板点的xld
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.SetTemplateShuJu">
+            <summary>
+            设置模板接口数据
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.SetTemplateShuJu._ITemplateCreate">
+            <summary>
+            模板创建工具
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.SetTemplateShuJu._IExtractModel">
+            <summary>
+             模板提取器工具
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.Set_FindModelParameter(TemplateHalconLibrary.ITemplateShuJu,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            查找模板的参数
+            </summary>
+            <param name="ITemplate"></param>
+            <param name="Hv_AngleStart1"></param>
+            <param name="Hv_AngleExtent"></param>
+            <param name="Hv_MinScore"></param>
+            <param name="Hv_NumMatches"></param>
+            <param name="Hv_MaxOverlap"></param>
+            <param name="Hv_SubPixel"></param>
+            <param name="Hv_Numlevels"></param>
+            <param name="Hv_Greendiness"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.WriteShapeModel(TemplateHalconLibrary.ITemplateShuJu)">
+            <summary>
+            保存模板
+            </summary>
+            <param name="ITemplate">传入数据接口</param>
+            <param name="Name">模板名</param>
+            <returns>返回true表示OK</returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.ShowHoject(HalconDotNet.HObject,HalconDotNet.HWindow)">
+            <summary>
+            显示图片
+            </summary>
+            <param name="image">传入接口数据</param>
+            <param name="hwin">窗口句柄</param>
+            <returns>返回true为OK</returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.ShowHoject(HalconDotNet.HObject,HalControl.HalconWinControl_Draw)">
+            <summary>
+            显示图片
+            </summary>
+            <param name="image"></param>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.clear_model(TemplateHalconLibrary.ITemplateShuJu)">
+            <summary>
+            清空模板
+            </summary>
+            <param name="ITemplate">数据接口</param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.Show_parameter_HalconWinControl(TemplateHalconLibrary.ITemplateShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            参数输出
+            </summary>
+            <param name="ITemplate"></param>
+            <param name="control"></param>
+            <param name="halconWinControl_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.output_parameter(TemplateHalconLibrary.ITemplateShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            输出模板查找参数
+            </summary>
+            <param name="ITemplate"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.Set_TemplateCreate(TemplateHalconLibrary.ITemplateShuJu,System.String)">
+            <summary>
+            训练模板
+            </summary>
+            <param name="ITemplate_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.SetTemplateShuJu.Set_ShuaXinDingWeiDian(TemplateHalconLibrary.ITemplateShuJu)">
+            <summary>
+            刷新定位点
+            </summary>
+            <param name="ITemplate_"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TemplateHalconLibrary.Template_Result">
+            <summary>
+            结果的结构体
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.Template_Result.Hv_Row1">
+            <summary>
+            匹配到的模板中心y
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.Template_Result.Hv_Column1">
+            <summary>
+            匹配到的模板中心x
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.Template_Result.Hv_Angle1">
+            <summary>
+            匹配到的模板中心A
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.Template_Result.Hv_Score1">
+            <summary>
+            匹配到的模板中心score
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.Template_Result._AllResult">
+            <summary>
+            模板工具的总体结果
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.Template_Result.showResult(System.String@)">
+            <summary>
+            显示数据结果
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.Template_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="T:TemplateHalconLibrary.TemplateCreate">
+            <summary>
+            模板创建工具
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.ITemplateCreateShuJu">
+            <summary>
+            模板创建工具数据接口数据
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.ITemplateCreateShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ITemplateCreateShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateContour">
+            <summary>
+             创建模板的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateNumLevels">
+            <summary>
+            创建模板的层数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateAngleStart">
+            <summary>
+            创建的开始角度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateAngleExtent">
+            <summary>
+            创建的结束角度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateAngleStep">
+            <summary>
+             创建的步长
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateOptimization">
+            <summary>
+             优化的算法
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateMetric">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.CreateMinContrast">
+            <summary>
+             最小对比度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ITemplateCreateShuJu.ModelName">
+            <summary>
+            模板名称
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.ITemplateCreateTool">
+            <summary>
+            模板创建工具数据工具
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.ITemplateCreateTool.CreateShapeModeXLD(TemplateHalconLibrary.ITemplateCreateShuJu,HalconDotNet.HTuple@)">
+            <summary>
+            创建模板
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ITemplateCreateTool.WriteShapeModel(HalconDotNet.HTuple,System.String)">
+            <summary>
+            保存模板
+            </summary>
+            <param name="path1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ITemplateCreateTool.Set_TemplateCreate(TemplateHalconLibrary.ITemplateCreateShuJu,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置参数
+            </summary>
+            <param name="ITemplate"></param>
+            <param name="Create_ModelName"></param>
+            <param name="CreateNumLevels"></param>
+            <param name="CreateAngleStart"></param>
+            <param name="CreateAngleExtent"></param>
+            <param name="CreateAngleStep"></param>
+            <param name="CreateOptimization"></param>
+            <param name="CreateMetric"></param>
+            <param name="CreateMinContrast"></param>
+            <returns></returns>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createContour">
+            <summary>
+             创建模板的轮廓
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createNumLevels">
+            <summary>
+            创建模板的层数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createAngleStart">
+            <summary>
+            创建的开始角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createAngleExtent">
+            <summary>
+            创建的结束角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createAngleStep">
+            <summary>
+             创建的步长
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createOptimization">
+            <summary>
+             优化的算法
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createMetric">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createMinContrast">
+            <summary>
+             最小对比度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.modelName">
+            <summary>
+            模板名称
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createFileName">
+            <summary>
+            保存模板的路径
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createModelID">
+            <summary>
+            创建后输出的指针
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createContour_1">
+            <summary>
+             创建模板的轮廓
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createNumLevels_1">
+            <summary>
+            创建模板的层数
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createAngleStart_1">
+            <summary>
+            创建的开始角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createAngleExtent_1">
+            <summary>
+            创建的结束角度
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createAngleStep_1">
+            <summary>
+             创建的步长
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createOptimization_1">
+            <summary>
+             优化的算法
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createMetric_1">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.TemplateCreate.createMinContrast_1">
+            <summary>
+             最小对比度
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateCreate.init">
+            <summary>
+            初始化数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateCreate.save">
+            <summary>
+            保存数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateCreate.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateCreate.CreateShapeModeXLD(TemplateHalconLibrary.ITemplateCreateShuJu,HalconDotNet.HTuple@)">
+            <summary>
+            创建模板
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateCreate.WriteShapeModel(HalconDotNet.HTuple,System.String)">
+            <summary>
+            保存模板
+            </summary>
+            <param name="path1"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.TemplateCreate.Set_TemplateCreate(TemplateHalconLibrary.ITemplateCreateShuJu,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置参数
+            </summary>
+            <param name="ITemplate"></param>
+            <param name="Create_ModelName"></param>
+            <param name="CreateNumLevels"></param>
+            <param name="CreateAngleStart"></param>
+            <param name="CreateAngleExtent"></param>
+            <param name="CreateAngleStep"></param>
+            <param name="CreateOptimization"></param>
+            <param name="CreateMetric"></param>
+            <param name="CreateMinContrast"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateContour">
+            <summary>
+             创建模板的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateNumLevels">
+            <summary>
+            创建模板的层数
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateAngleStart">
+            <summary>
+            创建的开始角度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateAngleExtent">
+            <summary>
+            创建的结束角度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateAngleStep">
+            <summary>
+             创建的步长
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateOptimization">
+            <summary>
+             优化的算法
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateMetric">
+            <summary>
+            极性
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateMinContrast">
+            <summary>
+             最小对比度
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateFileName">
+            <summary>
+            保存模板的路径
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.ModelName">
+            <summary>
+            模板名称
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.TemplateCreate.CreateModelID">
+            <summary>
+            创建后输出的指针
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.ExtractModel">
+            <summary>
+            模板提取器
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.IExtractModelShuJu">
+            <summary>
+            模板提取器数据
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Fiter">
+            <summary>
+            edges_sub_pix 算法
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Aplha">
+            <summary>
+            edges_sub_pix 因子
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Low">
+            <summary>
+             edges_sub_pix 最低
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.High">
+            <summary>
+             edges_sub_pix 最高
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Edges">
+            <summary>
+            输出的xld
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Feature">
+            <summary>
+            筛选xld的特征
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Min1">
+            <summary>
+            第一个特征的最小值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Max1">
+            <summary>
+            第一个特征的最大值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Min2">
+            <summary>
+            第二个特征的最小值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.Max2">
+            <summary>
+            第二个特征的最大值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.SelectedContours">
+            <summary>
+            筛选输出的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.PrintScreenRegion">
+            <summary>
+            截取的region集合
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.PrintScreen_R">
+            <summary>
+             printscreen画笔大小
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.PrintScreenRegionUnion">
+            <summary>
+            截取到region后截取到的region
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.PrintScreenImage">
+            <summary>
+            截取到region后的图片
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.IExtractModelShuJu.PrintScreenRegionXLD">
+            <summary>
+             截取到region后region合成的集合XLD
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.IExtractModelTool">
+            <summary>
+            模板提取器工具
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelTool.SelectXLD(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            筛选xld
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelTool.PrintScreenTool(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+              截图工具
+            </summary>
+            <param name="ho_Image"></param>
+            <param name="hv_WindowHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelTool.EdgesSubPix(HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            EdgesSubPix
+            </summary>
+            <param name="Ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="IExtract"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelTool.ExtractModelXLD(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            提取模板的xld
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelTool.ClearExtractModel(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+             清空模板轮廓
+            </summary>
+            <param name="Ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="IExtract"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.IExtractModelTool.Set_ExtractModel(TemplateHalconLibrary.IExtractModelShuJu,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置参数
+            </summary>
+            <param name="IExtract"></param>
+            <param name="PrintScreen_R_"></param>
+            <param name="Fiter_"></param>
+            <param name="Aplha_"></param>
+            <param name="Low_"></param>
+            <param name="High_"></param>
+            <param name="Feature_"></param>
+            <param name="Min1_"></param>
+            <param name="Max1_"></param>
+            <param name="Min2_"></param>
+            <param name="Max2_"></param>
+            <returns></returns>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreen_R">
+            <summary>
+             printscreen画笔大小
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreenRegion">
+            <summary>
+            截取的region集合
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreenRegionUnion">
+            <summary>
+             截取到region后region合成的集合
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreenRegionXLD">
+            <summary>
+             截取到region后region合成的集合XLD
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreenImage">
+            <summary>
+            截取到region后的图片
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.fiter">
+            <summary>
+            edges_sub_pix 算法
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.aplha">
+            <summary>
+            edges_sub_pix 因子
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.low">
+            <summary>
+             edges_sub_pix 最低
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.high">
+            <summary>
+             edges_sub_pix 最高
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.feature">
+            <summary>
+            筛选xld的特征
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.min1">
+            <summary>
+            第一个特征的最小值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.max1">
+            <summary>
+            第一个特征的最大值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.min2">
+            <summary>
+            第二个特征的最小值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.max2">
+            <summary>
+            第二个特征的最大值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.selectedContours">
+            <summary>
+            筛选输出的轮廓
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.edges">
+            <summary>
+            输出的xld
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreen_R_1">
+            <summary>
+             printscreen画笔大小
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreenRegionUnion_1">
+            <summary>
+             截取到region后region合成的集合
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreenRegionXLD_1">
+            <summary>
+             截取到region后region合成的集合XLD
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.printScreenImage_1">
+            <summary>
+            截取到region后的图片
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.fiter_1">
+            <summary>
+            edges_sub_pix 算法
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.aplha_1">
+            <summary>
+            edges_sub_pix 因子
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.low_1">
+            <summary>
+             edges_sub_pix 最低
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.high_1">
+            <summary>
+             edges_sub_pix 最高
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.feature_1">
+            <summary>
+            筛选xld的特征
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.min1_1">
+            <summary>
+            第一个特征的最小值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.max1_1">
+            <summary>
+            第一个特征的最大值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.min2_1">
+            <summary>
+            第二个特征的最小值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.max2_1">
+            <summary>
+            第二个特征的最大值
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.selectedContours_1">
+            <summary>
+            筛选输出的轮廓
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.ExtractModel.edges_1">
+            <summary>
+            输出的xld
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.init">
+            <summary>
+             初始化序列数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.save">
+            <summary>
+            保存数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.EdgesSubPix(HalconDotNet.HObject,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            edges_sub_pix
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.EdgesSubPix(HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            edges_sub_pix
+            </summary>
+            <param name="Ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="IExtract"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.SelectXLD(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            筛选xld
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.PrintScreenTool(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+              截图工具
+            </summary>
+            <param name="ho_Image"></param>
+            <param name="hv_WindowHandle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.ExtractModelXLD(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            提取模板的xld
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.ClearExtractModel(HalconDotNet.HObject,HalconDotNet.HWindow,TemplateHalconLibrary.IExtractModelShuJu)">
+            <summary>
+            清空模板轮廓 
+            </summary>
+            <param name="IExtract"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.ExtractModel.Set_ExtractModel(TemplateHalconLibrary.IExtractModelShuJu,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置参数
+            </summary>
+            <param name="IExtract"></param>
+            <param name="PrintScreen_R_"></param>
+            <param name="Fiter_"></param>
+            <param name="Aplha_"></param>
+            <param name="Low_"></param>
+            <param name="High_"></param>
+            <param name="Feature_"></param>
+            <param name="Min1_"></param>
+            <param name="Max1_"></param>
+            <param name="Min2_"></param>
+            <param name="Max2_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Fiter">
+            <summary>
+            edges_sub_pix 算法
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Aplha">
+            <summary>
+            edges_sub_pix 因子
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Low">
+            <summary>
+             edges_sub_pix 最低
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.High">
+            <summary>
+             edges_sub_pix 最高
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Edges">
+            <summary>
+            输出的xld
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Feature">
+            <summary>
+            筛选xld的特征
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Min1">
+            <summary>
+            第一个特征的最小值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Max1">
+            <summary>
+            第一个特征的最大值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Min2">
+            <summary>
+            第二个特征的最小值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.Max2">
+            <summary>
+            第二个特征的最大值
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.SelectedContours">
+            <summary>
+            筛选输出的轮廓
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.PrintScreenRegion">
+            <summary>
+            截取的region集合
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.PrintScreen_R">
+            <summary>
+             printscreen画笔大小
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.PrintScreenRegionUnion">
+            <summary>
+            截取到region后截取到的region
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.PrintScreenImage">
+            <summary>
+            截取到region后的图片
+            </summary>
+        </member>
+        <member name="P:TemplateHalconLibrary.ExtractModel.PrintScreenRegionXLD">
+            <summary>
+             截取到region后region合成的集合XLD
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.UI.TemplateFrm._ITemplateShuJu">
+            <summary>
+            模板匹配数据
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.UI.TemplateFrm._SetTemplateShuJu">
+            <summary>
+            设置模板数据工具
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.UI.TemplateFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.UI.TemplateFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.UI.TemplateFrm.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.UI.TemplateFrm.run">
+            <summary>
+            运行检测
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.UI.TemplateFrm.read_one_image">
+            <summary>
+            读取一张图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TemplateHalconLibrary.UI.TemplateFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.UI.TemplateFrm.trigger_run">
+            <summary>
+            运行触发器
+            </summary>
+        </member>
+        <member name="F:TemplateHalconLibrary.UI.TemplateFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TemplateHalconLibrary.UI.TemplateFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TemplateHalconLibrary.UI.TemplateFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:TemplateHalconLibrary.UI.TemplateFrm._read">
+            <summary>
+            取图事件 
+            </summary>
+        </member>
+        <member name="E:TemplateHalconLibrary.UI.TemplateFrm._run">
+            <summary>
+            运行的算法
+            </summary>
+        </member>
+        <member name="T:TemplateHalconLibrary.UI.TemplateFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

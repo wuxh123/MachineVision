@@ -1,0 +1,8 @@
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\DLL\BackGroundCheck.dll
+D:\Vision架构dll\MachineVision\DLL\BackGroundCheck.pdb
+D:\Vision架构dll\MachineVision\DLL\BackGroundCheck.XML
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.dll
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.pdb
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.UI.BackGroundFrm.resources
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.csproj.GenerateResource.Cache

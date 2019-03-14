@@ -1,0 +1,35 @@
+J:\类库\halcon工具\Vision\Vision27\MachineVision\IniLibrary\bin\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\IniLibrary\bin\Debug\IniLibrary.pdb
+J:\类库\halcon工具\Vision\Vision27\MachineVision\IniLibrary\obj\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\IniLibrary\obj\Debug\IniLibrary.pdb
+J:\类库\halcon工具\Vision\Vision27\MachineVision\IniLibrary\bin\Debug\IniLibrary.XML
+J:\类库\halcon工具\Vision\Vision27\MachineVision\MachineVision\bin\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\Vision27\MachineVision\MachineVision\bin\Debug\IniLibrary.pdb
+J:\类库\halcon工具\Vision\Vision27\MachineVision\MachineVision\bin\Debug\IniLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\MachineVision\bin\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\MachineVision\bin\Debug\IniLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\MachineVision\bin\Debug\IniLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\IniLibrary\obj\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\IniLibrary\obj\Debug\IniLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\IniLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\IniLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\IniLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\IniLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\IniLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\IniLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\IniLibrary\obj\Debug\IniLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\IniLibrary\obj\Debug\IniLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\IniLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\IniLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\IniLibrary.XML
+D:\Vision架构dll\MachineVision\IniLibrary\obj\Debug\IniLibrary.dll
+D:\Vision架构dll\MachineVision\IniLibrary\obj\Debug\IniLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\IniLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\IniLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\IniLibrary\obj\Debug\IniLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\IniLibrary\obj\Debug\IniLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\IniLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\IniLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\IniLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\IniLibrary\obj\Debug\IniLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\IniLibrary\obj\Debug\IniLibrary.pdb

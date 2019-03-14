@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DianWeiNiHeQuiYuanXinLibrary</name>
+    </assembly>
+    <members>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.UI.NiHeQiuYuanFrm._iDianWeiData">
+            <summary>
+            拟合圆心的数据
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.UI.NiHeQiuYuanFrm._niHeYuanTool">
+            <summary>
+            拟合圆工具
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.UI.NiHeQiuYuanFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DianWeiNiHeQuiYuanXinLibrary.UI.NiHeQiuYuanFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DianWeiNiHeQuiYuanXinLibrary.UI.NiHeQiuYuanFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:DianWeiNiHeQuiYuanXinLibrary.DianWeiData">
+            <summary>
+            拟合圆心的数据
+            </summary>
+        </member>
+        <member name="T:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData">
+            <summary>
+            拟合圆心的数据接口
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData.X_column">
+            <summary>
+             _x_column点位
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData.Y_row">
+            <summary>
+            _y_row点位
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData.Yuan_xin_x_column">
+            <summary>
+            圆心x
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData.Yuan_xin_y_row">
+            <summary>
+            圆心y
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData.Yuan_ban_jing_r">
+            <summary>
+            圆半径
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData.Yuan_kai_shi_jiao">
+            <summary>
+            开始角
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.IDianWeiData.Yuan_jie_su_jiao">
+            <summary>
+            结束角
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.DianWeiData._x_column">
+            <summary>
+             x_column点位
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.DianWeiData._y_row">
+            <summary>
+            _y_row点位
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.DianWeiData._yuan_xin_x_column">
+            <summary>
+            圆心x
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.DianWeiData._yuan_xin_y_row">
+            <summary>
+            圆心y
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.DianWeiData._yuan_ban_jing_r">
+            <summary>
+            圆半径
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.DianWeiData._yuan_kai_shi_jiao">
+            <summary>
+            开始角
+            </summary>
+        </member>
+        <member name="F:DianWeiNiHeQuiYuanXinLibrary.DianWeiData._yuan_jie_su_jiao">
+            <summary>
+            结束角
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.DianWeiData.X_column">
+            <summary>
+             _x_column点位
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.DianWeiData.Y_row">
+            <summary>
+            _y_row点位
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.DianWeiData.Yuan_xin_x_column">
+            <summary>
+            圆心x
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.DianWeiData.Yuan_xin_y_row">
+            <summary>
+            圆心y
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.DianWeiData.Yuan_ban_jing_r">
+            <summary>
+            圆半径
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.DianWeiData.Yuan_kai_shi_jiao">
+            <summary>
+            开始角
+            </summary>
+        </member>
+        <member name="P:DianWeiNiHeQuiYuanXinLibrary.DianWeiData.Yuan_jie_su_jiao">
+            <summary>
+            结束角
+            </summary>
+        </member>
+        <member name="T:DianWeiNiHeQuiYuanXinLibrary.NiHeYuanTool">
+            <summary>
+            拟合圆求出圆心工具
+            </summary>
+        </member>
+        <member name="M:DianWeiNiHeQuiYuanXinLibrary.NiHeYuanTool.niHeQiuYuan(DianWeiNiHeQuiYuanXinLibrary.IDianWeiData)">
+            <summary>
+             拟合求圆
+            </summary>
+            <param name="IDian"></param>
+        </member>
+        <member name="M:DianWeiNiHeQuiYuanXinLibrary.NiHeYuanTool.xieRuShuJu(DianWeiNiHeQuiYuanXinLibrary.IDianWeiData,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            写入数据
+            </summary>
+            <param name="IDian"></param>
+            <param name="x_"></param>
+            <param name="y_"></param>
+        </member>
+        <member name="T:DianWeiNiHeQuiYuanXinLibrary.YiCiDuiWeiQiuBuChangZhiTool">
+            <summary>
+            一次对位，求补偿值
+            </summary>
+        </member>
+        <member name="M:DianWeiNiHeQuiYuanXinLibrary.YiCiDuiWeiQiuBuChangZhiTool.yiCiDuiWeiQiuBuChangZhi(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            一次对位，求补偿值
+            </summary>
+            <param name="xuanZhuanZhongXin_X"></param>
+            <param name="xuanZhuanZhongXin_Y"></param>
+            <param name="muBanDian_X"></param>
+            <param name="muBanDian_Y"></param>
+            <param name="muBanDian_A"></param>
+            <param name="dangQianZuoBiao_X"></param>
+            <param name="dangQianZuoBiao_Y"></param>
+            <param name="dangQianJiaoDu"></param>
+            <param name="xuanZhuanHouDeZuoBiao_X"></param>
+            <param name="xuanZhuanHouDeZuoBiao_Y"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

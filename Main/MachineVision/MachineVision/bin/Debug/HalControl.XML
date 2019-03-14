@@ -1,0 +1,1852 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HalControl</name>
+    </assembly>
+    <members>
+        <member name="T:HalControl.ROI.ROI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.IROI">
+            <summary>
+            接口ROI
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.IROI.displayROI(HalconDotNet.HWindow)">
+            <summary>
+            显示ROI
+            </summary>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.IROI.isSelected(System.Double,System.Double)">
+            <summary>
+            是否选中
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.ROI.IROI.displayOperation(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示选中的操作点
+            </summary>
+            <param name="number"></param>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.IROI.setOpoint(System.Double,System.Double)">
+            <summary>
+            设置点位
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+            <param name="number">设置地几个点</param>
+        </member>
+        <member name="M:HalControl.ROI.ROI.displayROI(HalconDotNet.HWindow)">
+            <summary>
+            显示
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.ROI.isSelected(System.Double,System.Double)">
+            <summary>
+            是否选中ROI
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.ROI.ROI.displayOperation(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示选中的操作点
+            </summary>
+            <param name="number"></param>
+        </member>
+        <member name="M:HalControl.ROI.ROI.setOpoint(System.Double,System.Double)">
+            <summary>
+            设置点位
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+            <param name="number">设置地几个点</param>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._radius">
+            <summary>
+            圆的半径
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._row_r_y">
+            <summary>
+            用于设置半径的点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._col_r_x">
+            <summary>
+            用于设置半斤的点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._center_row_y">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._center_column_x">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._operation_piont_number">
+            <summary>
+            对外开放的操作点位数
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._operationing">
+            <summary>
+            操作第几个点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.CricleROI._iOutSide">
+            <summary>
+            对接外部数据
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.displayROI(HalconDotNet.HWindow)">
+            <summary>
+            显示圆
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.isSelected(System.Double,System.Double)">
+            <summary>
+            是否选中圆
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.create(System.Double,System.Double,System.Double)">
+            <summary>
+            创建圆
+            </summary>
+            <param name="center_row_y_"></param>
+            <param name="center_column_x_"></param>
+            <param name="radius_"></param>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.displayOperation(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示选中的操作点
+            </summary>
+            <param name="number"></param>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.no_chice_point(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示没有选中的操作点
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.setOpoint(System.Double,System.Double)">
+            <summary>
+            设置操作点
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+            <param name="number"></param>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.sheild_R">
+            <summary>
+            刷新下半径
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.sheild_col_row">
+            <summary>
+            刷新半径操作点
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Cricle.CricleROI.updateInterface">
+            <summary>
+            更新接口数据
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.CricleROI.Radius">
+            <summary>
+            圆的半径
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.CricleROI.Row_r_y">
+            <summary>
+            用于设置半径的点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.CricleROI.Col_r_x">
+            <summary>
+            用于设置半斤的点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.CricleROI.Center_row_y">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.CricleROI.Center_column_x">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.CricleROI.IOutSide">
+            <summary>
+            对接外部数据
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Cricle.OutsideCricleROI">
+            <summary>
+            数据对外数据接口
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Cricle.IOutsideCricleROI">
+            <summary>
+            数据对外数据接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.IOutsideCricleROI.Radius">
+            <summary>
+            圆的半径
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.IOutsideCricleROI.Center_row_y">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.IOutsideCricleROI.Center_column_x">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.OutsideCricleROI._radius">
+            <summary>
+            半径
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.OutsideCricleROI._center_row_y">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Cricle.OutsideCricleROI._center_column_x">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.OutsideCricleROI.Radius">
+            <summary>
+            半径
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.OutsideCricleROI.Center_row_y">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.OutsideCricleROI.Center_column_x">
+            <summary>
+            圆心
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Cricle.IOutsideCricle">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Cricle.IOutsideCricle.IOutSide">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+        <member name="T:HalControl.HalconWinControl_ROI">
+            <summary>
+            控件带ROI功能
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI._roiControl">
+            <summary>
+            ROI控制器
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI._ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.exit_Image">
+            <summary>
+            有图片标志
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI._start_positionX">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI._start_positionY">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.zoom_beginRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.zoom_beginCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.zoom_endRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.zoom_endCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.current_beginRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.current_beginCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.current_endRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI.current_endCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI._hWindowControl">
+            <summary>
+            窗口控件句柄
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI._halconWindow1">
+            <summary>
+            halcon窗口HWindow
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_ROI._roiStatus">
+            <summary>
+            ROI控制器的状态
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.Exit_Image">
+            <summary>
+            有图片标志
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.init">
+             <summary>
+            初始化控件image，和_halconWindow,及窗口设置的颜色
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.SaveWindowDumpDialog">
+            <summary>
+            保存图片
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.set_color(System.String)">
+            <summary>
+            设置窗口颜色
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.repaintingImage(System.Object,System.EventArgs)">
+            <summary>
+            刷新下图片
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.refreshWindow">
+            <summary>
+            刷新控件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.ShieldMouseEvent">
+            <summary>
+            屏蔽鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.ReloadMouseEvent">
+            <summary>
+            重新加载　鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.ti_qu_model_shi_ShieldMouseEvent">
+            <summary>
+              屏蔽halcon控件的鼠标事件,但不屏蔽滚轮事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.ti_qu_model_shi_ReloadMouseEvent">
+             <summary>
+            重新加载halcon控件　鼠标事件但不加载滚轮事件
+             </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.DispImageFit">
+            <summary>
+            让图片适应窗口显示
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.repaintingROI(System.Object,System.EventArgs)">
+            <summary>
+            里面刷新控件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.DrawCircle(System.Double,System.Double,System.Double,HalControl.ROI.Cricle.IOutsideCricleROI)">
+            <summary>
+            画圆
+            </summary>
+            <param name="cols_x"></param>
+            <param name="row_y"></param>
+            <param name="radiou"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.DrawLine(System.Double,System.Double,System.Double,System.Double,HalControl.ROI.Line.IOutsideLineROI)">
+            <summary>
+            划线
+            </summary>
+            <param name="cols_x1"></param>
+            <param name="row_y1"></param>
+            <param name="cols_x2"></param>
+            <param name="row_y2"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.DrawRectangle1(System.Double,System.Double,System.Double,System.Double,HalControl.ROI.Rectangle1.IOutsideRectangle1ROI)">
+            <summary>
+            画矩形1
+            </summary>
+            <param name="cols_x1"></param>
+            <param name="row_y1"></param>
+            <param name="cols_x2"></param>
+            <param name="row_y2"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_ROI.DrawRectangle2(System.Double,System.Double,System.Double,System.Double,System.Double,HalControl.ROI.Rectangle2.IOutsideRectangle2ROI)">
+            <summary>
+             画矩形2
+            </summary>
+            <param name="col_x1"></param>
+            <param name="row_y1"></param>
+            <param name="phi"></param>
+            <param name="len1"></param>
+            <param name="len2"></param>
+        </member>
+        <member name="E:HalControl.HalconWinControl_ROI.Repaint">
+            <summary>
+            绘图触发事件
+            </summary>
+        </member>
+        <member name="E:HalControl.HalconWinControl_ROI.RepaintingROI">
+            <summary>
+            刷新控件内部ROI
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_ROI.Ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_ROI.HalconWindow1">
+            <summary>
+            halcon窗口HWindow
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_ROI.HWindowControl">
+            <summary>
+            窗口控件句柄
+            </summary>
+        </member>
+        <member name="T:HalControl.HalconWinControl_ROI.repaint">
+            <summary>
+            绘图委托
+            </summary>
+            <param name="_halconWindow1"></param>
+        </member>
+        <member name="T:HalControl.ROI.ROIControl">
+            <summary>
+            roi控制器
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.ROIControl._array_ROI">
+            <summary>
+            ROI集合
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.ROIControl._iROI">
+            <summary>
+            当前ROI的接口
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.isArrayROIExit">
+            <summary>
+             判断roi的有无
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.selectedROI(System.Double,System.Double)">
+            <summary>
+            确定ROI是否被选中
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.setROISelectedPoint(System.Double,System.Double)">
+            <summary>
+            设置当前ROI的选中点的位置
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.drawCircle(System.Double,System.Double,System.Double,HalControl.ROI.Cricle.IOutsideCricleROI)">
+            <summary>
+            画圆
+            </summary>
+            <param name="cols_x"></param>
+            <param name="row_y"></param>
+            <param name="radius"></param>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.drawRectangle1(System.Double,System.Double,System.Double,System.Double,HalControl.ROI.Rectangle1.IOutsideRectangle1ROI)">
+            <summary>
+            画矩形
+            </summary>
+            <param name="cols_x1"></param>
+            <param name="row_y1"></param>
+            <param name="cols_x2"></param>
+            <param name="row_y2"></param>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.drawRectangle2(System.Double,System.Double,System.Double,System.Double,System.Double,HalControl.ROI.Rectangle2.IOutsideRectangle2ROI)">
+            <summary>
+            画矩形2
+            </summary>
+            <param name="mid_row_y"></param>
+            <param name="mid_col_x"></param>
+            <param name="phi"></param>
+            <param name="len1"></param>
+            <param name="len2"></param>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.drawLine(System.Double,System.Double,System.Double,System.Double,HalControl.ROI.Line.IOutsideLineROI)">
+            <summary>
+            画直线
+            </summary>
+            <param name="cols_x1"></param>
+            <param name="row_y1"></param>
+            <param name="cols_x2"></param>
+            <param name="row_y2"></param>
+        </member>
+        <member name="M:HalControl.ROI.ROIControl.displayROI(HalconDotNet.HWindow)">
+            <summary>
+             显示所有ROI
+            </summary>
+            <param name="hwin"></param>
+        </member>
+        <member name="T:HalControl.ROI.ROIStatus">
+            <summary>
+            ROI状态枚举
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.ROIStatus.ChioceROI">
+            <summary>
+            选中ROI
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.ROIStatus.NoChioceROI">
+            <summary>
+            没有选中ROI
+            </summary>
+        </member>
+        <member name="T:HalControl.HalconWinControl">
+            <summary>
+            halcon窗口控件容器，在添加halcon后，传入halcon窗口句柄，就可控制窗口
+            </summary>
+            
+        </member>
+        <member name="F:HalControl.HalconWinControl._ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl._b_leftButton">
+            <summary>
+            记录鼠标按下或松开
+            </summary>       
+        </member>
+        <member name="F:HalControl.HalconWinControl._b_rightButton">
+            <summary>
+            记录鼠标按下或松开
+            </summary>       
+        </member>
+        <member name="F:HalControl.HalconWinControl._start_positionX">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl._start_positionY">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.zoom_beginRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.zoom_beginCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.zoom_endRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.zoom_endCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.current_beginRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.current_beginCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.current_endRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.current_endCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl._halconWindow1">
+            <summary>
+            窗口句柄
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl._hWindowControl1">
+            <summary>
+            窗口控件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.SaveWindowDumpDialog">
+            <summary>
+            保存图片
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.set_color(System.String)">
+            <summary>
+            设置窗口颜色
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl.set_resolution(System.String,System.String)">
+            <summary>
+            设置窗口分辨率
+            </summary>
+            <param name="height"></param>
+            <param name="with"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl.refreshWindow">
+            <summary>
+            刷新控件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.ShieldMouseEvent">
+            <summary>
+            屏蔽鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.ReloadMouseEvent">
+            <summary>
+            重新加载　鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.ti_qu_model_shi_ShieldMouseEvent">
+            <summary>
+              屏蔽halcon控件的鼠标事件,但不屏蔽滚轮事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.ti_qu_model_shi_ReloadMouseEvent">
+             <summary>
+            重新加载halcon控件　鼠标事件但不加载滚轮事件
+             </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.clearWindow">
+            <summary>
+            清空窗口
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.DispImageFit">
+            <summary>
+            让图片适应窗口显示
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HalControl.HalconWinControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl.Ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl.HWindowControl1">
+            <summary>
+            传入halcon窗口
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Line.LineROI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._row_y1">
+            <summary>
+            线的开头点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._cols_x1">
+            <summary>
+            线的开头点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._row_y2">
+            <summary>
+            线的结束点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._cols_x2">
+            <summary>
+            线的结束点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._mid_row_y">
+            <summary>
+            直线的中心点x
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._mid_col_x">
+            <summary>
+            直线的中心点y
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._operation_piont_number">
+            <summary>
+            对外开放的操作点位数
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._operationing">
+            <summary>
+            操作第几个点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.LineROI._iOutSide">
+            <summary>
+            外部数据
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.displayOperation(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示操作点
+            </summary>
+            <param name="number"></param>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.no_chice_point(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示没有选中的操作点
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.isSelected(System.Double,System.Double)">
+            <summary>
+            ROI是否被选中 
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.displayROI(HalconDotNet.HWindow)">
+            <summary>
+            显示ROI
+            </summary>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.setOpoint(System.Double,System.Double)">
+            <summary>
+            设置选中点的位置
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.create(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            创建一条直线
+            </summary>
+            <param name="row_y1"></param>
+            <param name="col_x1"></param>
+            <param name="row_y2"></param>
+            <param name="col_x2"></param>
+        </member>
+        <member name="M:HalControl.ROI.Line.LineROI.updateInterface">
+            <summary>
+            更新接口数据
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.LineROI.Row1">
+            <summary>
+            线的开头点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.LineROI.Cols1">
+            <summary>
+            线的开头点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.LineROI.Row2">
+            <summary>
+            线的结束点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.LineROI.Cols2">
+            <summary>
+            线的结束点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.LineROI.IOutSide">
+            <summary>
+            外部数据
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Line.OutsideLineROI">
+            <summary>
+            对接外部数据
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Line.IOutsideLineROI">
+            <summary>
+            数据对外数据接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.IOutsideLineROI.Row1">
+            <summary>
+            线的开头点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.IOutsideLineROI.Cols1">
+            <summary>
+            线的开头点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.IOutsideLineROI.Row2">
+            <summary>
+            线的结束点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.IOutsideLineROI.Cols2">
+            <summary>
+            线的结束点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.OutsideLineROI._row1">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.OutsideLineROI._cols1">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.OutsideLineROI._row2">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Line.OutsideLineROI._cols2">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.OutsideLineROI.Row1">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.OutsideLineROI.Cols1">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.OutsideLineROI.Row2">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.OutsideLineROI.Cols2">
+            <summary>
+            直线端点
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Line.IOutsideLine">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Line.IOutsideLine.IOutSide">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+        <member name="T:HalControl.HalconWinControl_1">
+            <summary>
+            halcon窗口控件
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1._ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.exit_Image">
+            <summary>
+            有图片标志
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1._b_leftButton">
+            <summary>
+            记录鼠标按下或松开
+            </summary>       
+        </member>
+        <member name="F:HalControl.HalconWinControl_1._b_rightButton">
+            <summary>
+            记录鼠标按下或松开
+            </summary>       
+        </member>
+        <member name="F:HalControl.HalconWinControl_1._start_positionX">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1._start_positionY">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.zoom_beginRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.zoom_beginCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.zoom_endRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.zoom_endCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.current_beginRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.current_beginCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.current_endRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.current_endCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1._hWindowControl">
+            <summary>
+            窗口控件句柄
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1._halconWindow1">
+            <summary>
+            halcon窗口HWindow
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.Exit_Image">
+            <summary>
+            有图片标志
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.init">
+             <summary>
+            初始化控件image，和_halconWindow,及窗口设置的颜色
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.SaveWindowDumpDialog">
+            <summary>
+            保存图片
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.set_color(System.String)">
+            <summary>
+            设置窗口颜色
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.repaintingImage(System.Object,System.EventArgs)">
+            <summary>
+            刷新下图片
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.refreshWindow">
+            <summary>
+            刷新控件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.ShieldMouseEvent">
+            <summary>
+            屏蔽鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.ReloadMouseEvent">
+            <summary>
+            重新加载　鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.ti_qu_model_shi_ShieldMouseEvent">
+            <summary>
+              屏蔽halcon控件的鼠标事件,但不屏蔽滚轮事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.ti_qu_model_shi_ReloadMouseEvent">
+             <summary>
+            重新加载halcon控件　鼠标事件但不加载滚轮事件
+             </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.DispImageFit">
+            <summary>
+            让图片适应窗口显示
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_1.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_1.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="E:HalControl.HalconWinControl_1.Repaint">
+            <summary>
+            绘图触发事件
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_1.Ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_1.HalconWindow1">
+            <summary>
+            halcon窗口HWindow
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_1.HWindowControl">
+            <summary>
+            窗口控件句柄
+            </summary>
+        </member>
+        <member name="T:HalControl.HalconWinControl_1.repaint">
+            <summary>
+            绘图委托
+            </summary>
+            <param name="_halconWindow1"></param>
+        </member>
+        <member name="T:HalControl.HalconWinControl_Draw">
+            <summary>
+            halcon窗口，带draw功能
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.exit_Image">
+            <summary>
+            有图片标志
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw._ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw._b_leftButton">
+            <summary>
+            记录鼠标按下或松开
+            </summary>       
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw._b_rightButton">
+            <summary>
+            记录鼠标按下或松开
+            </summary>       
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw._start_positionX">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw._start_positionY">
+            <summary>
+            记录鼠标当前的位置
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.zoom_beginRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.zoom_beginCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.zoom_endRow">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.zoom_endCol">
+            <summary>
+             设定图像的窗口显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.current_beginRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.current_beginCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.current_endRow">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw.current_endCol">
+            <summary>
+            获取图像的当前显示部分
+            </summary>
+        </member>
+        <member name="F:HalControl.HalconWinControl_Draw._halconWindow1">
+            <summary>
+            halcon窗口HWindow
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.Exit_Image">
+            <summary>
+            有图片标志
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.init">
+             <summary>
+            初始化控件image，和_halconWindow,及窗口设置的颜色
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.SaveWindowDumpDialog">
+            <summary>
+            保存图片
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.set_color(System.String)">
+            <summary>
+            设置窗口颜色
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.refreshWindow">
+            <summary>
+            刷新控件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.ShieldMouseEvent">
+            <summary>
+            屏蔽鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.ReloadMouseEvent">
+            <summary>
+            重新加载　鼠标事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.ti_qu_model_shi_ShieldMouseEvent">
+            <summary>
+              屏蔽halcon控件的鼠标事件,但不屏蔽滚轮事件
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.ti_qu_model_shi_ReloadMouseEvent">
+             <summary>
+            重新加载halcon控件　鼠标事件但不加载滚轮事件
+             </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.DispImageFit">
+            <summary>
+            让图片适应窗口显示
+            </summary>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.DrawRectangle1(System.String,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+             在图像中绘制矩形区域
+            </summary>
+            <param name="rowBegin"></param>
+            <param name="colBegin"></param>
+            <param name="rowEnd"></param>
+            <param name="colEnd"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.DrawRectangle2(System.String,System.Double@,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+             在图像中绘制矩形区域
+            </summary>
+            <param name="row"></param>
+            <param name="column"></param>
+            <param name="phi"></param>
+            <param name="length1"></param>
+            <param name="length2"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.DrawCircle(System.String,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            在图像中绘制圆形区域
+            </summary>
+            <param name="row"></param>
+            <param name="column"></param>
+            <param name="radius"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.DrawLine(System.String,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            在图像中绘制直线
+            </summary>
+            <param name="color"></param>
+            <param name="beginRow"></param>
+            <param name="beginCol"></param>
+            <param name="endRow"></param>
+            <param name="endCol"></param>
+        </member>
+        <member name="M:HalControl.HalconWinControl_Draw.DrawEllipse(System.String,System.Double@,System.Double@,System.Double@,System.Double@,System.Double@)">
+            <summary>
+            在图像中绘制椭圆形区域
+            </summary>
+            <param name="row"></param>
+            <param name="column"></param>
+            <param name="radius"></param>
+        </member>
+        <member name="E:HalControl.HalconWinControl_Draw.Repaint">
+            <summary>
+            绘图触发事件
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_Draw.Ho_Image">
+            <summary>
+            图片的数据
+            </summary>
+        </member>
+        <member name="P:HalControl.HalconWinControl_Draw.HalconWindow1">
+            <summary>
+            halcon窗口HWindow
+            </summary>
+        </member>
+        <member name="T:HalControl.HalconWinControl_Draw.repaint">
+            <summary>
+            绘图委托
+            </summary>
+            <param name="_halconWindow1"></param>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._mid_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._mid_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._len1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._len2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._phi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._operation_piont_number">
+            <summary>
+            对外开放的操作点位数
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._operationing">
+            <summary>
+            操作第几个点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._rowsInit_y">
+            <summary>
+            初始操作点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._colsInit_x">
+            <summary>
+            初始操作点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._rows_y">
+            <summary>
+            转换后的操作点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._cols_x">
+            <summary>
+            转换后的操作点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._hom2D">
+            <summary>
+            放射变换矩形
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._tmp">
+            <summary>
+            放射变换矩形
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.Rectangle2ROI._iOutSide">
+            <summary>
+            对接外部数据
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.displayROI(HalconDotNet.HWindow)">
+            <summary>
+            显示ROI
+            </summary>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.displayOperation(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示操作点
+            </summary>
+            <param name="number"></param>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.no_chice_point(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+             显示没有选中的操作点
+            </summary>
+            <param name="number"></param>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.isSelected(System.Double,System.Double)">
+            <summary>
+            是否选中
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.setOpoint(System.Double,System.Double)">
+            <summary>
+            设置点位
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.create(System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+             创建矩形2
+            </summary>
+            <param name="mid_row_y"></param>
+            <param name="mid_col_x"></param>
+            <param name="phi"></param>
+            <param name="len1"></param>
+            <param name="len2"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.updateHandlePos">
+             <summary>
+            更新操作点
+             </summary>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle2.Rectangle2ROI.updateInterface">
+            <summary>
+            更新接口数据
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.Rectangle2ROI.Mid_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.Rectangle2ROI.Mid_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.Rectangle2ROI.Len1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.Rectangle2ROI.Len2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.Rectangle2ROI.Phi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.Rectangle2ROI.IOutSide">
+            <summary>
+            对接外部数据
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Rectangle2.OutsideRectangle2ROI">
+            <summary>
+            Rectangle2ROI对接外部的数据
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Rectangle2.IOutsideRectangle2ROI">
+            <summary>
+            Rectangle2ROI对接外部的接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.IOutsideRectangle2ROI.Mid_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.IOutsideRectangle2ROI.Mid_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.IOutsideRectangle2ROI.Len1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.IOutsideRectangle2ROI.Len2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.IOutsideRectangle2ROI.Phi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.OutsideRectangle2ROI._mid_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.OutsideRectangle2ROI._mid_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.OutsideRectangle2ROI._len1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.OutsideRectangle2ROI._len2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle2.OutsideRectangle2ROI._phi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.OutsideRectangle2ROI.Mid_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.OutsideRectangle2ROI.Mid_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.OutsideRectangle2ROI.Len1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.OutsideRectangle2ROI.Len2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.OutsideRectangle2ROI.Phi">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Rectangle2.IOutsideRectangle2">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle2.IOutsideRectangle2.IOutSide">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Rectangle1.Rectangle1ROI">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._row_y1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._col_x1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._row_y2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._col_x2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._mid_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._mid_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._operation_piont_number">
+            <summary>
+            对外开放的操作点位数
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._operationing">
+            <summary>
+            操作第几个点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.Rectangle1ROI._iOutside">
+            <summary>
+            外部接口数据
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.displayOperation(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+            显示操作点
+            </summary>
+            <param name="number"></param>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.displayROI(HalconDotNet.HWindow)">
+            <summary>
+            显示ROI
+            </summary>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.no_chice_point(System.Int32,HalconDotNet.HWindow)">
+            <summary>
+             显示没有选中的操作点
+            </summary>
+            <param name="number"></param>
+            <param name="hwin"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.isSelected(System.Double,System.Double)">
+            <summary>
+            确定点是否被选中
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns>返回-1表示没有被选中</returns>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.setOpoint(System.Double,System.Double)">
+            <summary>
+            设置点位
+            </summary>
+            <param name="col_x"></param>
+            <param name="row_y"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.create(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            创建矩形
+            </summary>
+            <param name="row_y1"></param>
+            <param name="col_x1"></param>
+            <param name="row_y2"></param>
+            <param name="col_x2"></param>
+        </member>
+        <member name="M:HalControl.ROI.Rectangle1.Rectangle1ROI.updateInterface">
+            <summary>
+            更新接口数据
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.Rectangle1ROI.Row_y1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.Rectangle1ROI.Col_x1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.Rectangle1ROI.Row_y2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.Rectangle1ROI.Col_x2">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.Rectangle1ROI.Min_row_y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.Rectangle1ROI.Min_col_x">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.Rectangle1ROI.IOutside">
+            <summary>
+            外部接口数据
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Rectangle1.OutSideRectangle1ROI">
+            <summary>
+            外部接口数据
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Rectangle1.IOutsideRectangle1ROI">
+            <summary>
+            矩形接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.IOutsideRectangle1ROI.Row_y1">
+            <summary>
+            矩形端点1
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.IOutsideRectangle1ROI.Col_x1">
+            <summary>
+            矩形端点1
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.IOutsideRectangle1ROI.Row_y2">
+            <summary>
+            矩形端点2
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.IOutsideRectangle1ROI.Col_x2">
+            <summary>
+            矩形端点2
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.OutSideRectangle1ROI._row_y1">
+            <summary>
+            矩形端点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.OutSideRectangle1ROI._col_x1">
+            <summary>
+            矩形端点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.OutSideRectangle1ROI._row_y2">
+            <summary>
+            矩形端点
+            </summary>
+        </member>
+        <member name="F:HalControl.ROI.Rectangle1.OutSideRectangle1ROI._col_x2">
+            <summary>
+            矩形端点
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.OutSideRectangle1ROI.Row_y1">
+            <summary>
+            矩形端点1
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.OutSideRectangle1ROI.Col_x1">
+            <summary>
+            矩形端点2
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.OutSideRectangle1ROI.Row_y2">
+            <summary>
+            矩形端点2
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.OutSideRectangle1ROI.Col_x2">
+            <summary>
+            矩形端点2
+            </summary>
+        </member>
+        <member name="T:HalControl.ROI.Rectangle1.IOutsideRectangle1">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+        <member name="P:HalControl.ROI.Rectangle1.IOutsideRectangle1.IOutSide">
+            <summary>
+            对外接口
+            </summary>
+        </member>
+    </members>
+</doc>

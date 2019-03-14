@@ -1,0 +1,45 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\bin\Debug\BarCodeHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\bin\Debug\BarCodeHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\bin\Debug\BarCodeHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\bin\Debug\halcondotnet.xml
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\BarCodeHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\BarCodeHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\BarCodeHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.UI.CodeBarFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.UI.CodeBarFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\BarCodeHalconLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\BarCodeHalconLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\BarCodeHalconLibrary.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\BarCodeHalconLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\BarCodeHalconLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\BarCodeHalconLibrary.XML
+D:\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.UI.CodeBarFrm.resources
+D:\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.dll
+D:\Vision架构dll\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarCodeHalconLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarCodeHalconLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarCodeHalconLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.UI.CodeBarFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.UI.CodeBarFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BarCodeHalconLibrary\obj\Debug\BarCodeHalconLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarCodeHalconLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarCodeHalconLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BarCodeHalconLibrary.pdb

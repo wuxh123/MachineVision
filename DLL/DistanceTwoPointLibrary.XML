@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DistanceTwoPointLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DistanceTwoPointLibrary.DistanceTwoPointShuJu">
+            <summary>
+            两点间距离的数据
+            </summary>
+        </member>
+        <member name="T:DistanceTwoPointLibrary.IDistanceTwoPointShuJu">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.IDistanceTwoPointShuJu.IrectShuJuPianYiOne">
+            <summary>
+            第一点    
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.IDistanceTwoPointShuJu.IrectShuJuPianYiTwo">
+            <summary>
+            第二点    
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.IDistanceTwoPointShuJu.Ho_crossLine">
+            <summary>
+            两点的直线
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.IDistanceTwoPointShuJu.PathOne">
+            <summary>
+            第一个点的路径
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.IDistanceTwoPointShuJu.PathTwo">
+            <summary>
+            第二个点的路径
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.IDistanceTwoPointShuJu.Ho_Point">
+             <summary>
+            端点的region 
+             </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.IDistanceTwoPointShuJu.DistanceTwoPoint">
+            <summary>
+            两点的距离
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._irectShuJuPianYiOne">
+            <summary>
+            第二点    
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._irectShuJuPianYiTwo">
+            <summary>
+            第二点    
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._distanceTwoPoint">
+            <summary>
+            两点的距离
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._ho_crossLine">
+            <summary>
+            两点的直线
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._ho_Point">
+             <summary>
+            端点的region 
+             </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._pathOne">
+            <summary>
+            第一个点的路径
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._pathTwo">
+            <summary>
+            第二个点的路径
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.DistanceTwoPointShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.DistanceTwoPointShuJu.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.DistanceTwoPointShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.DistanceTwoPointShuJu.analyze_show(HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            检测
+            </summary>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.DistanceTwoPointShuJu.show(HalconDotNet.HWindow)">
+            <summary>
+            显示
+            </summary>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.DistanceTwoPointShuJu.outResult(System.String[]@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.DistanceTwoPointShuJu.IrectShuJuPianYiOne">
+            <summary>
+            第一点    
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.DistanceTwoPointShuJu.IrectShuJuPianYiTwo">
+            <summary>
+            第二点    
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.DistanceTwoPointShuJu.Ho_crossLine">
+            <summary>
+            两点的直线
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.DistanceTwoPointShuJu.PathOne">
+            <summary>
+            第一个点的路径
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.DistanceTwoPointShuJu.PathTwo">
+            <summary>
+            第二个点的路径
+            </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.DistanceTwoPointShuJu.Ho_Point">
+             <summary>
+            端点的region 
+             </summary>
+        </member>
+        <member name="P:DistanceTwoPointLibrary.DistanceTwoPointShuJu.DistanceTwoPoint">
+            <summary>
+            两点的距离
+            </summary>
+        </member>
+        <member name="T:DistanceTwoPointLibrary.Set_DistanceTwoPiont">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.Set_DistanceTwoPiont.Set_QueDingDiYiGeDian(DistanceTwoPointLibrary.IDistanceTwoPointShuJu,System.Object)">
+            <summary>
+            确定第一个点
+            </summary>
+            <param name="iDstanceTwo_"></param>
+            <param name="iRect_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.Set_DistanceTwoPiont.Set_QueDingDiErGeDian(DistanceTwoPointLibrary.IDistanceTwoPointShuJu,System.Object)">
+            <summary>
+            确定第二个点
+            </summary>
+            <param name="iDstanceTwo_"></param>
+            <param name="diYiGeDian_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.Set_DistanceTwoPiont.Set_showParameter(DistanceTwoPointLibrary.IDistanceTwoPointShuJu,System.Windows.Forms.ListBox,System.Windows.Forms.ListBox)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="iDstanceTwo_"></param>
+            <param name="list_One"></param>
+            <param name="list_Two"></param>
+        </member>
+        <member name="T:DistanceTwoPointLibrary.Result_DistanceTwoPoint">
+            <summary>
+            结果类
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.Result_DistanceTwoPoint._distance">
+            <summary>
+            距离
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.Result_DistanceTwoPoint._centerRow">
+            <summary>
+            y
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.Result_DistanceTwoPoint._centerCol">
+            <summary>
+            x
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.Result_DistanceTwoPoint._angle">
+            <summary>
+            a
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.Result_DistanceTwoPoint.showResult(System.String[]@)">
+            <summary>
+            显示
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._tool_treeview_struct">
+            <summary>
+            当前选择定位树节点的信息
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._tool_treeview_struct2">
+            <summary>
+             当前选择 工具跟随树节点的信息
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._ICheckStr">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._iDistanceTwoPoint">
+            <summary>
+            测量两点的数据
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._setDistanceTwo">
+            <summary>
+            数据设置
+            </summary>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._result">
+            <summary>
+            处理的数据结果字典
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.run">
+            <summary>
+            运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.trigger_run">
+            <summary>
+            触发运行
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.tool_treeView_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            选择工具
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.synchroinization_listBox_DingWeiGongJu">
+            <summary>
+            同步第一个定位点的列表
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.treeView2_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            同步第二个定位点列表
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.synchroinization_GenSuiDingWeiLieBian">
+            <summary>
+            同步第二个定位点列表
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.queDingDiYiGeDingWeiDian">
+            <summary>
+            确定第一个点
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.ROIMoveEvent(HalconDotNet.HWindow)">
+            <summary>
+            图片移动是刷新
+            </summary>
+            <param name="_halconWindow1"></param>
+        </member>
+        <member name="F:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="E:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._run">
+            <summary>
+            运行事件
+            </summary>
+        </member>
+        <member name="T:DistanceTwoPointLibrary.UI.DistanceTwoPointFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

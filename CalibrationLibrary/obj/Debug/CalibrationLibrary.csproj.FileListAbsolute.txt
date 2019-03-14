@@ -1,0 +1,40 @@
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CalibrationLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CalibrationLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.UI.CalibrationFrm.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\CalibrationLibrary.XML
+D:\Vision架构dll\MachineVision\DLL\CalibrationLibrary.XML
+D:\Vision架构dll\MachineVision\DLL\CalibrationLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\CalibrationLibrary.pdb
+D:\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.UI.CalibrationFrm.resources
+D:\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.dll
+D:\Vision架构dll\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.UI.CalibrationFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.UI.CalibrationFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.UI.CalibrationFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\CalibrationLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\CalibrationLibrary\obj\Debug\CalibrationLibrary.pdb

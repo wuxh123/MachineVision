@@ -1,0 +1,12 @@
+﻿<Window x:Class="ShengChengRuanJianZhuCeMa.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="生成注册码" Height="250" Width="525" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid>
+        <Button Content="生成注册码" Height="40" HorizontalAlignment="Left" Margin="75,137,0,0" Name="button_ShengChengZhuCeMa" VerticalAlignment="Top" Width="394" Click="button_ShengChengZhuCeMa_Click" />
+        <Label Content="机器码:" Height="28" HorizontalAlignment="Left" Margin="13,20,0,0" Name="label1" VerticalAlignment="Top" Width="56" />
+        <Label Content="注册码:" HorizontalAlignment="Left" Margin="12,72,0,111" Name="label2" Width="56" />
+        <TextBox Height="33" HorizontalAlignment="Left" Margin="75,15,0,0" Name="textBox_JiQiMa" VerticalAlignment="Top" Width="394" />
+        <TextBox Height="33" HorizontalAlignment="Left" Margin="75,67,0,0" Name="textBox_ZhuCeMa" VerticalAlignment="Top" Width="394" />
+    </Grid>
+</Window>

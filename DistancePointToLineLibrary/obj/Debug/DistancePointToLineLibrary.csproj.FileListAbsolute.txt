@@ -1,0 +1,18 @@
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\bin\Debug\DistancePointToLineLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\bin\Debug\DistancePointToLineLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.UI.DistancePointToLineFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistancePointToLineLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistancePointToLineLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistancePointToLineLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistancePointToLineLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistancePointToLineLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\DistancePointToLineLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.UI.DistancePointToLineFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DistancePointToLineLibrary\obj\Debug\DistancePointToLineLibrary.pdb

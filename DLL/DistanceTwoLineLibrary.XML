@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DistanceTwoLineLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:DistanceTwoLineLibrary.DistanceTwoLineShuJu">
+            <summary>
+            两条直线的交点数据
+            </summary>
+        </member>
+        <member name="T:DistanceTwoLineLibrary.IDistanceTwoLineShuJu">
+            <summary>
+            接口数据
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.IDistanceTwoLineShuJu.DiYiTiaoZhiXian">
+            <summary>
+            第一条直线
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.IDistanceTwoLineShuJu.DiErTiaoZhiXian">
+            <summary>
+            第二条直线
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.IDistanceTwoLineShuJu.JiaoDianXLD">
+            <summary>
+            交点region
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.IDistanceTwoLineShuJu.DiYiTiaoZhiXianLuJing">
+            <summary>
+            第一条直线的路径
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.IDistanceTwoLineShuJu.DiErTiaoZhiXianLuJing">
+            <summary>
+            第二条直线的路径
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLineShuJu._diYiTiaoZhiXianLuJing">
+            <summary>
+            第一条直线的路径
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLineShuJu._diErTiaoZhiXianLuJing">
+            <summary>
+            第二条直线的路径
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLineShuJu._diYiTiaoZhiXian">
+            <summary>
+            第一条直线
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLineShuJu._diErTiaoZhiXian">
+            <summary>
+            第二条直线
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLineShuJu._jiaoDianXLD">
+            <summary>
+            交点region
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLineShuJu._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.DistanceTwoLineShuJu.save">
+            <summary>
+            保存
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.DistanceTwoLineShuJu.init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.DistanceTwoLineShuJu.analyze_show(HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            检测
+            </summary>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.DistanceTwoLineShuJu.show(HalconDotNet.HWindow)">
+            <summary>
+            显示
+            </summary>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.DistanceTwoLineShuJu.outResult(System.String[]@)">
+            <summary>
+            输出结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.DistanceTwoLineShuJu.DiYiTiaoZhiXian">
+            <summary>
+            第一条直线
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.DistanceTwoLineShuJu.DiErTiaoZhiXian">
+            <summary>
+            第二条直线
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.DistanceTwoLineShuJu.JiaoDianXLD">
+            <summary>
+            交点region
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.DistanceTwoLineShuJu.DiYiTiaoZhiXianLuJing">
+            <summary>
+            第一条直线的路径
+            </summary>
+        </member>
+        <member name="P:DistanceTwoLineLibrary.DistanceTwoLineShuJu.DiErTiaoZhiXianLuJing">
+            <summary>
+            第二条直线的路径
+            </summary>
+        </member>
+        <member name="T:DistanceTwoLineLibrary.Set_DistanceTwoLine">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.Set_DistanceTwoLine.Set_QueDingDiYiTiaoZhiXian(DistanceTwoLineLibrary.IDistanceTwoLineShuJu,System.Object)">
+            <summary>
+            确定第一条线
+            </summary>
+            <param name="id_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.Set_DistanceTwoLine.Set_QueDingDiErTiaoZhiXian(DistanceTwoLineLibrary.IDistanceTwoLineShuJu,System.Object)">
+            <summary>
+            确定第二条直线
+            </summary>
+            <param name="id_"></param>
+            <param name="obj_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.Set_DistanceTwoLine.Set_showParameter(DistanceTwoLineLibrary.IDistanceTwoLineShuJu,System.Windows.Forms.ListBox,System.Windows.Forms.ListBox)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="id_"></param>
+        </member>
+        <member name="T:DistanceTwoLineLibrary.DistanceTwoLine_Result">
+            <summary>
+            结果数据
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLine_Result.Row">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLine_Result.Column">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.DistanceTwoLine_Result.Angle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.DistanceTwoLine_Result.showResult(System.String[]@)">
+            <summary>
+            
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._tool_treeview_struct">
+            <summary>
+            当前选择定位树节点的信息
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._tool_treeview_struct2">
+            <summary>
+             当前选择 工具跟随树节点的信息
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._ICheckStr">
+            <summary>
+            检测流
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._result">
+            <summary>
+            处理的数据结果字典
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._idistance">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._set_DistanceTwo">
+            <summary>
+            设置器
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.run">
+            <summary>
+            运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.trigger_run">
+            <summary>
+            触发运行
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.tool_treeView_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            选择工具
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.synchroinization_listBox_DingWeiGongJu">
+            <summary>
+            同步第一个定位点的列表
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.treeView2_AfterSelect(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+            <summary>
+            同步第二个定位点列表
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.synchroinization_GenSuiDingWeiLieBian">
+            <summary>
+            同步第二个定位点列表
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.queDingDiYiGeDingWeiDian">
+            <summary>
+            确定第一个点
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.ROIMoveEvent(HalconDotNet.HWindow)">
+            <summary>
+            图片移动是刷新
+            </summary>
+            <param name="_halconWindow1"></param>
+        </member>
+        <member name="F:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._read">
+            <summary>
+            事件 
+            </summary>
+        </member>
+        <member name="E:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._run">
+            <summary>
+            运行事件
+            </summary>
+        </member>
+        <member name="T:DistanceTwoLineLibrary.UI.DistanceTwoLineFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

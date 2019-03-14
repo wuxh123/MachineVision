@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TcpIpLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:TcpIpLibrary.TcpIpShuJu">
+            <summary>
+            tcpip数据类
+            </summary>
+        </member>
+        <member name="T:TcpIpLibrary.ITcpIpShuJu">
+            <summary>
+            tcpip的数据接口
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.ITcpIpShuJu.TcpipIP">
+            <summary>
+            tcpip的ip地址
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.ITcpIpShuJu.TcpipDuanKou">
+            <summary>
+            tcpip的端口号
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.ITcpIpShuJu.TcpipKeHuDuan">
+            <summary>
+            客户端
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.ITcpIpShuJu.TcpipFuWuDuan">
+            <summary>
+            服务端
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TcpIpShuJu._tcpipIP">
+            <summary>
+            tcpip的ip地址
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TcpIpShuJu._tcpipDuanKou">
+            <summary>
+            tcpip的端口号
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TcpIpShuJu._tcpipKeHuDuan">
+            <summary>
+            客户端
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TcpIpShuJu._tcpipFuWuDuan">
+            <summary>
+            服务端
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.TcpIpShuJu.TcpipIP">
+            <summary>
+            tcpip的ip地址
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.TcpIpShuJu.TcpipDuanKou">
+            <summary>
+            tcpip的端口号
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.TcpIpShuJu.JianTingDeGeShu">
+            <summary>
+            监听的个数
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.TcpIpShuJu.TcpipKeHuDuan">
+            <summary>
+            客户端
+            </summary>
+        </member>
+        <member name="P:TcpIpLibrary.TcpIpShuJu.TcpipFuWuDuan">
+            <summary>
+            服务端
+            </summary>
+        </member>
+        <member name="T:TcpIpLibrary.TCPIP_FuWu">
+            <summary>
+            tcpip服务端
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIP_FuWu.fuwuduan">
+            <summary>
+             服务端
+             </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIP_FuWu.ip">
+            <summary>
+            ip地址
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIP_FuWu.ipe">
+            <summary>
+            表示网络端点
+            </summary>
+        </member>
+        <member name="M:TcpIpLibrary.TCPIP_FuWu.Fu_Wu_Duan(System.String,System.Int32)">
+            <summary>
+            初始化ip地址
+            </summary>
+            <param name="ip_zifu">输入ip地址</param>
+            <param name=" duanko">输入端口</param>
+            <returns>初始化成功，返回ip，失败返回空</returns>
+        </member>
+        <member name="M:TcpIpLibrary.TCPIP_FuWu.qidong_jiankong(System.Int32)">
+            <summary>
+            检测启动
+            </summary>
+            <param name="a">允许监听多小个客户端</param>
+            <returns>返回一个标志，true表示监听成功</returns>
+        </member>
+        <member name="T:TcpIpLibrary.TCPIP_KeHu">
+            <summary>
+            TCPIP客户端
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIP_KeHu.ip">
+            <summary>
+            ip地址
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIP_KeHu.ipe">
+            <summary>
+            表示网络端点
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIP_KeHu.clientSocket">
+            <summary>
+            客户端
+            </summary>
+        </member>
+        <member name="M:TcpIpLibrary.TCPIP_KeHu.init(System.String,System.Int32)">
+            <summary>
+            初始化客户端
+            </summary>
+            <param name="ipDiZhi">ip地址</param>
+            <param name="duanKou">端口</param>
+            <returns>返回true成功</returns>
+        </member>
+        <member name="M:TcpIpLibrary.TCPIP_KeHu.fasong(System.String,System.Int32,System.String)">
+            <summary>
+            发送数据
+            </summary>
+            <param name="ip_">IP地址</param>
+            <param name="duankou">端口</param>
+            <param name="str">发送的数据</param>
+            <returns>返回true发送成功</returns>
+        </member>
+        <member name="M:TcpIpLibrary.TCPIP_KeHu.jieshou">
+            <summary>
+            接收初始化后的端口数据
+            </summary>
+            <returns>返回接收到的数据</returns>
+        </member>
+        <member name="T:TcpIpLibrary.StateObject">
+            <summary>
+            TCPIP的状态类
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.StateObject.BUFFER_SIZE">
+            <summary>
+            固定buf的大小值
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.StateObject.workSocket">
+            <summary>
+            工作的socket
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.StateObject.buffer">
+            <summary>
+            缓存大小
+            </summary>
+        </member>
+        <member name="M:TcpIpLibrary.StateObject.#ctor">
+             <summary>
+            构造函数
+             </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIPFrm._iTcpIp">
+            <summary>
+            tcpip的数据接口
+            </summary>
+        </member>
+        <member name="F:TcpIpLibrary.TCPIPFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:TcpIpLibrary.TCPIPFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:TcpIpLibrary.TCPIPFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

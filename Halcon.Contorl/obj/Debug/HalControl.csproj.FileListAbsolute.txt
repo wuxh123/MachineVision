@@ -1,0 +1,192 @@
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision11\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision12\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision13\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision14\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\LVS\Vision\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\LVS\Vision\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\LVS\Vision\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\LVS\Vision\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\LVS\Vision\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\LVS\Vision\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\LVS\Vision\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\LVS\Vision\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\LVS\Vision\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\LVS\Vision16\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision18\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\bin\Debug\halcondotnet.dll
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\bin\Debug\HalControl.dll
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\bin\Debug\HalControl.pdb
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\bin\Debug\System.Net.Http.dll
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\bin\Debug\System.Net.Http.xml
+C:\Users\Administrator\Desktop\Vision19\MachineVision\Halcon.Contorl\bin\Debug\zh-Hans\System.Net.Http.resources.dll
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision21\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision23\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision24\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\Vision26\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Main\MachineVision\MachineVision\bin\Debug\HalControl.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\HalControl.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\HalControl.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\DLL\HalControl.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\HalControl.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\HalControl.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\DLL\HalControl.XML
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+J:\类库\halcon工具\Vision\beifen\Vision架构dll1\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+J:\类库\halcon工具\Vision\beifen\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_ROI.resources
+D:\Vision架构dll\MachineVision\DLL\HalControl.dll
+D:\Vision架构dll\MachineVision\DLL\HalControl.pdb
+D:\Vision架构dll\MachineVision\DLL\HalControl.XML
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_ROI.resources
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+D:\Vision架构dll\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_ROI.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.pdb
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_ROI.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\HalControl.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_1.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_Draw.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_ROI.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.HalconWinControl_SanD.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\Halcon.Contorl\obj\Debug\HalControl.csprojResolveAssemblyReference.cache

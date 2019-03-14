@@ -1,0 +1,22 @@
+D:\Vision架构dll\MachineVision\VersionConfigLibrary\bin\Debug\VersionConfigLibrary.dll
+D:\Vision架构dll\MachineVision\VersionConfigLibrary\bin\Debug\VersionConfigLibrary.pdb
+D:\Vision架构dll\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.dll
+D:\Vision架构dll\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.pdb
+D:\Vision架构dll\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.UI.SetVersionConfigFolderFrm.resources
+D:\Vision架构dll\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\DLL\VersionConfigLibrary.dll
+D:\Vision架构dll\MachineVision\DLL\VersionConfigLibrary.pdb
+D:\Vision架构dll\MachineVision\DLL\VersionConfigLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\VersionConfigLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\VersionConfigLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.UI.SetVersionConfigFolderFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\VersionConfigLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\VersionConfigLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\VersionConfigLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.UI.SetVersionConfigFolderFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\VersionConfigLibrary\obj\Debug\VersionConfigLibrary.pdb

@@ -1,0 +1,29 @@
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csprojResolveAssemblyReference.cache
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckHalconLibrary.UI.BackGroundFrm.resources
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csproj.GenerateResource.Cache
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.dll
+D:\Vision架构dll\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.pdb
+D:\Vision架构dll\MachineVision\DLL\BackGroundCheck.dll
+D:\Vision架构dll\MachineVision\DLL\BackGroundCheck.pdb
+D:\Vision架构dll\MachineVision\DLL\BackGroundCheck.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BackGroundCheck.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BackGroundCheck.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckHalconLibrary.UI.BackGroundFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BackGroundCheck.XML
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckHalconLibrary.UI.BackGroundFrm.resources
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.dll
+\\vmware-host\Shared Folders\F\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckHalconLibrary.UI.BackGroundFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheckLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BackGroundCheck\obj\Debug\BackGroundCheck.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BackGroundCheck.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BackGroundCheck.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BackGroundCheck.pdb

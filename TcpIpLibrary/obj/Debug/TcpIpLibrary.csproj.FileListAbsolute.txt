@@ -1,0 +1,7 @@
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TcpIpLibrary\obj\Debug\TcpIpLibrary.TCPIPFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TcpIpLibrary\obj\Debug\TcpIpLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TcpIpLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TcpIpLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\TcpIpLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TcpIpLibrary\obj\Debug\TcpIpLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\TcpIpLibrary\obj\Debug\TcpIpLibrary.pdb

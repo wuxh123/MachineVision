@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackGroundCheck</name>
+    </assembly>
+    <members>
+        <member name="T:BackGroundCheckHalconLibrary.BackGroundShuJu">
+            <summary>
+            背景检测的数据
+            </summary>
+        </member>
+        <member name="T:BackGroundCheckHalconLibrary.IBackGroundShuJu">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.IBackGroundShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.IBackGroundShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.MinGray">
+            <summary>
+            模板掩盖的参数 最小灰度值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.MaxGray">
+            <summary>
+            模板掩盖的参数 最大灰度值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.DilationRadius">
+            <summary>
+            模板掩盖的参数 膨胀半径
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.CoverUpRegion">
+            <summary>
+            遮掩的区域
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.ModelImage">
+            <summary>
+            模板图片
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Offset">
+            <summary>
+            动态阈值参数  背景参数   阈值参数
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.LightDark">
+            <summary>
+            动态阈值参数  背景参数   查找的背景  提取的是黑色，还是白色
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Hv_Features">
+            <summary>
+            分割对的特征
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Hv_Operation">
+            <summary>
+            分割特征的逻辑运算
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Hv_Min">
+            <summary>
+            特征的最小值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Hv_Max">
+            <summary>
+            特征的最大值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Exit_Model_Image">
+            <summary>
+            是否存在模板图片
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Ho_RegionDynThresh">
+            <summary>
+            处理到的污点
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.IBackGroundShuJu.Hv_EulerNumber">
+            <summary>
+            处理到污点的个数
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._beiJingJianCeDuiCuo">
+            <summary>
+            对错
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._iOutSide">
+            <summary>
+            外部接口数据
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._minGray">
+            <summary>
+            模板掩盖的参数 最小灰度值
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._maxGray">
+            <summary>
+            模板掩盖的参数 最大灰度值
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._dilationRadius">
+            <summary>
+            模板掩盖的参数 膨胀半径
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._coverUpRegion">
+            <summary>
+            遮掩的区域
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._modelImage">
+            <summary>
+            模板图片
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._exit_Model_Image">
+            <summary>
+            是否存在模板图片
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._offset">
+            <summary>
+            动态阈值参数  背景参数   阈值参数
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._lightDark">
+            <summary>
+            动态阈值参数  背景参数   查找的背景  提取的是黑色，还是白色
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Features">
+            <summary>
+            分割对的特征
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Operation">
+            <summary>
+            分割特征的逻辑运算
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Min">
+            <summary>
+            特征的最小值
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Max">
+            <summary>
+            特征的最大值
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.ho_RegionDynThresh">
+            <summary>
+            处理到的污点
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.hv_EulerNumber">
+            <summary>
+            处理到污点的个数
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._resutle">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.hv_Row1">
+            <summary>
+            截取roi的中心坐标， 行 y
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.hv_Column1">
+            <summary>
+            截取roi的中心坐标， 列 x
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.hv_Phi1">
+            <summary>
+            截取roi的角度
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.hv_Length11">
+            <summary>
+            截取roi的width
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.hv_Length21">
+            <summary>
+            截取roi的high
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.MinGray1">
+            <summary>
+            模板掩盖的参数 最小灰度值
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.MaxGray1">
+            <summary>
+            模板掩盖的参数 最大灰度值
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.DilationRadius1">
+            <summary>
+            模板掩盖的参数 膨胀半径
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.CoverUpRegion1">
+            <summary>
+            检测的图片
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu.ModelImage1">
+            <summary>
+            模板图片
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._offset_1">
+            <summary>
+            动态阈值参数  背景参数   阈值参数
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._lightDark_1">
+            <summary>
+            动态阈值参数  背景参数   查找的背景  提取的是黑色，还是白色
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Features_1">
+            <summary>
+            分割对的特征
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Operation_1">
+            <summary>
+            分割特征的逻辑运算
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Min_1">
+            <summary>
+            特征的最小值
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundShuJu._hv_Max_1">
+            <summary>
+            特征的最大值
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.BackGroundShuJu.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.BackGroundShuJu.save">
+            <summary>
+            保存数据
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.BackGroundShuJu.init">
+            <summary>
+            初始化数据
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.BackGroundShuJu.analyze_show(HalconDotNet.HWindow,System.String,System.Collections.Generic.Dictionary{System.String,System.Object}@)">
+            <summary>
+            检测
+            </summary>
+            <param name="ho_Image"></param>
+            <param name="hwin"></param>
+            <param name="Key"></param>
+            <param name="_dictionary_resulte"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.BackGroundShuJu.show(HalconDotNet.HWindow)">
+            <summary>
+            显示
+            </summary>
+            <param name="hwin"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.MinGray">
+            <summary>
+            模板掩盖的参数 最小灰度值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.MaxGray">
+            <summary>
+            模板掩盖的参数 最大灰度值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.DilationRadius">
+            <summary>
+            模板掩盖的参数 膨胀半径
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.CoverUpRegion">
+            <summary>
+            遮掩的区域
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.ModelImage">
+            <summary>
+            模板图片
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Offset">
+            <summary>
+            动态阈值参数  背景参数   阈值参数
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.LightDark">
+            <summary>
+            动态阈值参数  背景参数   查找的背景  提取的是黑色，还是白色
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Hv_Features">
+            <summary>
+            分割对的特征
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Hv_Operation">
+            <summary>
+            分割特征的逻辑运算
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Hv_Min">
+            <summary>
+            特征的最小值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Hv_Max">
+            <summary>
+            特征的最大值
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Exit_Model_Image">
+            <summary>
+            是否存在模板图片
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.IOutSide">
+            <summary>
+            外部接口数据
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Ho_RegionDynThresh">
+            <summary>
+            处理到的污点
+            </summary>
+        </member>
+        <member name="P:BackGroundCheckHalconLibrary.BackGroundShuJu.Hv_EulerNumber">
+            <summary>
+            处理到污点的个数
+            </summary>
+        </member>
+        <member name="T:BackGroundCheckHalconLibrary.Set_BackGroundShuJu">
+            <summary>
+            设置参数
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.grindQuYu(BackGroundCheckHalconLibrary.IBackGroundShuJu,HalconDotNet.HObject,HalconDotNet.HWindow)">
+            <summary>
+            模板提取掩盖区域
+            </summary>
+            <param name="IBack_"></param>
+            <param name="ho_Image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.GrindQuYu(HalconDotNet.HObject,HalconDotNet.HObject@,HalconDotNet.HTuple,HalconDotNet.HTuple,HalconDotNet.HTuple)">
+            <summary>
+            模板提取掩盖区域
+            </summary>
+            <param name="ho_ImageReduced"></param>
+            <param name="ho_RegionUnion"></param>
+            <param name="hv_MinGray"></param>
+            <param name="hv_MaxGray"></param>
+            <param name="hv_DilationRadius"></param>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.Set_CoverUp(BackGroundCheckHalconLibrary.IBackGroundShuJu,System.String,System.String,System.String)">
+            <summary>
+            模板掩盖的参数
+            </summary>
+            <param name="IBack_"></param>
+            <param name="minGray_"></param>
+            <param name="maxGray_"></param>
+            <param name="dilationRadius_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.Set_modelImage(BackGroundCheckHalconLibrary.IBackGroundShuJu,HalconDotNet.HObject)">
+            <summary>
+            设置模板图片
+            </summary>
+            <param name="IBack_"></param>
+            <param name="ho_Image"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.Set_dynParameter(BackGroundCheckHalconLibrary.IBackGroundShuJu,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            动态阈值参数  背景参数
+            </summary>
+            <param name="IBack_"></param>
+            <param name="offset_"></param>
+            <param name="lightDark_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.Set_ChongXinShuaXinDingWeiDian(BackGroundCheckHalconLibrary.IBackGroundShuJu)">
+            <summary>
+            重新刷新定位点
+            </summary>
+            <param name="IBack_"></param>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.Set_showBackGroundHalconWinControl(BackGroundCheckHalconLibrary.IBackGroundShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="IBack_"></param>
+            <param name="control"></param>
+            <param name="halconWinControl_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.Set_BackGroundShuJu.Set_showBackGround(BackGroundCheckHalconLibrary.IBackGroundShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="IBack_"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BackGroundCheckHalconLibrary.BackGroundTrained_Class">
+            <summary>
+            背景检测对比的结果
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGroundTrained_Class._allResult">
+            <summary>
+            整体的结果
+            </summary>
+        </member>
+        <member name="T:BackGroundCheckHalconLibrary.BackGround_Result">
+            <summary>
+            背景检测的结果类
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.BackGround_Result._result">
+            <summary>
+            整体的结果
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.BackGround_Result.showResult(System.String@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.BackGround_Result.showResult(System.String[]@)">
+            <summary>
+            显示数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.UI.BackGroundFrm._stop_watch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.UI.BackGroundFrm._IBackShuJu">
+            <summary>
+            背景检测数据
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.UI.BackGroundFrm._SetIBack">
+            <summary>
+            背景检测数据设置器
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.UI.BackGroundFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.UI.BackGroundFrm.run">
+            <summary>
+            运行检测
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.UI.BackGroundFrm.read_one_image">
+            <summary>
+            读取一张图片事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_read">
+            <summary>
+            触发取图
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.UI.BackGroundFrm.trigger_run">
+            <summary>
+            触发运行
+            </summary>
+        </member>
+        <member name="F:BackGroundCheckHalconLibrary.UI.BackGroundFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.UI.BackGroundFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BackGroundCheckHalconLibrary.UI.BackGroundFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="E:BackGroundCheckHalconLibrary.UI.BackGroundFrm._read">
+            <summary>
+            取图事件 
+            </summary>
+        </member>
+        <member name="E:BackGroundCheckHalconLibrary.UI.BackGroundFrm._run">
+            <summary>
+            运行事件
+            </summary>
+        </member>
+        <member name="T:BackGroundCheckHalconLibrary.UI.BackGroundFrm._run_delegate">
+            <summary>
+            委托
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

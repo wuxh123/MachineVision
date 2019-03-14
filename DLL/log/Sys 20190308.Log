@@ -1,0 +1,230 @@
+2019-03-08 14:24:25: 出现应用程序未处理的异常：2019/3/8 星期五 14:24:25
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 LineLibrary.LineShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 769
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:24:56: 出现应用程序未处理的异常：2019/3/8 星期五 14:24:56
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 LineLibrary.LineShuJu.rake(HObject ho_Image, HObject& ho_Regions, HTuple hv_Elements, HTuple hv_DetectHeight, HTuple hv_DetectWidth, HTuple hv_Sigma, HTuple hv_Threshold, HTuple hv_Transition, HTuple hv_Select, HTuple hv_Row1, HTuple hv_Column1, HTuple hv_Row2, HTuple hv_Column2, HTuple& hv_ResultRow, HTuple& hv_ResultColumn) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 987
+   在 LineLibrary.LineShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 829
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:31:28: 出现应用程序未处理的异常：2019/3/8 星期五 14:31:28
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 LineLibrary.LineShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 769
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:31:48: 出现应用程序未处理的异常：2019/3/8 星期五 14:31:48
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 LineLibrary.LineShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 769
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:32:04: 出现应用程序未处理的异常：2019/3/8 星期五 14:32:04
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 LineLibrary.LineShuJu.rake(HObject ho_Image, HObject& ho_Regions, HTuple hv_Elements, HTuple hv_DetectHeight, HTuple hv_DetectWidth, HTuple hv_Sigma, HTuple hv_Threshold, HTuple hv_Transition, HTuple hv_Select, HTuple hv_Row1, HTuple hv_Column1, HTuple hv_Row2, HTuple hv_Column2, HTuple& hv_ResultRow, HTuple& hv_ResultColumn) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 987
+   在 LineLibrary.LineShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 829
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:42:42: 出现应用程序未处理的异常：2019/3/8 星期五 14:42:42
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 LineLibrary.LineShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\LineLibrary\LineLibrary.cs:行号 769
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:50:08: 出现应用程序未处理的异常：2019/3/8 星期五 14:50:08
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:51:42: 出现应用程序未处理的异常：2019/3/8 星期五 14:51:42
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 14:53:06: 出现应用程序未处理的异常：2019/3/8 星期五 14:53:06
+异常类型：NullReferenceException
+异常消息：未将对象引用设置到对象的实例。
+异常信息：   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 MultTree.SetFather.ShuaXinDingWeiDian(IToolDateFather itoolDateFather_, Object ioutSide_) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTree\MainTree.cs:行号 1164
+   在 BlobLibrary.Set_BlobShuJu.Set_ShowParameterHalconWinControl(IBlobShuJu IBlob_, ControlCollection control_, HalconWinControl_ROI halconWinControl_) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 602
+   在 BlobLibrary.UI.BlobFrm.ParentFrm_Load(Object sender, EventArgs e) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\UI\BlobFrm.cs:行号 86
+   在 System.Windows.Forms.Form.OnLoad(EventArgs e)
+   在 System.Windows.Forms.Form.OnCreateControl()
+   在 System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   在 System.Windows.Forms.Control.CreateControl()
+   在 System.Windows.Forms.Control.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   在 System.Windows.Forms.Form.WmShowWindow(Message& m)
+   在 System.Windows.Forms.Form.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+2019-03-08 14:53:13: 出现应用程序未处理的异常：2019/3/8 星期五 14:53:13
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 15:01:04: 出现应用程序未处理的异常：2019/3/8 星期五 15:01:04
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 15:18:16: 出现应用程序未处理的异常：2019/3/8 星期五 15:18:16
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 15:20:26: 出现应用程序未处理的异常：2019/3/8 星期五 15:20:26
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 15:21:58: 出现应用程序未处理的异常：2019/3/8 星期五 15:21:58
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 15:34:40: 出现应用程序未处理的异常：2019/3/8 星期五 15:34:40
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
+2019-03-08 15:37:27: 出现应用程序未处理的异常：2019/3/8 星期五 15:37:27
+Application UnhandledException:未将对象引用设置到对象的实例。;
+堆栈信息:   在 HalconDotNet.HOperatorSet.VectorAngleToRigid(HTuple row1, HTuple column1, HTuple angle1, HTuple row2, HTuple column2, HTuple angle2, HTuple& homMat2D)
+   在 BlobLibrary.BlobShuJu.analyze_show(HWindow hwin, String Key, Dictionary`2& _dictionary_resulte) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\BlobLibrary.cs:行号 274
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 641
+   在 CheckStreamLibrary.CheckStream.check_Stream(MultTreeNode tree) 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 448
+   在 CheckStreamLibrary.CheckStream.create_Stream() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 362
+   在 CheckStreamLibrary.CheckStream.trigger_check() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\CheckStreamLibrary\CheckStream.cs:行号 1127
+   在 MultTreeControlLibrary.MultTreeControl.<tSB_run_again_check_stream_Click>b__0() 位置 f:\halcon工具\Vision\Vision架构dll36\MachineVision\MultTreeControlLibrary\MultTreeControl.cs:行号 629
+   在 System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()

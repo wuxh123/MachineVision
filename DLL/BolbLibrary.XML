@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BolbLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BlobLibrary.BlobShuJu">
+            <summary>
+            blob数据
+            </summary>
+        </member>
+        <member name="T:BlobLibrary.IBlobShuJu">
+            <summary>
+            数据接口
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.IOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.MinGray">
+            <summary>
+            最小灰度值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.MaxGray">
+            <summary>
+            最大灰度值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.Features">
+            <summary>
+            筛选的特征
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.Operation">
+            <summary>
+            筛选特征的大小
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.Min">
+            <summary>
+            特征最小值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.Max">
+            <summary>
+            特征最大值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.IBlobShuJu.SelectRegion">
+            <summary>
+            选择得到的区域
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._iOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._minGray">
+            <summary>
+            最小灰度值
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._maxGray">
+            <summary>
+            最大灰度值
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._features">
+            <summary>
+            筛选的特征
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._operation">
+            <summary>
+            筛选特征的大小
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._min">
+            <summary>
+            特征最小值
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._max">
+            <summary>
+            特征最大值
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._selectRegion">
+            <summary>
+            选择得到的区域
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._result">
+            <summary>
+            结果类
+            </summary>
+        </member>
+        <!-- 对于成员“F:BlobLibrary.BlobShuJu.mid_row_y_1”忽略有格式错误的 XML 注释 -->
+        <member name="F:BlobLibrary.BlobShuJu.mid_col_x_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu.len1_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu.len2_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu.angle_1">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._minGray_1">
+            <summary>
+            最小灰度值
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._maxGray_1">
+            <summary>
+            最大灰度值
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._features_1">
+            <summary>
+            筛选的特征
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._operation_1">
+            <summary>
+            筛选特征的大小
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._min_1">
+            <summary>
+            特征最小值
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.BlobShuJu._max_1">
+            <summary>
+            特征最大值
+            </summary>
+        </member>
+        <member name="M:BlobLibrary.BlobShuJu.outResult(System.String[]@)">
+            <summary>
+            显示结果
+            </summary>
+            <param name="toolResult_"></param>
+            <returns></returns>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.IOutSide">
+            <summary>
+            外部接口
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.MinGray">
+            <summary>
+            最小灰度值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.MaxGray">
+            <summary>
+            最大灰度值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.Features">
+            <summary>
+            筛选的特征
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.Operation">
+            <summary>
+            筛选特征的大小
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.Min">
+            <summary>
+            特征最小值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.Max">
+            <summary>
+            特征最大值
+            </summary>
+        </member>
+        <member name="P:BlobLibrary.BlobShuJu.SelectRegion">
+            <summary>
+            选择得到的区域
+            </summary>
+        </member>
+        <member name="T:BlobLibrary.Set_BlobShuJu">
+            <summary>
+            设置器
+            </summary>
+        </member>
+        <member name="M:BlobLibrary.Set_BlobShuJu.Set_ShuaXinDingWeiDian(BlobLibrary.IBlobShuJu)">
+            <summary>
+            刷新定位点
+            </summary>
+            <param name="IBolb_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlobLibrary.Set_BlobShuJu.Set_SheZhiCanShu(BlobLibrary.IBlobShuJu,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            设置参数
+            </summary>
+            <param name="IBolb_"></param>
+            <param name="MinGray_"></param>
+            <param name="MaxGray_"></param>
+            <param name="features"></param>
+            <param name="Min"></param>
+            <param name="Max"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlobLibrary.Set_BlobShuJu.Set_ShowParameterHalconWinControl(BlobLibrary.IBlobShuJu,System.Windows.Forms.Control.ControlCollection,HalControl.HalconWinControl_ROI)">
+            <summary>
+            显示参数
+            </summary>
+            <param name="IBlob_"></param>
+            <param name="control_"></param>
+            <param name="halconWinControl_"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BlobLibrary.Set_BlobShuJu.Set_ShowParameter(BlobLibrary.IBlobShuJu,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            显示
+            </summary>
+            <param name="IBlob_"></param>
+            <param name="control"></param>
+        </member>
+        <member name="T:BlobLibrary.Blob_Result">
+            <summary>
+            blob结果类
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.Blob_Result._area">
+            <summary>
+            blob的面积
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.Blob_Result._row_y">
+            <summary>
+            blob的y
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.Blob_Result._col_x">
+            <summary>
+            blob的x
+            </summary>
+        </member>
+        <member name="M:BlobLibrary.Blob_Result.showResult(System.String[]@)">
+            <summary>
+            输出数据
+            </summary>
+            <param name="str_array"></param>
+            <returns></returns>
+        </member>
+        <member name="F:BlobLibrary.UI.BlobFrm._stopWatch">
+            <summary>
+            检测时间
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.UI.BlobFrm._blob">
+            <summary>
+            blob数据
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.UI.BlobFrm._setBlob">
+            <summary>
+            数据设置器
+            </summary>
+        </member>
+        <member name="F:BlobLibrary.UI.BlobFrm._result">
+            <summary>
+            结果
+            </summary>
+        </member>
+        <member name="M:BlobLibrary.UI.BlobFrm.run">
+            <summary>
+            运行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BlobLibrary.UI.BlobFrm.read_one_image">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:BlobLibrary.UI.BlobFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BlobLibrary.UI.BlobFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BlobLibrary.UI.BlobFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

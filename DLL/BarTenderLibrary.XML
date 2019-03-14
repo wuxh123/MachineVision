@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BarTenderLibrary</name>
+    </assembly>
+    <members>
+        <member name="F:BarTenderLibrary.BartenderControl._IBartender">
+            <summary>
+            bartender接口
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.BartenderControl._SetBartender">
+            <summary>
+            bartender设置器
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.BartenderControl.init(BarTenderLibrary.IBarTenderTool)">
+            <summary>
+            初始化
+            </summary>
+            <param name="IBartender"></param>
+        </member>
+        <member name="M:BarTenderLibrary.BartenderControl.NoSaveBartenderConfig">
+            <summary>
+            没有保存数据
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.BartenderControl.SavedBartenderConfig">
+            <summary>
+            保存了数据
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.BartenderControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.BartenderControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:BarTenderLibrary.BartenderControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:BarTenderLibrary.BartenderPrintFinsihDel">
+            <summary>
+            委托
+            </summary>
+        </member>
+        <member name="T:BarTenderLibrary.BarTenderTool">
+            <summary>
+            BarTender工具
+            </summary>
+        </member>
+        <member name="T:BarTenderLibrary.IBarTenderTool">
+            <summary>
+             bartender接口
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.IBarTenderTool.TriggerPrint">
+            <summary>
+            触发打印
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.IBarTenderTool.PathFileName">
+            <summary>
+            打印文件btw的路径
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.IBarTenderTool.IdenticalCopiesOfLabel1">
+            <summary>
+            设置同序列打印的份数
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.IBarTenderTool.NumberSerializedLabels1">
+            <summary>
+            设置需要打印的序列数
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.IBarTenderTool.BtFormat">
+            <summary>
+            打印的格式
+            </summary>
+        </member>
+        <member name="E:BarTenderLibrary.IBarTenderTool.FinishPrint">
+            <summary>
+            打印完后出发的事件
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.BarTenderTool.btApp">
+            <summary>
+             bartender程序
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.BarTenderTool.pathFileName">
+            <summary>
+             打印文件btw的路径
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.BarTenderTool.IdenticalCopiesOfLabel">
+            <summary>
+            设置同序列打印的份数
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.BarTenderTool.NumberSerializedLabels">
+            <summary>
+            设置需要打印的序列数
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.BarTenderTool.btFormat">
+            <summary>
+            打印的格式
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.BarTenderTool.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.BarTenderTool.TriggerPrint">
+            <summary>
+            触发打印
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.BarTenderTool.BartenderPrint">
+            <summary>
+            打印
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.BarTenderTool.Dispose">
+            <summary>
+            释放资源
+            </summary>
+        </member>
+        <member name="E:BarTenderLibrary.BarTenderTool.BartenderPrintEvent">
+            <summary>
+            打印事件
+            </summary>
+        </member>
+        <member name="E:BarTenderLibrary.BarTenderTool.FinishPrint">
+            <summary>
+            打印完后出发的事件
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.BarTenderTool.PathFileName">
+            <summary>
+            打印文件btw的路径
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.BarTenderTool.IdenticalCopiesOfLabel1">
+            <summary>
+            设置同序列打印的份数
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.BarTenderTool.NumberSerializedLabels1">
+            <summary>
+            设置需要打印的序列数
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.BarTenderTool.BtFormat">
+            <summary>
+            打印的格式
+            </summary>
+        </member>
+        <member name="T:BarTenderLibrary.BarTenderTool.BartenderPrintDel">
+            <summary>
+            打印委托
+            </summary>
+        </member>
+        <member name="T:BarTenderLibrary.SetBartender">
+            <summary>
+            设置bartender数据类
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.SetBartender.LoadBartenderIniConfig(BarTenderLibrary.IBarTenderTool)">
+            <summary>
+            加载bartender配置
+            </summary>
+            <param name="ba">传入修改的数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:BarTenderLibrary.SetBartender.SaveBatenderIniConfig(BarTenderLibrary.IBarTenderTool)">
+            <summary>
+            保存bartender配置
+            </summary>
+            <param name="ba"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BarTenderLibrary.SetBartender.SetBartenderConfig(BarTenderLibrary.IBarTenderTool,System.String,System.String,System.String)">
+            <summary>
+            bartender修改配置
+            </summary>
+            <param name="IBartender">传入的数据</param>
+            <param name="pathFileName">数据为null时表示不设置</param>
+            <param name="IdenticalCopiesOfLabel">数据为null时表示不设置</param>
+            <param name="NumberSerializedLabels">数据为null时表示不设置</param>
+            <returns></returns>
+        </member>
+        <member name="M:BarTenderLibrary.SetBartender.ShowBartenderConfig(BarTenderLibrary.IBarTenderTool,System.Windows.Forms.Control.ControlCollection)">
+            <summary>
+            输出bartender显示配置
+            </summary>
+            <param name="ba"></param>
+            <param name="control"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BarTenderLibrary.StaticBartenderTool">
+            <summary>
+            静态bartender打印工具
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.StaticBartenderTool._IBar">
+            <summary>
+            静态bartender工具接口
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.StaticBartenderTool.BartenderPrintNumber">
+            <summary>
+            打印的次数
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.StaticBartenderTool.IBar1">
+            <summary>
+            静态bartender工具接口
+            </summary>
+        </member>
+        <member name="P:BarTenderLibrary.StaticBartenderTool.BartenderPrintNumber1">
+            <summary>
+            打印的次数
+            </summary>
+        </member>
+        <member name="F:BarTenderLibrary.UI.BartenderFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BarTenderLibrary.UI.BartenderFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BarTenderLibrary.UI.BartenderFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

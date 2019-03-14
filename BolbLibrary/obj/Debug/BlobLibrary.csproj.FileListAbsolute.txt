@@ -1,0 +1,16 @@
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BolbLibrary.XML
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BolbLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BolbLibrary.pdb
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BlobLibrary.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BlobLibrary.UI.BlobFrm.resources
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BlobLibrary.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BolbLibrary.dll
+\\vmware-host\Shared Folders\J\类库\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BolbLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BlobLibrary.csprojResolveAssemblyReference.cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BlobLibrary.UI.BlobFrm.resources
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BlobLibrary.csproj.GenerateResource.Cache
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BolbLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\BolbLibrary\obj\Debug\BolbLibrary.pdb
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BolbLibrary.XML
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BolbLibrary.dll
+F:\halcon工具\Vision\Vision架构dll36\MachineVision\DLL\BolbLibrary.pdb

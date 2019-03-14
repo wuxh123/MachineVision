@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MultTree</name>
+    </assembly>
+    <members>
+        <member name="T:MultTree.MultTreeNodeStruct.MultTreeNode">
+            <summary>
+            树节点的数据结构
+            </summary>
+        </member>
+        <member name="T:MultTree.MultTreeNodeStruct.IMultTreeNode">
+            <summary>
+             树节点的数据结构接口
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.isLeaf">
+            <summary>
+            获取是否不存在子节点
+            </summary>
+            <returns>返回真代表没有子节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.isRoot">
+            <summary>
+            判断是否有父节点
+            </summary>
+            <returns>返回真代表没有父节点，没有父节点表示为根节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.ExistChildNode(System.String)">
+            <summary>
+            check exist of child node.检测子节点是否存在
+            </summary>
+            <param name="name">查看的节点名称</param>
+            <returns>返回真代表有</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.InsertChildNode(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前节点插入子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.InsertNodeAfter(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前的节点后面插入节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.InsertNodeBefore(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前节点前面插入子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.getChildNodeCount">
+            <summary>
+            获取子节点个数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.getChildList">
+            <summary>
+            获取子节点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.deleteNode">
+            <summary>
+            删除当前节点和他的晚辈
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.deleteChildNode(System.String)">
+            <summary>
+             删除当前节点的某个子节点,当传入childId=""时删除，所有子节点
+            </summary>
+            <param name="childId"></param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.deleteClearAll">
+            <summary>
+            清空子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.IMultTreeNode.findNodeById(System.String)">
+            <summary>
+            通过id找到节点
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.SelfId">
+             <summary>
+            节点的id
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.NodeName">
+            <summary>
+            当前节点的文本名称
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.ParentNode">
+             <summary>
+            节点的父节点 
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.ChildList">
+            <summary>
+            节点的子节点
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.IMultTreeNode.Obj">
+            <summary>
+            绑定节点的数据属性
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.selfId">
+            <summary>
+            节点自己的id,对应treeview的name
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.nodeName">
+            <summary>
+            节点的文本名称，对应treeview的text
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.obj">
+            <summary>
+            节点绑定的数据
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.parentNode">
+            <summary>
+            节点的父节点
+            </summary>
+        </member>
+        <member name="F:MultTree.MultTreeNodeStruct.MultTreeNode.childList">
+            <summary>
+            节点的子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.#ctor">
+            <summary>
+            初始化,默认selfid为"0",nodeName为"0",obj为null
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.#ctor(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            初始化
+            </summary>
+            <param name="pNode">传入节点</param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.init(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            初始化
+            </summary>
+            <param name="pNode">传入节点</param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.isLeaf">
+            <summary>
+            获取是否不存在子节点
+            </summary>
+            <returns>返回真代表没有子节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.isRoot">
+            <summary>
+            判断是否有父节点
+            </summary>
+            <returns>返回真代表没有父节点，没有父节点表示为根节点</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.ExistChildNode(System.String)">
+            <summary>
+            check exist of child node.检测子节点是否存在
+            </summary>
+            <param name="name">查看的节点名称</param>
+            <returns>返回真代表有</returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.InsertNodeBefore(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前的节点前面插入节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.InsertNodeAfter(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前的节点后面插入节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.InsertChildNode(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            在当前节点出入子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.getChildNodeCount">
+            <summary>
+            获取子节点个数
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.getChildList">
+            <summary>
+            获取子节点
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.deleteNode">
+            <summary>
+            删除当前节点和他的晚辈
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.deleteChildNode(System.String)">
+            <summary>
+             删除当前节点的某个子节点,当传入childId=""时删除，所有子节点
+            </summary>
+            <param name="childId"></param>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.deleteClearAll">
+            <summary>
+            清空子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.MultTreeNode.findNodeById(System.String)">
+            <summary>
+            通过id找到节点
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.SelfId">
+             <summary>
+            节点的id
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.NodeName">
+            <summary>
+            当前节点的文本名称
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.ParentNode">
+             <summary>
+            节点的父节点 
+             </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.ChildList">
+            <summary>
+            节点的子节点
+            </summary>
+        </member>
+        <member name="P:MultTree.MultTreeNodeStruct.MultTreeNode.Obj">
+            <summary>
+            绑定节点的数据属性
+            </summary>
+        </member>
+        <member name="T:MultTree.MultTreeNodeStruct.ArrayUtils">
+            <summary>
+            数组工具
+            </summary>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.ArrayUtils.SplitArray``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            从数组中截取一部分成新的数组
+            </summary>
+            <param name="Source">原数组</param>
+            <param name="StartIndex">原数组的起始位置</param>
+            <param name="EndIndex">原数组的截止位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.ArrayUtils.IsNullOrEmpty``1(``0[])">
+            <summary>
+            check string is null or empty.
+            </summary>
+            <param name="Arr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.ArrayUtils.IsValidIndex``1(``0[],System.Int32)">
+            <summary>
+            check if arr index is in arr
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Arr"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.MultTreeNodeStruct.StrUtils.FromArr(System.String[],System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            string array trans to string split with flg.
+            2016-02-18 13:24:47
+            add startindex and endindex.
+            </summary>
+            <param name="arr"></param>
+            <param name="split"></param>
+            <param name="surround1"></param>
+            <param name="surround2"></param>
+            <param name="nStartIndex"></param>
+            <param name="nEndIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.CalculateMultTreeNodeName.CalculateMultTreeNodeName">
+            <summary>
+            计算MultTree的节点名
+            </summary>
+        </member>
+        <member name="M:MultTree.CalculateMultTreeNodeName.CalculateMultTreeNodeName.CalculateNodeName(System.String,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            计算节点的系统名称
+            </summary>
+            <param name="str_1">节点系统名的前缀</param>
+            <param name="trn_Parent">传入父节点</param>
+            <returns>返回节点的系统名</returns>
+        </member>
+        <member name="T:MultTree.SerializeTree.TreeViewDataAccess">
+            <summary>
+            TreeView串行化类
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.TreeViewDataAccess._IMult">
+            <summary>
+            要处理的节点接口
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.#ctor(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="Mult">传入要处理的节点</param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.LoadTreeViewData(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.LoadTreeViewData(System.String,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="_IMult"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.SaveTreeViewData(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.SaveTreeViewData(System.String,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            
+            </summary>
+            <param name="path"></param>
+            <param name="_IMult"></param>
+        </member>
+        <member name="T:MultTree.SerializeTree.TreeViewDataAccess.TreeViewData">
+            <summary>
+            TreeViewData 树的数据
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeViewData.#ctor(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            递归初始化TreeView数据
+            </summary>
+            <param name="Mtr"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeViewData.PopulateTree(MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            通过TreeViewData弹出TreeView
+            </summary>
+            <param name="IMult"></param>
+        </member>
+        <member name="T:MultTree.SerializeTree.TreeViewDataAccess.TreeNodeData">
+            <summary>
+            TreeNodeData 节点的数据
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeNodeData.#ctor(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            TreeNode构造函数
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.TreeViewDataAccess.TreeNodeData.ToTreeNode">
+            <summary>
+            TreeNodeData返回TreeNode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.SerializeTree.MultTreeNodeDataAccess">
+             <summary>
+            MultTreeNode 串行化类
+             </summary>
+        </member>
+        <member name="T:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData">
+            <summary>
+            TreeNodeData 节点的数据
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Text">
+            <summary>
+            文本名
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Name">
+            <summary>
+            节点名
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Tag">
+            <summary>
+            数据
+            </summary>
+        </member>
+        <member name="F:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.Nodes">
+            <summary>
+            子节点
+            </summary>
+        </member>
+        <member name="M:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.#ctor(MultTree.MultTreeNodeStruct.MultTreeNode)">
+            <summary>
+            TreeNode构造函数
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:MultTree.SerializeTree.MultTreeNodeDataAccess.MultTreeNodeData.ToTreeNode">
+            <summary>
+            TreeNodeData返回TreeNode
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MultTree.TreeStatic">
+            <summary>
+            静态的树，存贮工具对应的数据
+            </summary>
+        </member>
+        <member name="F:MultTree.TreeStatic._Root">
+            <summary>
+            根节点
+            </summary>
+        </member>
+        <member name="F:MultTree.TreeStatic.Mult_Tree_Node">
+            <summary>
+            当前工具节点
+            </summary>
+        </member>
+        <member name="F:MultTree.TreeStatic.Mult_Tree_Node_Picture">
+            <summary>
+            图片的节点
+            </summary>
+        </member>
+        <member name="M:MultTree.TreeStatic.load_MultTreeNode_To_TreeNode(System.Windows.Forms.TreeNode,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            把MultTreeNode节点的子节点添加到treeview节点
+            </summary>
+            <param name="tr">传入</param>
+            <param name="mtr">传入</param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.TreeStatic.load_MultTreeNode_To_TreeNode_ContainsSelf(System.Windows.Forms.TreeNode,MultTree.MultTreeNodeStruct.IMultTreeNode)">
+            <summary>
+            把MultTreeNode节点添加到treeview节点，包含他自己，跟子节点
+            </summary>
+            <param name="tr"></param>
+            <param name="mtr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.TreeStatic.load_MultTreeNode(System.String)">
+            <summary>
+            加载MultTreeNode
+            </summary>
+        </member>
+        <member name="M:MultTree.TreeStatic.save_MultTreeNode(System.String)">
+            <summary>
+            保存MultTreeNode
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:MultTree.TreeStatic.get_root_childern(System.Int32)">
+            <summary>
+             获取当前根节点中的其中一个子节点
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MultTree.TreeStatic.clear_childern">
+            <summary>
+            清空根节点所有子节点
+            </summary>
+        </member>
+        <member name="P:MultTree.TreeStatic.Root">
+            <summary>
+            根节点
+            </summary>
+        </member>
+    </members>
+</doc>
